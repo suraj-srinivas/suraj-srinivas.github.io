@@ -1,0 +1,130 @@
+papers:
+  - authors:
+      - S. Srinivas
+    lastauthor: F. Fleuret
+    year: 2021
+    journal: ICLR
+    title: Rethinking the Role of Gradient-based Attribution Methods for Model Interpretability
+    tldr: Commonly used input-gradient saliency maps for explaining discriminative neural nets capture information about an implicit density model, rather than that of the underlying discriminative model which it is intended to explain.
+    url: https://openreview.net/forum?id=dYeAHXnpWJ4
+    presentation: https://docs.google.com/presentation/d/1v35LGiLpFDSN2okOC9qxWjQ8MiHkYAMeMUCU8U3dFzE/edit?usp=sharing
+    code: https://github.com/idiap/rethinking-saliency/
+    workshop: https://sites.google.com/view/whi2020/
+    notes: Oral presentation at ICLR 2021 (top 6% of accepted papers)
+    poster: pdfs/iclr2021_poster.pdf
+
+  - authors:
+      - S. Srinivas
+    lastauthor: F. Fleuret
+    year: 2019
+    journal: NeurIPS
+    title: Full-Gradient Representation for Neural Network Visualization
+    url: https://papers.nips.cc/paper/2019/hash/80537a945c7aaa788ccfcdf1b99b5d8f-Abstract.html
+    code: https://github.com/idiap/fullgrad-saliency
+    tldr: Compute saliency information from all intermediate layers in neural networks, rather than just from the input, as is done commonly. This provably captures two desirable properties (sensitivity and completeness) which typical saliency maps cannot capture.
+    poster: pdfs/neurips19_poster.pdf 
+
+  - authors:
+      - S. Srinivas
+    lastauthor: F. Fleuret
+    year: 2018
+    journal: ICML
+    title: Knowledge Transfer with Jacobian Matching
+    url: http://proceedings.mlr.press/v80/srinivas18a.html
+    presentation: pdfs/icml18_presentation.pdf
+    poster: pdfs/icml18_poster.pdf
+    workshop: https://lld-workshop.github.io/2017/papers/LLD_2017_paper_28.pdf
+    notes: Best paper award at NeurIPS LLD 2017 workshop
+    tldr: Perform sample-efficient distillation by asking the student model mimic the input-gradients of the teacher model, along with the model outputs. This is equivalent (in expectation) to classical distillation by performing data augmentation with additive input noise.
+    
+  - authors:
+      - A. Subramanya
+      - S. Srinivas
+    lastauthor: R.V. Babu
+    year: 2018
+    journal: SPCOM
+    title: Estimating Confidence for Deep Neural Networks through Density modelling
+    url: https://ieeexplore.ieee.org/abstract/document/8724461/
+    presentation: https://docs.google.com/presentation/d/1YBKlngRwfDgWpy5mEIj1zAP2dx8IAWlG7ejsPCBn_E0/edit?usp=sharinghttp://proceedings.mlr.press/v80/srinivas18a.html
+    tldr: Model the density of intermediate features in a neural network using a high-dimensional Gaussian distribution. If the feature for some new data point falls outside the "typical set" for such a Gaussian, then that data point is likely to be out-of-distribution.
+
+  - authors:
+      - S. Srinivas
+      - A. Subramanya
+    lastauthor: R.V. Babu
+    year: 2017
+    journal: CVPR Embedded Vision Workshop
+    title: Training Sparse Neural Networks
+    url: https://arxiv.org/abs/1611.06694
+    presentation: https://docs.google.com/presentation/d/167i3QJ63EFYfiDpMIYtuQt2yS_x2Vm7J0_nTt2KnvtY/edit?usp=sharing
+    notes: 100+ citations
+    tldr: Encourage weight sparsity in neural networks by introducing multiplicative binary gating variables along with each weight, and regularize such gates to be close to zero.
+
+  - authors:
+      - S. Srinivas
+    lastauthor: R.V. Babu
+    year: 2016
+    journal: Tech Report
+    title: Generalized Dropout
+    url: https://arxiv.org/abs/1611.06791
+    tldr: A generalized version of dropout where dropout probabilities are also tuned during training. This is done by introducing multiplicative <i> bernoulli </i> gating variables to each neuron within a neural network, and modelling the bernoulli probability by penalizing from a beta distribution.
+
+  - authors:
+      - S. Srinivas
+    lastauthor: R.V. Babu
+    year: 2016
+    journal: BMVC
+    title: Learning Neural Network Architectures using Backpropagation
+    url: http://www.bmva.org/bmvc/2016/papers/paper104/index.html
+    tldr: Automatically prune unimportant neurons during neural network training, which results in width and depth selection. This is done by introducing multiplicative binary gating variables along with each neuron, and encouraging the gate variables to be as small as possible.
+    poster: https://drive.google.com/file/d/0BwC3N1sQOq3dRG1fRzlIcjc2c1k/view?usp=sharing&resourcekey=0-bb9N3jtW-co7yk3tvMYdZw
+
+
+  - authors:
+      - L. Boominathan
+      - S. Srinivas
+    lastauthor: R.V. Babu
+    year: 2016
+    journal: ICVGIP
+    title: Compensating for Large In-plane Rotations in Natural Images
+    url: https://arxiv.org/abs/1611.05744
+    tldr: Correct for large in-plane rotation in images by first detecting the presence of rotation using a CNN, and then correcting it iteratively using Bayesian optimization.
+    poster: https://drive.google.com/file/d/1fVwYO6f9X7IjajO6Y101LiPuOa4LLfbi/view?usp=sharing
+
+  - authors:
+      - S. Srinivas
+      - R. Sarvadevabhatla
+      - K.R. Mopuri
+      - N. Prabhu
+      - S.S. Kruthiventi
+    lastauthor: R.V. Babu
+    year: 2015
+    journal: Frontiers in Robotics and AI
+    title: A Taxonomy of Deep Convolutional Neural Nets for Computer Vision
+    url: http://journal.frontiersin.org/article/10.3389/frobt.2015.00036/full
+    notes:  
+      - 200+ citations <br>
+      - Top 25% of all research outputs scored on <a href="https://frontiers.altmetric.com/details/4978361"> Altmetric </a> <br>
+      - Book chapter for <a href="https://www.elsevier.com/books/deep-learning-for-medical-image-analysis/zhou/978-0-12-810408-8"> <i>Deep Learning for Medical Image Analysis</i> </a> 
+    tldr: A recipe-style survey of pre-2015 deep neural networks as applied to computer vision.
+
+  - authors:
+      - S. Srinivas
+    lastauthor: R.V. Babu
+    year: 2015
+    journal: BMVC
+    title: Data-free Parameter Pruning for Deep Neural Networks
+    url: http://arxiv.org/abs/1507.06149
+    notes: 350+ citations 
+    tldr: Prune neurons in neural networks by first, detecting redundant neuron pairs, removing one and performing a `surgery` step to compensate for removal.
+    poster: https://drive.google.com/file/d/0BwC3N1sQOq3dNmZ2cmFEZlZ5N1E/view?usp=sharing&resourcekey=0-tBl3eVM83YSB9lUlJUUu_A
+
+  - authors:
+      - S. Srinivas
+      - A. Adiga
+    lastauthor: C.S. Seelamantula
+    year: 2014
+    journal: ICIP
+    title: Controlled blurring for improving image reconstruction quality in flutter-shutter acquisition
+    url: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7026178&tag=1
+    tldr: Purposely shaking a camera's sensor along a 2D plane during acquisition results in a well-defined blur kernel that can be used to deblur even in the presence of external camera shake.

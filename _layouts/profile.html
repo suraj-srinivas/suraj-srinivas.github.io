@@ -1,0 +1,91 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="columns">
+  <div class="column-1">
+    <img src="profile.jpeg" class="profile-picture" width=80%></img>
+
+    <br>
+    <a href="https://twitter.com/Suuraj" class="fa fa-twitter"></a> 
+    <a href="https://scholar.google.com/citations?user=J2JWgKgAAAAJ&hl=en" class="fa fa-graduation-cap"></a> 
+    <a href="https://www.linkedin.com/in/suraj-srinivas-1a856264/" class="fa fa-linkedin"></a> 
+    <a href="suuraj.srinivas@gmail.com" class="fa fa-envelope"></a>  
+    <br>
+    
+    <a href="pdfs/resume.pdf" class="block">
+    <span class="fa fa-file-pdf-o"> </span> CV 
+    </a>
+
+  </div>
+  <div class="column-2">
+      {{ content }}
+  </div>
+
+</div>
+ 
+
+<style>
+
+img{
+  border-radius: 50%;
+}
+
+.block{
+  background-color: white;
+  border: 1px solid;
+  color: black; 
+  padding: 10px 15px 10px 0px;
+  text-align: left;
+  text-decoration: none;
+  display: inline;
+  font-size: 14px;
+  margin: 0px 50px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.block:hover{
+  text-decoration: none;
+  background-color: #3366BB;
+  color: white;
+}
+
+.fa {
+  padding: 8px 12px;
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.3;
+    text-decoration: none;
+}
+
+.columns{
+  Width: 100%;
+  }
+  .column-1, .column-2 {
+    width:100%;
+  }
+  @media (min-width: 48em) {
+    .column-1 {
+      width: 30%;
+      float:left;
+    }
+    .column-2 {
+      width: 70%;
+      float:left;
+    } 
+    .columns {
+      content:"";
+      display: table;
+      clear: both;
+    }
+  }
+</style>
