@@ -4,4 +4,4 @@ _site
 .jekyll-metadata
 vendor
 **/.Identifier
-.lock
+*.lock
