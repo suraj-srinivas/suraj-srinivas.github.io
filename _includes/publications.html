@@ -5,7 +5,7 @@
     {{ paper.title }} <br>
     {% for author in paper.authors %}
       {% if author == "S. Srinivas" %}
-      <b> {{ author }} </b>,
+      <b> {{ author }}</b>,
       {% else %} {{ author }}, {% endif %}
       {% endfor %} {{ paper.lastauthor }}<br>
     <i>{{ paper.journal }}</i>, {{ paper.year }} <br>
