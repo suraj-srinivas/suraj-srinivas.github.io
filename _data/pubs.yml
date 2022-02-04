@@ -1,5 +1,18 @@
 papers:
   - authors:
+    - S. Srinivas
+    - A. Kuzmin
+    - M. Nagel
+    - M. van Baalen
+    - A. Skliar
+    lastauthor: T. Blankevoort
+    year: 2021
+    journal: Tech Report
+    title: Cyclical Sparsity for Sparse Neural Networks
+    tldr: Applying pruning algorithms several times consequtively allows to recover pruning errors, and is analogous to the optimal algorithm used in the linear case.
+    url: https://arxiv.org/abs/2202.01290
+  
+  - authors:
       - S. Srinivas
     lastauthor: F. Fleuret
     year: 2021
@@ -115,7 +128,7 @@ papers:
     journal: BMVC
     title: Data-free Parameter Pruning for Deep Neural Networks
     url: http://arxiv.org/abs/1507.06149
-    notes: 350+ citations 
+    notes: 400+ citations 
     tldr: Prune neurons in neural networks by first, detecting redundant neuron pairs, removing one and performing a `surgery` step to compensate for removal.
     poster: https://drive.google.com/file/d/0BwC3N1sQOq3dNmZ2cmFEZlZ5N1E/view?usp=sharing&resourcekey=0-tBl3eVM83YSB9lUlJUUu_A
 

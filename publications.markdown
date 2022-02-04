@@ -18,6 +18,6 @@ Supervisor: Prof. François Fleuret (EPFL & University of Geneva, Switzerland)\
 Supervisor: Prof. R. Venkatesh Babu (IISc, Bangalore)\
 <!--Committee Member: Chiranjib Bhattacharya (IISc)-->
 
-## Publications 
+## Publications
 
 {% include publications.html %}
