@@ -6,10 +6,10 @@ layout: profile
 title: About
 ---
 
-I am a postdoctoral research fellow at Harvard University where I work with [Prof. Hima Lakkaraju](https://himalakkaraju.github.io/) on the foundations of interpretable deep learning.
+I am a postdoctoral research fellow at Harvard University where I work with [Prof. Hima Lakkaraju](https://himalakkaraju.github.io/) on the foundations of post-hoc interpretability for deep learning.
 
-Previously, I was a PhD student at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL](http://epfl.ch/) in Switzerland, where I was advised by [Prof. François Fleuret](https://www.idiap.ch/~fleuret/). My PhD thesis on the pitfalls of gradient-based explanation methods in deep learning received the EPFL [thesis distinction award](https://www.epfl.ch/education/phd/edee-electrical-engineering/edee-awards-laureates/) in electical engineering. 
+I completed my PhD at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL](http://epfl.ch/) in Switzerland, where I was advised by [Prof. François Fleuret](https://www.idiap.ch/~fleuret/). My PhD thesis on the pitfalls of gradient-based explanation methods in deep learning received the EPFL [thesis distinction award](https://www.epfl.ch/education/phd/edee-electrical-engineering/edee-awards-laureates/) in electrical engineering. 
 
 I completed my Masters (by Research) at the [Indian Institute of Science, Bangalore](http://www.iisc.ac.in/), where I was advised by [Prof. Venkatesh Babu](http://cds.iisc.ac.in/faculty/venky/), and I worked on model compression of deep neural networks.
 
-**Research interests**: model interpretability, robustness & uncertainty quantification, model compression, generative modelling, theory of deep learning
+**Research interests**: theory of interpretability, robustness & uncertainty quantification, model compression, generative modelling, theory of deep learning

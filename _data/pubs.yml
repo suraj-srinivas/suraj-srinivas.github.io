@@ -1,16 +1,49 @@
 papers:
   - authors:
+    - T. Han
+    - S. Srinivas
+    lastauthor: H. Lakkaraju
+    year: 2022
+    journal: ICML Workshop on Interpretable Machine Learning for Healthcare (IMLH)
+    title: Which Explanation Should I Choose? A Function Approximation Perspective to Characterizing Post hoc Explanations
+    tldr: Several popular post-hoc explanations such as LIME, SHAP, and gradient based explanations can be viewed as performing local function approximation (LFA). Thinking of LFA as a framework for explanations enables us to make useful statements in general about explanations such as a no-free lunch theorem, and identify which explanations to use.
+    url: https://arxiv.org/abs/2206.01254
+
+  - authors:
+      - S. Srinivas
+      - K. Matoba*
+      - H. Lakkaraju
+    lastauthor: F. Fleuret
+    year: 2022
+    journal: Tech Report
+    title: Flatten the Curve&#58; Efficiently Training Low-Curvature Neural Networks
+    tldr: Train low-curvature neural networks by (1) replacing ReLU with a variant of softplus, (2) spectral normalization of linear layers, (3) (optionally) using gradient-norm regularization. This approach rivals adversarial training without training with adversarial examples.
+    url: https://arxiv.org/abs/2206.07144
+
+  - authors:
+    - M. El-Halabi
+    - S. Srinivas
+    lastauthor: S. Lacoste-Julien
+    year: 2022
+    journal: Tech Report
+    title: Data-Efficient Structured Pruning via Submodular Optimization
+    tldr: Pruning neurons in neural networks can be cast as a submodular optimization problem, enabling proposal of principled algorithms with rigorous theoretical guarantees that perform well when pruning with small number of data points.  
+    url: https://arxiv.org/abs/2203.04940
+
+  - authors:
     - S. Srinivas
     - A. Kuzmin
     - M. Nagel
     - M. van Baalen
     - A. Skliar
     lastauthor: T. Blankevoort
-    year: 2021
-    journal: Tech Report
-    title: Cyclical Sparsity for Sparse Neural Networks
-    tldr: Applying pruning algorithms several times consequtively allows to recover pruning errors, and is analogous to the optimal algorithm used in the linear case.
-    url: https://arxiv.org/abs/2202.01290
+    year: 2022
+    journal: CVPR Workshop on Efficient Computer Vision for Deep Learning (ECV)
+    title: Cyclical Pruning for Sparse Neural Networks
+    tldr: Algorithms for training sparse neural networks should be more like projected gradient descent / iterative hard thresholding, which alternates between sparsification (i.e., projection step) and densification (i.e., gradient step), as opposed to common pruning approaches which do not perform densification.
+    url: https://openaccess.thecvf.com/content/CVPR2022W/ECV/html/Srinivas_Cyclical_Pruning_for_Sparse_Neural_Networks_CVPRW_2022_paper.html
+    presentation: https://docs.google.com/presentation/d/1lU1aZGrznxakE09H5MtmqXndR66hmZhB9ULwM9uVO4c/edit?usp=sharing
+    notes: Oral presentation 
   
   - authors:
       - S. Srinivas
@@ -23,7 +56,7 @@ papers:
     presentation: https://docs.google.com/presentation/d/1v35LGiLpFDSN2okOC9qxWjQ8MiHkYAMeMUCU8U3dFzE/edit?usp=sharing
     code: https://github.com/idiap/rethinking-saliency/
     workshop: https://sites.google.com/view/whi2020/
-    notes: Oral presentation at ICLR 2021 (top 6% of accepted papers)
+    notes: Oral presentation  
     poster: pdfs/iclr2021_poster.pdf
 
   - authors:
@@ -48,7 +81,7 @@ papers:
     poster: pdfs/icml18_poster.pdf
     workshop: https://lld-workshop.github.io/2017/papers/LLD_2017_paper_28.pdf
     notes: Best paper award at NeurIPS LLD 2017 workshop
-    tldr: Perform sample-efficient distillation by asking the student model mimic the input-gradients of the teacher model, along with the model outputs. This is equivalent (in expectation) to classical distillation by performing data augmentation with additive input noise.
+    tldr: Perform sample-efficient distillation by requiring that the student model mimic the input-gradients of the teacher model. This is equivalent (in expectation) to performing classical distillation with data augmentation via additive input noise.
     
   - authors:
       - A. Subramanya
@@ -59,7 +92,7 @@ papers:
     title: Estimating Confidence for Deep Neural Networks through Density modelling
     url: https://ieeexplore.ieee.org/abstract/document/8724461/
     presentation: https://docs.google.com/presentation/d/1YBKlngRwfDgWpy5mEIj1zAP2dx8IAWlG7ejsPCBn_E0/edit?usp=sharinghttp://proceedings.mlr.press/v80/srinivas18a.html
-    tldr: Model the density of intermediate features in a neural network using a high-dimensional Gaussian distribution. If the feature for some new data point falls outside the "typical set" for such a Gaussian, then that data point is likely to be out-of-distribution.
+    tldr: Model the density of intermediate features in a neural network using a high-dimensional Gaussian distribution. If features for a test point fall outside the "typical set" for such a Gaussian, then declare that test point to be out-of-distribution.
 
   - authors:
       - S. Srinivas
@@ -70,8 +103,8 @@ papers:
     title: Training Sparse Neural Networks
     url: https://arxiv.org/abs/1611.06694
     presentation: https://docs.google.com/presentation/d/167i3QJ63EFYfiDpMIYtuQt2yS_x2Vm7J0_nTt2KnvtY/edit?usp=sharing
-    notes: 100+ citations
-    tldr: Encourage weight sparsity in neural networks by introducing multiplicative binary gating variables along with each weight, and regularize such gates to be close to zero.
+    tldr: Encourage weight sparsity in neural networks by introducing multiplicative binary gating variables along with each weight, and regularizing gates to be sparse.
+    notes: Oral presentation
 
   - authors:
       - S. Srinivas
@@ -80,7 +113,7 @@ papers:
     journal: Tech Report
     title: Generalized Dropout
     url: https://arxiv.org/abs/1611.06791
-    tldr: A generalized version of dropout where dropout probabilities are also tuned during training. This is done by introducing multiplicative <i> bernoulli </i> gating variables to each neuron within a neural network, and modelling the bernoulli probability by penalizing from a beta distribution.
+    tldr: A generalized version of dropout where dropout probabilities are automatically tuned during training. This is done by introducing multiplicative <i> bernoulli </i> gating variables to each neuron within a neural network, and modelling the bernoulli probability by penalizing from a beta distribution.
 
   - authors:
       - S. Srinivas
@@ -89,7 +122,7 @@ papers:
     journal: BMVC
     title: Learning Neural Network Architectures using Backpropagation
     url: http://www.bmva.org/bmvc/2016/papers/paper104/index.html
-    tldr: Automatically prune unimportant neurons during neural network training, which results in width and depth selection. This is done by introducing multiplicative binary gating variables along with each neuron, and encouraging the gate variables to be as small as possible.
+    tldr: Automatically prune unimportant neurons during neural network training, by introducing multiplicative binary gating variables with each neuron, and encouraging the gate variables to be as sparse as possible via regularization.
     poster: https://drive.google.com/file/d/0BwC3N1sQOq3dRG1fRzlIcjc2c1k/view?usp=sharing&resourcekey=0-bb9N3jtW-co7yk3tvMYdZw
 
 
@@ -101,7 +134,7 @@ papers:
     journal: ICVGIP
     title: Compensating for Large In-plane Rotations in Natural Images
     url: https://arxiv.org/abs/1611.05744
-    tldr: Correct for large in-plane rotation in images by first detecting the presence of rotation using a CNN, and then correcting it iteratively using Bayesian optimization.
+    tldr: Correct for large in-plane rotation in images by (1) detecting the presence of rotation using a CNN, and (2) correcting it iteratively using Bayesian optimization.
     poster: https://drive.google.com/file/d/1fVwYO6f9X7IjajO6Y101LiPuOa4LLfbi/view?usp=sharing
 
   - authors:
@@ -116,7 +149,6 @@ papers:
     title: A Taxonomy of Deep Convolutional Neural Nets for Computer Vision
     url: http://journal.frontiersin.org/article/10.3389/frobt.2015.00036/full
     notes:  
-      - 200+ citations <br>
       - Top 25% of all research outputs scored on <a href="https://frontiers.altmetric.com/details/4978361"> Altmetric </a> <br>
       - Book chapter for <a href="https://www.elsevier.com/books/deep-learning-for-medical-image-analysis/zhou/978-0-12-810408-8"> <i>Deep Learning for Medical Image Analysis</i> </a> 
     tldr: A recipe-style survey of pre-2015 deep neural networks as applied to computer vision.
@@ -128,8 +160,7 @@ papers:
     journal: BMVC
     title: Data-free Parameter Pruning for Deep Neural Networks
     url: http://arxiv.org/abs/1507.06149
-    notes: 400+ citations 
-    tldr: Prune neurons in neural networks by first, detecting redundant neuron pairs, removing one and performing a `surgery` step to compensate for removal.
+    tldr: Prune neurons in neural networks by (1) identifying duplicate neuron pairs, (2) removing one and performing a `surgery` step to compensate for removal.
     poster: https://drive.google.com/file/d/0BwC3N1sQOq3dNmZ2cmFEZlZ5N1E/view?usp=sharing&resourcekey=0-tBl3eVM83YSB9lUlJUUu_A
 
   - authors:
@@ -140,4 +171,4 @@ papers:
     journal: ICIP
     title: Controlled blurring for improving image reconstruction quality in flutter-shutter acquisition
     url: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7026178&tag=1
-    tldr: Purposely shaking a camera's sensor along a 2D plane during acquisition results in a well-defined blur kernel that can be used to deblur even in the presence of external camera shake.
+    tldr: Deliberately shaking a camera's sensor in a 2D plane during acquisition results in a well-defined blur kernel that can be used to deblur even in the presence of external camera shake.

@@ -4,7 +4,7 @@
  <p>
     {{ paper.title }} <br>
     {% for author in paper.authors %}
-      {% if author == "S. Srinivas" %}
+      {% if author == "S. Srinivas" %} 
       <b> {{ author }}</b>,
       {% else %} {{ author }}, {% endif %}
       {% endfor %} {{ paper.lastauthor }}<br>
@@ -34,7 +34,7 @@
 </span>
 
 {% if paper.notes %} <br>
-<mark>{{ paper.notes }} </mark>
+<mark style="font-size:90%; padding:0px; margin:0px">{{ paper.notes }}</mark>
 {% endif %}
 <br>
 
