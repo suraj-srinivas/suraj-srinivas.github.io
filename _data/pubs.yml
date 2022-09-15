@@ -4,10 +4,12 @@ papers:
     - S. Srinivas
     lastauthor: H. Lakkaraju
     year: 2022
-    journal: ICML Workshop on Interpretable Machine Learning for Healthcare (IMLH)
+    journal: NeurIPS
     title: Which Explanation Should I Choose? A Function Approximation Perspective to Characterizing Post hoc Explanations
     tldr: Several popular post-hoc explanations such as LIME, SHAP, and gradient based explanations can be viewed as performing local function approximation (LFA). Thinking of LFA as a framework for explanations enables us to make useful statements in general about explanations such as a no-free lunch theorem, and identify which explanations to use.
     url: https://arxiv.org/abs/2206.01254
+    notes: Best paper award at ICML IMLH 2022 workshop
+    workshop: https://icml.cc/virtual/2022/workshop/13449
 
   - authors:
       - S. Srinivas
@@ -15,9 +17,9 @@ papers:
       - H. Lakkaraju
     lastauthor: F. Fleuret
     year: 2022
-    journal: Tech Report
-    title: Flatten the Curve&#58; Efficiently Training Low-Curvature Neural Networks
-    tldr: Train low-curvature neural networks by (1) replacing ReLU with a variant of softplus, (2) spectral normalization of linear layers, (3) (optionally) using gradient-norm regularization. This approach rivals adversarial training without training with adversarial examples.
+    journal: NeurIPS
+    title: Efficiently Training Low-Curvature Neural Networks
+    tldr: Train low-curvature neural networks, that are "as linear as possible" by (1) replacing ReLU with a variant of softplus, (2) spectral normalization of linear layers, (3) (optionally) using gradient-norm regularization. This approach rivals adversarial training without training with adversarial examples.
     url: https://arxiv.org/abs/2206.07144
 
   - authors:
@@ -25,7 +27,7 @@ papers:
     - S. Srinivas
     lastauthor: S. Lacoste-Julien
     year: 2022
-    journal: Tech Report
+    journal: NeurIPS
     title: Data-Efficient Structured Pruning via Submodular Optimization
     tldr: Pruning neurons in neural networks can be cast as a submodular optimization problem, enabling proposal of principled algorithms with rigorous theoretical guarantees that perform well when pruning with small number of data points.  
     url: https://arxiv.org/abs/2203.04940
@@ -79,7 +81,7 @@ papers:
     url: http://proceedings.mlr.press/v80/srinivas18a.html
     presentation: pdfs/icml18_presentation.pdf
     poster: pdfs/icml18_poster.pdf
-    workshop: https://lld-workshop.github.io/2017/papers/LLD_2017_paper_28.pdf
+    workshop: https://lld-workshop.github.io/2017/
     notes: Best paper award at NeurIPS LLD 2017 workshop
     tldr: Perform sample-efficient distillation by requiring that the student model mimic the input-gradients of the teacher model. This is equivalent (in expectation) to performing classical distillation with data augmentation via additive input noise.
     
