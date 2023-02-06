@@ -13,3 +13,5 @@ I completed my PhD at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL
 I completed my Masters (by Research) at the [Indian Institute of Science, Bangalore](http://www.iisc.ac.in/), where I was advised by [Prof. Venkatesh Babu](http://cds.iisc.ac.in/faculty/venky/), and I worked on model compression of deep neural networks.
 
 **Research interests**: theory of interpretability, robustness & uncertainty quantification, model compression, generative modelling, theory of deep learning
+
+**I'm currently on the industry job market**. If you think I'd be suitable to your organization, do not hesitate to contact me!
