@@ -14,4 +14,4 @@ I completed my Masters (by Research) at the [Indian Institute of Science, Bangal
 
 **Research interests**: theory of interpretability, robustness & uncertainty quantification, model compression, generative modelling, theory of deep learning
 
-**I'm currently on the industry job market**. If you think I'd be suitable to your organization, do not hesitate to contact me!
+**I'm currently on the industry job market**. If you think I'd be a good fit to your organization, do not hesitate to contact me!
