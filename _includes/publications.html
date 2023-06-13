@@ -1,10 +1,10 @@
-<ul>
+<ol reversed>
 {% for paper in site.data.pubs.papers %}
 <li>
  <p>
     {{ paper.title }} <br>
     {% for author in paper.authors %}
-      {% if author == "S. Srinivas" %} 
+      {% if author contains "S. Srinivas" %} 
       <b> {{ author }}</b>,
       {% else %} {{ author }}, {% endif %}
       {% endfor %} {{ paper.lastauthor }}<br>
@@ -13,22 +13,22 @@
 <a href="{{ paper.url | escape}}">pdf </a>
 
 {% if paper.presentation %}
-/ <a href="{{paper.presentation | escape}}"> slides </a>
+| <a href="{{paper.presentation | escape}}"> slides </a>
 {% endif %}
 
 {% if paper.poster %}
-/ <a href="{{paper.poster | escape}}"> poster </a>
+| <a href="{{paper.poster | escape}}"> poster </a>
 {% endif %}
 
 {% if paper.code %}
-/<a href="{{paper.code | escape}}"> code </a>
+|<a href="{{paper.code | escape}}"> code </a>
 {% endif %}
 
 {% if paper.workshop %}
-/<a href="{{paper.workshop | escape}}"> workshop </a>
+|<a href="{{paper.workshop | escape}}"> workshop </a>
 {% endif %}
 
-<a class="collapsible">/ tldr</a>
+<a class="collapsible">| summary</a>
 <span class="content">
 {{ paper.tldr }}
 </span>
@@ -41,7 +41,7 @@
 </p>
 </li>
 {% endfor %}
-</ul>
+</ol>
 
 <style>
 p{

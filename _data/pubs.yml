@@ -1,5 +1,27 @@
 papers:
   - authors:
+    - S. Srinivas*
+    - S. Bordt*
+    lastauthor: H. Lakkaraju
+    year: 2023
+    journal: Working paper
+    title: Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness
+    tldr: Previous work has identified the phenomenon of "perceptually aligned gradients" of robust models. In this work, we explain this phenomenon by observing that robust models in practice are not robust in all directions, in fact they are mostly only robust outside the data manifold. This causes their gradients to align with the manifold, causing them to be perceptually aligned. 
+    url: https://arxiv.org/abs/2305.19101
+
+  - authors:
+    - A. Meyer*
+    - D. Ley*
+    - S. Srinivas
+    lastauthor: H. Lakkaraju
+    year: 2023
+    journal: UAI 
+    title: On Minimizing the Impact of Dataset Shifts on Actionable Explanations
+    tldr: How to train classifiers such that they are unaffected by small shifts in the dataset? We show theoretically and experimentally that weight decay, model curvature and robustness are all important factors that can help minimize the impact of such dataset shifts.
+    url: https://arxiv.org/abs/2306.06716
+    notes: Oral presentation 
+
+  - authors:
     - T. Han
     - S. Srinivas
     lastauthor: H. Lakkaraju
@@ -12,7 +34,7 @@ papers:
     workshop: https://icml.cc/virtual/2022/workshop/13449
 
   - authors:
-      - S. Srinivas
+      - S. Srinivas*
       - K. Matoba*
       - H. Lakkaraju
     lastauthor: F. Fleuret
@@ -21,6 +43,7 @@ papers:
     title: Efficiently Training Low-Curvature Neural Networks
     tldr: Train low-curvature neural networks, that are "as linear as possible" by (1) replacing ReLU with a variant of softplus, (2) spectral normalization of linear layers, (3) (optionally) using gradient-norm regularization. This approach rivals adversarial training without training with adversarial examples.
     url: https://arxiv.org/abs/2206.07144
+    code: https://github.com/kylematoba/lcnn
 
   - authors:
     - M. El-Halabi
