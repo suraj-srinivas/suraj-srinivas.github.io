@@ -9,7 +9,7 @@ order: 1
 EPFL PhD Thesis on [*Gradient-based Methods for Deep Model Interpretability*](https://infoscience.epfl.ch/record/289640) \
 Supervisor: Prof. François Fleuret (EPFL & University of Geneva, Switzerland)
 
-[IISc MSc Thesis](https://etd.iisc.ac.in/handle/2005/3581) on [*Learning Compact Architectures for Deep Neural Networks*](pdfs/thesis.pdf)\
+[IISc MSc Thesis](https://etd.iisc.ac.in/handle/2005/3581) on [*Learning Compact Architectures for Deep Neural Networks*](pdfs/ms_thesis.pdf)\
 Supervisor: Prof. R. Venkatesh Babu (IISc, Bangalore)
 
 ## Pre-prints
