@@ -8,6 +8,8 @@ papers:
     title: Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness
     tldr: Previous work has identified the phenomenon of "perceptually aligned gradients" of robust models. In this work, we explain this phenomenon by observing that robust models in practice are not robust in all directions, in fact they are mostly only robust outside the data manifold. This causes their gradients to align with the manifold, causing them to be perceptually aligned. 
     url: https://arxiv.org/abs/2305.19101
+    type: preprint
+    featured: true
 
   - authors:
     - A. Meyer*
@@ -19,7 +21,8 @@ papers:
     title: On Minimizing the Impact of Dataset Shifts on Actionable Explanations
     tldr: How to train classifiers such that they are unaffected by small shifts in the dataset? We show theoretically and experimentally that weight decay, model curvature and robustness are all important factors that can help minimize the impact of such dataset shifts.
     url: https://arxiv.org/abs/2306.06716
-    notes: Oral presentation 
+    notes: Oral presentation
+    type: long
 
   - authors:
     - T. Han
@@ -32,6 +35,7 @@ papers:
     url: https://arxiv.org/abs/2206.01254
     notes: Best paper award at ICML IMLH 2022 workshop
     workshop: https://icml.cc/virtual/2022/workshop/13449
+    type: long
 
   - authors:
       - S. Srinivas*
@@ -44,6 +48,8 @@ papers:
     tldr: Train low-curvature neural networks, that are "as linear as possible" by (1) replacing ReLU with a variant of softplus, (2) spectral normalization of linear layers, (3) (optionally) using gradient-norm regularization. This approach rivals adversarial training without training with adversarial examples.
     url: https://arxiv.org/abs/2206.07144
     code: https://github.com/kylematoba/lcnn
+    type: long
+    featured: true
 
   - authors:
     - M. El-Halabi
@@ -54,6 +60,7 @@ papers:
     title: Data-Efficient Structured Pruning via Submodular Optimization
     tldr: Pruning neurons in neural networks can be cast as a submodular optimization problem, enabling proposal of principled algorithms with rigorous theoretical guarantees that perform well when pruning with small number of data points.  
     url: https://arxiv.org/abs/2203.04940
+    type: long
 
   - authors:
     - S. Srinivas
@@ -69,6 +76,7 @@ papers:
     url: https://openaccess.thecvf.com/content/CVPR2022W/ECV/html/Srinivas_Cyclical_Pruning_for_Sparse_Neural_Networks_CVPRW_2022_paper.html
     presentation: https://docs.google.com/presentation/d/1lU1aZGrznxakE09H5MtmqXndR66hmZhB9ULwM9uVO4c/edit?usp=sharing
     notes: Oral presentation 
+    type: short
   
   - authors:
       - S. Srinivas
@@ -83,6 +91,8 @@ papers:
     workshop: https://sites.google.com/view/whi2020/
     notes: Oral presentation  
     poster: pdfs/iclr2021_poster.pdf
+    type: long
+    featured: true
 
   - authors:
       - S. Srinivas
@@ -94,6 +104,7 @@ papers:
     code: https://github.com/idiap/fullgrad-saliency
     tldr: Compute saliency information from all intermediate layers in neural networks, rather than just from the input, as is done commonly. This provably captures two desirable properties (sensitivity and completeness) which typical saliency maps cannot capture.
     poster: pdfs/neurips19_poster.pdf 
+    type: long
 
   - authors:
       - S. Srinivas
@@ -107,7 +118,9 @@ papers:
     workshop: https://lld-workshop.github.io/2017/
     notes: Best paper award at NeurIPS LLD 2017 workshop
     tldr: Perform sample-efficient distillation by requiring that the student model mimic the input-gradients of the teacher model. This is equivalent (in expectation) to performing classical distillation with data augmentation via additive input noise.
-    
+    type: long
+    featured: true
+
   - authors:
       - A. Subramanya
       - S. Srinivas
@@ -118,6 +131,7 @@ papers:
     url: https://ieeexplore.ieee.org/abstract/document/8724461/
     presentation: https://docs.google.com/presentation/d/1YBKlngRwfDgWpy5mEIj1zAP2dx8IAWlG7ejsPCBn_E0/edit?usp=sharinghttp://proceedings.mlr.press/v80/srinivas18a.html
     tldr: Model the density of intermediate features in a neural network using a high-dimensional Gaussian distribution. If features for a test point fall outside the "typical set" for such a Gaussian, then declare that test point to be out-of-distribution.
+    type: short
 
   - authors:
       - S. Srinivas
@@ -130,6 +144,7 @@ papers:
     presentation: https://docs.google.com/presentation/d/167i3QJ63EFYfiDpMIYtuQt2yS_x2Vm7J0_nTt2KnvtY/edit?usp=sharing
     tldr: Encourage weight sparsity in neural networks by introducing multiplicative binary gating variables along with each weight, and regularizing gates to be sparse.
     notes: Oral presentation
+    type: short
 
   - authors:
       - S. Srinivas
@@ -139,6 +154,7 @@ papers:
     title: Generalized Dropout
     url: https://arxiv.org/abs/1611.06791
     tldr: A generalized version of dropout where dropout probabilities are automatically tuned during training. This is done by introducing multiplicative <i> bernoulli </i> gating variables to each neuron within a neural network, and modelling the bernoulli probability by penalizing from a beta distribution.
+    type: preprint
 
   - authors:
       - S. Srinivas
@@ -149,7 +165,7 @@ papers:
     url: http://www.bmva.org/bmvc/2016/papers/paper104/index.html
     tldr: Automatically prune unimportant neurons during neural network training, by introducing multiplicative binary gating variables with each neuron, and encouraging the gate variables to be as sparse as possible via regularization.
     poster: https://drive.google.com/file/d/0BwC3N1sQOq3dRG1fRzlIcjc2c1k/view?usp=sharing&resourcekey=0-bb9N3jtW-co7yk3tvMYdZw
-
+    type: long
 
   - authors:
       - L. Boominathan
@@ -161,6 +177,7 @@ papers:
     url: https://arxiv.org/abs/1611.05744
     tldr: Correct for large in-plane rotation in images by (1) detecting the presence of rotation using a CNN, and (2) correcting it iteratively using Bayesian optimization.
     poster: https://drive.google.com/file/d/1fVwYO6f9X7IjajO6Y101LiPuOa4LLfbi/view?usp=sharing
+    type: short
 
   - authors:
       - S. Srinivas
@@ -177,6 +194,7 @@ papers:
       - Top 25% of all research outputs scored on <a href="https://frontiers.altmetric.com/details/4978361"> Altmetric </a> <br>
       - Book chapter for <a href="https://www.elsevier.com/books/deep-learning-for-medical-image-analysis/zhou/978-0-12-810408-8"> <i>Deep Learning for Medical Image Analysis</i> </a> 
     tldr: A recipe-style survey of pre-2015 deep neural networks as applied to computer vision.
+    type: long
 
   - authors:
       - S. Srinivas
@@ -187,6 +205,7 @@ papers:
     url: http://arxiv.org/abs/1507.06149
     tldr: Prune neurons in neural networks by (1) identifying duplicate neuron pairs, (2) removing one and performing a `surgery` step to compensate for removal.
     poster: https://drive.google.com/file/d/0BwC3N1sQOq3dNmZ2cmFEZlZ5N1E/view?usp=sharing&resourcekey=0-tBl3eVM83YSB9lUlJUUu_A
+    type: long
 
   - authors:
       - S. Srinivas
@@ -197,3 +216,4 @@ papers:
     title: Controlled blurring for improving image reconstruction quality in flutter-shutter acquisition
     url: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7026178&tag=1
     tldr: Deliberately shaking a camera's sensor in a 2D plane during acquisition results in a well-defined blur kernel that can be used to deblur even in the presence of external camera shake.
+    type: short

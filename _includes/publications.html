@@ -1,7 +1,12 @@
-<ol reversed>
-{% for paper in site.data.pubs.papers %}
-<li>
+<!--<ul style="list-style-type:none;">-->
+  {% for paper in site.data.pubs.papers %}
+{% if paper.type == include.type %}
+<!--<li>-->
+{% if paper.featured == true %}
+ <p style="border-width:2px; border-style:none; background-color:seashell; padding: 1em;">
+{% else %}
  <p>
+{% endif %}
     {{ paper.title }} <br>
     {% for author in paper.authors %}
       {% if author contains "S. Srinivas" %} 
@@ -34,14 +39,15 @@
 </span>
 
 {% if paper.notes %} <br>
-<mark style="font-size:90%; padding:0px; margin:0px">{{ paper.notes }}</mark>
+<mark style="font-size:90%; padding:0px; margin:0px; background-color:lightgoldenrodyellow;">{{ paper.notes }}</mark>
 {% endif %}
 <br>
 
 </p>
-</li>
+<!--</li>-->
+{% endif %}
 {% endfor %}
-</ol>
+<!--</ul>-->
 
 <style>
 p{
