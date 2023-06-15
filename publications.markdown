@@ -6,11 +6,14 @@ order: 1
 ---
 
 ## Theses
-EPFL PhD Thesis on [*Gradient-based Methods for Deep Model Interpretability*](https://infoscience.epfl.ch/record/289640) \
-Supervisor: Prof. François Fleuret (EPFL & University of Geneva, Switzerland)
+**PhD thesis** \
+[Gradient-based Methods for Deep Model Interpretability](https://infoscience.epfl.ch/record/289640) \
+*Ecole Polytechnique Federale du Lausanne (EPFL)*, 2021
+<br><mark style="font-size:90%; padding:0px; margin:0px; background-color:ivory;">Recipient of the EPFL thesis distinction award (top 8% thesis) in the EE dept. for 2021 </mark>
 
-[IISc MSc Thesis](https://etd.iisc.ac.in/handle/2005/3581) on [*Learning Compact Architectures for Deep Neural Networks*](pdfs/ms_thesis.pdf)\
-Supervisor: Prof. R. Venkatesh Babu (IISc, Bangalore)
+**Masters thesis** \
+[Learning Compact Architectures for Deep Neural Networks](pdfs/ms_thesis.pdf)\
+*Indian Institute of Science (IISc)*, 2017
 
 ## Pre-prints
 

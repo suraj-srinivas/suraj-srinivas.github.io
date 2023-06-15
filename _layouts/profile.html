@@ -6,19 +6,19 @@ layout: default
 
 <div class="columns">
   <div class="column-1">
-    <img src="profile.jpeg" class="profile-picture" width=80%></img>
+    <img src="profile.jpeg" class="profile-picture" width=80% align="left"></img>
 
-    <br>
-    <a href="https://twitter.com/Suuraj" class="fa fa-twitter"></a> 
-    <a href="https://scholar.google.com/citations?user=J2JWgKgAAAAJ&hl=en" class="fa fa-graduation-cap"></a> 
-    <a href="https://www.linkedin.com/in/suraj-srinivas-1a856264/" class="fa fa-linkedin"></a> 
-    <a href="mailto:suuraj.srinivas@gmail.com" class="fa fa-envelope"></a>  
-    <br>
-    
-    <a href="pdfs/resume.pdf" class="block">
-    <span class="fa fa-file-pdf-o"> </span> CV 
-    </a>
-
+    <div style="width:65%; padding-left:21%; padding-top:70%;">
+      <br><br>
+    <a href="mailto:suuraj.srinivas@gmail.com", class="fa fa-envelope"></a>email<br>
+    <a href="https://twitter.com/Suuraj", class="fa fa-twitter"></a>twitter<br>
+    <a href="https://scholar.google.com/citations?user=J2JWgKgAAAAJ&hl=en", class="fa fa-graduation-cap"></a>scholar<br>
+    <a href="https://www.linkedin.com/in/suraj-srinivas-1a856264/", class="fa fa-linkedin" ></a>linkedin<br>
+    <a href="https://github.com/suraj-srinivas", class="fa fa-github" ></a>github<br>
+    </div>
+    <div style="background-color: ivory; border-width: 1px ; border-style: none; padding: 7%; width:55%; padding-left:22%">
+    <a href="pdfs/resume.pdf", class="fa fa-file-pdf-o" aria-hidden="true"></a><a href="pdfs/resume.pdf">resume</a>
+    </div>
   </div>
   <div class="column-2">
       {{ content }}
@@ -33,30 +33,13 @@ img{
   border-radius: 50%;
 }
 
-.block{
-  background-color: white;
-  border: 1px solid;
-  color: black; 
-  padding: 6% 6% 4% 0%;
-  text-align: left;
-  text-decoration: none;
-  display: inline;
-  font-size: 14px;
-  margin: 0% 25%;
-  cursor: pointer;
-  border-radius: 5%;
-}
 
-.block:hover{
-  text-decoration: none;
-  background-color: #3366BB;
-  color: white;
-}
 
 .fa {
-  padding: 10% 5%;
-  font-size: 20px;
+  padding-right: 15%;
+  font-size: 16px;
   width: 3%;
+  align-items: center;
   text-align: center;
   text-decoration: none;
   margin: 2% 2%;
@@ -65,6 +48,12 @@ img{
 .fa:hover {
     opacity: 0.3;
     text-decoration: none;
+}
+
+.textblock{
+  width: 25%;
+  background-color: lightgrey;
+  padding-left: 5%
 }
 
 .columns{
