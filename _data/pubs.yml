@@ -48,6 +48,8 @@ papers:
     tldr: Train low-curvature neural networks, that are "as linear as possible" by (1) replacing ReLU with a variant of softplus, (2) spectral normalization of linear layers, (3) (optionally) using gradient-norm regularization. This approach rivals adversarial training without training with adversarial examples.
     url: https://arxiv.org/abs/2206.07144
     code: https://github.com/kylematoba/lcnn
+    poster: pdfs/lcnn_poster.pdf
+    presentation: https://nips.cc/virtual/2022/poster/54125
     type: long
     featured: true
 

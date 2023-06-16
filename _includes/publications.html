@@ -15,25 +15,25 @@
       {% endfor %} {{ paper.lastauthor }}<br>
     <i>{{ paper.journal }}</i>, {{ paper.year }} <br>
 
-<a href="{{ paper.url | escape}}">pdf </a>
+<a href="{{ paper.url | escape}}">pdf</a>
 
 {% if paper.presentation %}
-| <a href="{{paper.presentation | escape}}"> slides </a>
+&centerdot; <a href="{{paper.presentation | escape}}">slides </a>
 {% endif %}
 
 {% if paper.poster %}
-| <a href="{{paper.poster | escape}}"> poster </a>
+&centerdot; <a href="{{paper.poster | escape}}">poster </a>
 {% endif %}
 
 {% if paper.code %}
-|<a href="{{paper.code | escape}}"> code </a>
+&centerdot; <a href="{{paper.code | escape}}">code </a>
 {% endif %}
 
 {% if paper.workshop %}
-|<a href="{{paper.workshop | escape}}"> workshop </a>
+&centerdot; <a href="{{paper.workshop | escape}}">workshop </a>
 {% endif %}
 
-<a class="collapsible">| summary</a>
+&centerdot; <a class="collapsible">summary</a>
 <span class="content">
 {{ paper.tldr }}
 </span>

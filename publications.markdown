@@ -5,7 +5,6 @@ permalink: /publications
 order: 1
 ---
 
-## Theses
 **PhD thesis** \
 [Gradient-based Methods for Deep Model Interpretability](https://infoscience.epfl.ch/record/289640) \
 *Ecole Polytechnique Federale du Lausanne (EPFL)*, 2021
@@ -15,16 +14,23 @@ order: 1
 [Learning Compact Architectures for Deep Neural Networks](pdfs/ms_thesis.pdf)\
 *Indian Institute of Science (IISc)*, 2017
 
-## Pre-prints
+<hr style="border-top: solid 1px; color: lightgrey" />
+<br>
+For more information see my [google scholar](https://scholar.google.com/citations?user=J2JWgKgAAAAJ) page. <u>Representative papers</u> are <mark style="background-color:seashell">highlighted</mark> below.
+<br>
+
+## **Pre-prints**
 
 {% include publications.html type='preprint' %}
 {% include publications.html type='hack-to-avoid-tldr-error' %} 
+<br>
 
-## Long Papers
+## **Long Papers**
 
 {% include publications.html type='long' %}
 {% include publications.html type='hack-to-avoid-tldr-error' %}
+<br>
 
-## Short Conference / Workshop Papers
+## **Short Conference / Workshop Papers**
 
 {% include publications.html type='short' %}
