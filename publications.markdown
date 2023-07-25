@@ -16,7 +16,7 @@ order: 1
 
 <hr style="border-top: solid 1px; color: lightgrey" />
 <br>
-For more information see my [google scholar](https://scholar.google.com/citations?user=J2JWgKgAAAAJ) page. <u>Representative papers</u> are <mark style="background-color:seashell">highlighted</mark> below.
+For more information see my [google scholar](https://scholar.google.com/citations?user=J2JWgKgAAAAJ) page. <u>Representative papers</u> are <mark style="background-color:mintcream">highlighted</mark> below.
 <br>
 
 ## **Pre-prints**

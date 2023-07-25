@@ -6,7 +6,7 @@ layout: profile
 title: About
 ---
 
-## About me
+## **About me**
 
 I am a postdoctoral research fellow at Harvard University where I work with [Prof. Hima Lakkaraju](https://himalakkaraju.github.io/) on the interpretability and robustness of deep learning models. 
 
@@ -14,18 +14,19 @@ I completed my PhD at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL
 
 During my PhD, I interned at Qualcomm AI Research in Amsterdam, where I worked with [Tijmen Blankevoort](https://www.linkedin.com/in/tijmen-blankevoort-a5633a24/).
 
-<p style="border-width:2px; border-style:none; background-color:seashell; padding: 1em;">
-<b>I'm on the job market</b>. Do not hesitate to contact me regarding any interesting opportunities!
+
+<p style="border-width:2px; border-style:none; background-color:mintcream; padding: 1em;">
+<b>I'm on the job market</b>. Contact me regarding any interesting opportunities!
 </p>
 
-## Research
+<br>
 
-Deep learning is the dark matter of machine learning: ubiquitous yet profoundly mysterious. I believe that understanding deep learning is one of the most important fundamental open problems in science today.
+## **Research**
 
-To this end, I'm broadly interested in mathematically understanding deep learning models, and using this understanding to improve them and better apply them to real world applications. My research so far has focussed on the **robustness**, **interpretability** and **efficiency** of models at test time, but I am also interested in topics such as score-based generative modelling, and self-supervised representation learning. I am particularly interested in applications of machine learning in high-impact domains such as healthcare and robotics. Some questions I have worked on in the past:
-- Why are gradients of deep classifiers perceptually aligned with human perception when this alignment is unnecessary for good performance? ([1](https://openreview.net/forum?id=dYeAHXnpWJ4), [2](https://arxiv.org/abs/2305.19101))  
-- What are feature attribution methods in literature formally trying to achieve? ([3](https://arxiv.org/abs/2206.01254))
-- Are neural networks more non-linear than they need to be? ([4](https://arxiv.org/abs/2206.07144)) 
+I am broadly interested in mathematically and scientifically understanding deep learning models, and using this understanding to better apply them to real world applications. My research so far has focussed on the **robustness**, **interpretability** and **efficiency** of models at test time, but I am also interested in topics such as score-based generative modelling, and self-supervised representation learning. I am particularly interested in applications of machine learning in impactful domains such as healthcare and robotics. Some projects I have worked on in the past:
+- understanding why gradients of deep classifiers are perceptually aligned with human perception ([1](https://openreview.net/forum?id=dYeAHXnpWJ4), [2](https://arxiv.org/abs/2305.19101))
+- providing a mathematical unification of feature attribution methods ([3](https://arxiv.org/abs/2206.01254))  
+- proposing a method to train low-curvature neural nets that are "as linear as possible" ([4](https://arxiv.org/abs/2206.07144)) 
 
 My <a href="/publications.html">publications</a> page contains more information.
 
