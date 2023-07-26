@@ -3,10 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: profile
-title: About
+title: about
 ---
 
-## **About me**
+## **about me**
 
 I am a postdoctoral research fellow at Harvard University where I work with [Prof. Hima Lakkaraju](https://himalakkaraju.github.io/) on the interpretability and robustness of deep learning models. 
 
@@ -16,12 +16,12 @@ During my PhD, I interned at Qualcomm AI Research in Amsterdam, where I worked w
 
 
 <p style="border-width:2px; border-style:none; background-color:mintcream; padding: 1em;">
-<b>I'm on the job market</b>. Contact me regarding any interesting opportunities!
+<b>I'm on the job market</b>. Contact me re: interesting opportunities!
 </p>
 
 <br>
 
-## **Research**
+## **research**
 
 I am broadly interested in mathematically and scientifically understanding deep learning models, and using this understanding to better apply them to real world applications. My research so far has focussed on the **robustness**, **interpretability** and **efficiency** of models at test time, but I am also interested in topics such as score-based generative modelling, and self-supervised representation learning. I am particularly interested in applications of machine learning in impactful domains such as healthcare and robotics. Some projects I have worked on in the past:
 - understanding why gradients of deep classifiers are perceptually aligned with human perception ([1](https://openreview.net/forum?id=dYeAHXnpWJ4), [2](https://arxiv.org/abs/2305.19101))

@@ -156,7 +156,7 @@ papers:
     title: Generalized Dropout
     url: https://arxiv.org/abs/1611.06791
     tldr: A generalized version of dropout where dropout probabilities are automatically tuned during training. This is done by introducing multiplicative <i> bernoulli </i> gating variables to each neuron within a neural network, and modelling the bernoulli probability by penalizing from a beta distribution.
-    type: preprint
+    type: short
 
   - authors:
       - S. Srinivas

@@ -1,7 +1,7 @@
 ---
 layout: forward
 target: https://surajsrinivas.substack.com/
-title: Blog
+title: blog
 permalink: https://surajsrinivas.substack.com/
 ---
 
