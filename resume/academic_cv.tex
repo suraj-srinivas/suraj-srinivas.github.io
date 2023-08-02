@@ -1,14 +1,19 @@
 
-\documentclass[12pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{red}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{orange}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 \nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 %\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-\usepackage[a4paper, margin=2cm, left=1.5cm]{geometry}
+\usepackage[a4paper, margin=2cm]{geometry}
 \usepackage{setspace}
 \usepackage{amssymb}
-\usepackage{fontawesome}
 \RequirePackage[unicode]{hyperref}
+
+\usepackage{cmbright}
+\usepackage[OT1]{fontenc}
+
+\definecolor{floralwhite}{RGB}{255,255,250}
+
 \hypersetup{colorlinks = true,
             linkcolor = blue,
             urlcolor  = teal,
@@ -17,7 +22,7 @@
 %\usepackage{babel}
 %\usepackage{hyperref}
 \setstretch{1.05}
-\newcommand{\cvsection}[1]{\vspace{0.3cm}\subsection{\large{#1}}}
+\newcommand{\cvsection}[1]{\vspace{0.3cm}\subsection{\Large{#1}}}
 %\newcommand{\cvitem}[2]{def}
 %----------------------------------------------------------------------------------
 %            personal data
@@ -28,6 +33,7 @@
                                  
                                   
 \begin{document}
+\pagecolor{floralwhite}
 %-----       resume       ---------------------------------------------------------
 %\vspace*{-1cm}
 
@@ -36,23 +42,23 @@
 \vspace{-1.5cm}
 \textcolor{gray}{\hrule}
 
-\cvsection{Contact Information}
+\cvsection{contact information}
 \cvitem{}{6.220, 150 Western Ave \newline Harvard University, Boston, MA \vspace{1ex}\newline suuraj.srinivas@gmail.com \newline ssrinivas@seas.harvard.edu \newline \href{https://suraj-srinivas.github.io}{suraj-srinivas.github.io}}
 
-\cvsection{Research Interests}
+\cvsection{research interests}
 \cvitem{}{Robustness, Interpretability \& Computational Efficiency of Deep models;  \newline Generative modelling; Representation learning}
 
 %\vspace{0.5cm}
 
-\cvsection{Work Experience}
+\cvsection{work experience}
 \cventry{01/2022 \newline - Present}{Postdoctoral Research Fellow}{}{\newline Harvard University, USA}
 {\newline \textbf{Advisor}: Prof. Hima Lakkaraju
 \newline \textbf{Duties}: 
 Academic research $\cdot$ Technical guidance \& mentoring $\cdot$ Teaching}{}
 
-\cvsection{Education}
+\cvsection{education}
 \cventry{2017 \newline - 2021}{Doctor of Philosophy}{}
-{ \newline \'{E}cole Polytechnique F\'{e}d\'{e}rale de Lausanne \& \newline Idiap Research Institute, Switzerland}
+{ \newline \'{E}cole Polytechnique F\'{e}d\'{e}rale de Lausanne (EPFL), Switzerland}
 { \newline \textbf{Advisor}: Prof. Fran\c{c}ois Fleuret}
 {}
 \vspace*{0.5em}
@@ -60,9 +66,9 @@ Academic research $\cdot$ Technical guidance \& mentoring $\cdot$ Teaching}{}
 \cventry{2014\newline - 2017}{Master of Science (Engineering)}{}{\newline Indian Institute of Science, Bangalore, India}{ \newline \textbf{Advisor}: Prof. R. Venkatesh Babu}{} 
 \vspace*{0.5em}
 
-\cventry{2010 - 2014}{Bachelor of Engineering}{}{\newline Electronics and Communication Engineering, \newline PES Institute of Technology~(Now PES University), Bangalore, India}{}{} 
+\cventry{2010 - 2014}{Bachelor of Engineering}{}{\newline PES University, Bangalore, India}{}{} 
 
-\cvsection{Internships}
+\cvsection{internships}
 
 \cventry{08/2020 \newline - 01/2021}{Research Intern}{Qualcomm AI Research, Netherlands}{\newline Research on algorithms
 to sparsify neural networks}{}{}
@@ -76,9 +82,9 @@ processing algorithms on FPGA for a thermal imaging camera}{}
 \cventry{06/2013 \newline - 08/2013}{Research Intern}{Indian Institute of Science, Bangalore}{}{\newline
 Research on computational photography to perform camera jitter compensation}{}
 \clearpage
-\cvsection{Publications}
-\vspace*{-0.3cm}
-\subsection{\small{\href{https://bit.ly/2keccl6}{Google Scholar Profile}}}
+\cvsection{publications}
+%\vspace*{-0.3cm}
+%\subsection{\small{\href{https://bit.ly/2keccl6}{Google Scholar Profile}}}
 
 \vspace{0.25cm}
 \cvitem{2023} {Anna Meyer*, Dan Ley*, \textbf{Suraj Srinivas$^\dagger$}, Hima Lakkaraju. ($^\dagger$advising role) \newline ``On Minimizing the Impact of Dataset Shifts on Actionable Explanations'' \newline{\textit{Uncertainty in Artificial Intelligence (UAI)}} - \textbf{Oral}
@@ -138,14 +144,14 @@ Sparse Neural Networks"
 \newline \textit{British Computer Vision Conference (BMVC)}}
 
 \clearpage
-\cvsection{Book Chapters}
+\cvsection{book chapters}
 
 \cvitem{2017}{\textbf{Suraj Srinivas}, Ravi Kiran Sarvadevabhatla, Konda Reddy Mopuri, Nikita Prabhu, Srinivas SS Kruthiventi, R. Venkatesh Babu. 
 \newline ``A taxonomy of deep convolutional neural nets for computer vision'', \newline Book chapter: \textit{Deep Learning for Medical Image Analysis, Elsevier}
 \newline Journal version: \textit{Frontiers in Robotics and AI}}
 \vspace*{0.25em}
 
-\cvsection{Talks} 
+\cvsection{talks} 
 
 \cvitem{03/2023}{\textit{Pitfalls and Opportunities with Feature Importance Methods} \newline \href{https://www.merl.com/news/talk-20230314-1473}{MERL seminar series}, Boston}
 
@@ -183,18 +189,18 @@ Matching} \newline ICML, Stockholm}
 \cvitem{07/2016}{\textit{Making Deep Neural
 Networks Smaller and Faster} \newline Deep Learning Conf, Bangalore}
 
-\cvsection{Reviewing}
+\cvsection{reviewing}
 \cvitem{Conferences}{AAAI, CVPR, ECCV, NeurIPS (2020) ; WACV, ICML, ICCV, NeurIPS (2021); 
  \newline ICLR, ICML, NeurIPS (2022); ICLR, AISTATS (2023)}
 \cvitem{Journals}{IEEE SP-Letters, Elsevier Neural Networks, IEEE T-PAMI, Nature Communications}
 %\vspace*{0.15cm}
 \clearpage
-\cvsection{Teaching}
+\cvsection{teaching}
 \cvitem{2023}{Co-instructor for \textit{Interpretability and Explainability in ML} (CS-282BR) \newline Harvard University, USA}
 \cvitem{2018, '19, '21}{Teaching Assistant for \textit{Deep Learning}  (EE-559) \newline EPFL, Switzerland}
 \cvitem{2021}{Guest Lecturer on Interpretability for \textit{Deep Learning for Computer Vision} (DS-265) \newline Indian Institute of Science, Bangalore}
 
-\cvsection{Research Mentoring}
+\cvsection{research mentoring}
 \cvitem{2022-23}{Tessa Han (PhD candidate, Harvard) \newline \textit{Local Function Approximation to Characterize Explanations, NeurIPS 2022} \newline \textit{Uncertainty Quantification via Local Linear Approximations} }
 \cvitem{2023}{Usha Bhalla (PhD student, Harvard) \newline \textit{Dataset Distillation for Interpretability}}
 \cvitem{2023}{Daniel Ley (PhD student, Harvard) \newline \textit{On Minimizing the Impact of Dataset Shifts on Actionable Explanations, UAI 2023}}
@@ -203,33 +209,34 @@ Networks Smaller and Faster} \newline Deep Learning Conf, Bangalore}
 \cvitem{2016}{Lokesh Boominathan (Research Assistant, IISc) \newline \textit{Compensating for Large In-plane Rotations in Natural Images, ICVGIP 2016}}
 %\newline \textit{Indian Conference on Vision, Graphics and Image Processing (ICVGIP), 2016}}
 
-\cvsection{Outreach}
+\cvsection{service}
 \cvitem{2023}{Co-organizing ``XAI in Action: Past, Present, and Future Applications'' \newline \textit{NeurIPS 2023 workshop} (upcoming)}
 
-\cvsection{Awards and Honors}
+\cvsection{awards and honors}
 \cvitem{2022}{Best paper award at ICML \textit{Interpretable ML for Healthcare} Workshop}
 \cvitem{2022}{Highlighted Reviewer at \textit{International Conference on Learning Representations (ICLR)}}
 \cvitem{2021}{EPFL PhD Thesis Distinction Award for top 8\% thesis in the dept. of   EE}
+\cvitem{2019}{ICML travel grant for ICML 2019}
 \cvitem{2017}{Best paper award at NeurIPS \textit{Learning with Limited Data} Workshop} 
-%\cvitem{2015}{Received Xerox Research India travel grant to travel to BMVC 2015}
-\cvitem{2014}{Ranked \textbf{399} (out of $\sim$ 200k candidates) nation-wide in the Graduate Aptitude Test in Engineering for entrance to graduate school in electronics and communications engineering}
-\cvitem{2012}{Won first place at the E-Yantra nation-wide robotics contest held at IIT-Bombay, and featured in The Times of India, New Indian Express and DH Education}
+\cvitem{2015}{Xerox Research India travel grant for BMVC 2015}
+\cvitem{2014}{Ranked 399 (out of $\sim$ 200k candidates) nation-wide in the Graduate Aptitude Test in Engineering for entrance to graduate school in electronics and communications engineering}
+\cvitem{2012}{First place at the E-Yantra nation-wide robotics contest held at IIT-Bombay, and featured in The Times of India, New Indian Express and DH Education}
 %\cvitem{2011-2013}{Served as writer and later technology editor of the college magazine}
 %\cvitem{2011-2013}{Founded Robotics club at college, organized and conducted workshops on "Introduction to Arduino" and "Introduction to Robotics", participated in and organized robotics competitions}
 %\cvitem{2011}{Served as a volunteer English \& computer science teacher for local underprivileged schools}
-\cvitem{2010}{Ranked \textbf{191} (out of $\sim$ 100k candidates) state-wide in the Karnataka Common Entrance Test for entrance to undergraduate engineering programmes.} 
+\cvitem{2010}{Ranked 191 (out of $\sim$ 100k candidates) state-wide in the Karnataka Common Entrance Test for entrance to undergraduate engineering programmes.} 
 
-\clearpage
+%\clearpage
 
-\cvsection{References}
-\cvitem{}{Prof. Himabindu Lakkaraju \newline Harvard University, USA \newline \texttt{hlakkaraju@hbs.edu}}
-\vspace{2ex}
+%\cvsection{References}
+%\cvitem{}{Prof. Himabindu Lakkaraju \newline Harvard University, USA \newline \texttt{hlakkaraju@hbs.edu}}
+%\vspace{2ex}
 
-\cvitem{}{Prof. Francois Fleuret \newline University of Geneva, Switzerland \newline \texttt{francois.fleuret@unige.ch}}
-\vspace{2ex}
+%\cvitem{}{Prof. Francois Fleuret \newline University of Geneva, Switzerland \newline \texttt{francois.fleuret@unige.ch}}
+%\vspace{2ex}
 
-\cvitem{}{Prof. R. Venkatesh Babu \newline Indian Institute of Science, Bangalore \newline \texttt{venky@iisc.ac.in}}
-\vspace{2ex}
+%\cvitem{}{Prof. R. Venkatesh Babu \newline Indian Institute of Science, Bangalore \newline \texttt{venky@iisc.ac.in}}
+%\vspace{2ex}
 
 
 \end{document}
