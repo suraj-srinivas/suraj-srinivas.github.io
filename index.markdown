@@ -15,7 +15,7 @@ I completed my PhD at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL
 During my PhD, I interned at Qualcomm AI Research in Amsterdam, where I worked with [Tijmen Blankevoort](https://www.linkedin.com/in/tijmen-blankevoort-a5633a24/).
 
 
-<p style="border-width:2px; border-style:none; background-color:mintcream; padding: 1em;">
+<p style="border-width:1px; border-style:none; background-color:mintcream; padding: 1em; border-radius: 0px">
 <b>I'm on the job market</b>. Contact me re: interesting opportunities!
 </p>
 

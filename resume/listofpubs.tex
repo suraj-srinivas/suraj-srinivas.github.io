@@ -1,31 +1,60 @@
 \documentclass{article}
-\usepackage[a4paper, margin=4cm]{geometry}
-\usepackage[utf8]{inputenc}
+\usepackage{geometry}
 
+\geometry{
+    a4paper,
+    left=30mm,
+    top=30mm,
+    right=30mm,
+    bottom=30mm
+    }
+
+\usepackage{bibentry}
+\usepackage{natbib}
 \pagenumbering{gobble}
-\begin{document}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[OT1]{fontenc}
 
-\section*{List of Publications}
+
+\title{List of Publications}
+\date{}
+\author{}
+
+\begin{document}
+\bibliographystyle{unsrtnat}
+\nobibliography{references}
+
+\maketitle
+
+\section*{Long Conference \& Journal Publications}
 
 \begin{enumerate}
-    \item \textbf{Suraj Srinivas}, Kyle Matoba, Hima Lakkaraju, Fran\c{c}ois Fleuret.
-    ``Efficient Training of Low-Curvature Neural Networks", Neural Information Processing Systems (NeurIPS), 2022
-    \item Tessa Han, \textbf{Suraj Srinivas}, Hima Lakkaraju,``Which Explanation Should I Choose? A Function Approximation Perspective to Characterizing Post hoc Explanations", Neural Information Processing Systems (NeurIPS), 2022
-    \item Marwa El Halabi, \textbf{Suraj Srinivas}, Simon Lacoste-Julien.
-    ``Data-Efficient Structured Pruning via Submodular Optimization", Neural Information Processing Systems (NeurIPS), 2022
-    \item \textbf{Suraj Srinivas}, Andrey Kuzmin, Markus Nagel, Mart van Baalen, Andrii Skliar, Tijmen Blankevoort.``Cyclical Pruning for Sparse Neural Networks", Computer Vision and Pattern Recognition Workshops (CVPRW), 2022
-    \item  \textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret. ``Rethinking the Role of Gradient-based Attribution Methods in Model Interpretability", International Conference on Learning Representations (ICLR), 2021
-    \item \textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret. ``Full-Gradient Representation
-    for Neural Network Visualization", Neural Information Processing System (NeurIPS), 2019
-    \item \textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret.``Knowledge Transfer with Jacobian Matching", International Conference on Machine Learning (ICML), 2018
-    \item Akshayvarun Subramanya, \textbf{Suraj Srinivas}, R Venkatesh Babu, ``Estimating Confidence for Deep Neural Networks through Density modeling'', International Conference on Signal Processing and Communications (SPCOM), 2018
-    \item \textbf{Suraj Srinivas}, Akshayvarun Subramanya, R. Venkatesh Babu. ``Training
-    Sparse Neural Networks", Computer Vision and Pattern Recognition Workshops (CVPRW), 2017
-    \item \textbf{Suraj Srinivas}, Ravi Kiran Sarvadevabhatla, Konda Reddy Mopuri, Nikita Prabhu, Srinivas SS Kruthiventi, R Venkatesh Babu. ``A taxonomy of deep convolutional neural nets for computer vision'', Frontiers in Robotics and AI
-    \item \textbf{Suraj Srinivas}, R. Venkatesh Babu. ``Learning the Architecture of Deep Neural Networks", British Machine Vision Conference (BMVC), 2016
-    \item \textbf{Suraj Srinivas}, R. Venkatesh Babu. ``Data-free Parameter Pruning for
-    Deep Neural Networks", British Machine Vision Conference (BMVC), 2015
+    \item \bibentry{meyer2023minimizing}
+    \item \bibentry{srinivas2022efficient}
+    \item \bibentry{han2022which}
+    \item \bibentry{halabi2022dataefficient}
+    \item \bibentry{srinivas2021rethinking}
+    \item \bibentry{srinivas2019full}
+    \item \bibentry{srinivas2018knowledge}
+    \item \bibentry{srinivas2016taxonomy}
+    \item \bibentry{srinivas2016learning}
+    \item \bibentry{srinivas2015data}
+\end{enumerate}
 
+\vspace*{0.3cm}
+\section*{Short Conference \& Workshop Publications}
+
+\begin{enumerate}
+    \item \bibentry{srinivas2023models}
+    \item \bibentry{han2023efficient}
+    \item \bibentry{bhalla2023verifiable}
+    \item \bibentry{ley2023consistent}
+    \item \bibentry{lin2023word}
+    \item \bibentry{srinivas2022cyclical}
+    \item \bibentry{srinivas2017training}
+    \item \bibentry{subramanya2017confidence}
+    \item \bibentry{boominathan2016compensating}
 \end{enumerate}
 
 

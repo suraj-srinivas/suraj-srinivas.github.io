@@ -12,6 +12,56 @@ papers:
     featured: true
 
   - authors:
+    - U. Bhalla*
+    - S. Srinivas*
+    lastauthor: H. Lakkaraju
+    year: 2023
+    journal: Working paper
+    title: Verifiable Feature Attributions, A Bridge between Post Hoc Explainability and Inherent Interpretability
+    tldr: If an input feature is unimportant according to a model, then removing that feature shouldn't affect model outputs. We train "inherently interpretable" models that have this property!
+    url: https://arxiv.org/abs/2307.15007
+    type: preprint
+    featured: true
+
+  - authors: 
+    - T. Han
+    - S. Srinivas
+    lastauthor: H. Lakkaraju
+    year: 2023
+    journal: Working paper
+    title: Efficient Estimation of the Local Robustness of Machine Learning Models
+    url: https://arxiv.org/abs/2307.13885
+    tldr: We consider a relaxation of adversarial robustness, i.e., average-case robustness, and provide efficient estimators to compute this quantity. 
+    type: preprint
+
+  - authors: 
+    - A. Lin
+    - L.M. Paes
+    - S.H. Tanneru
+    - S. Srinivas
+    lastauthor: H. Lakkaraju
+    year: 2023
+    journal: ICML Workshop on Challenges in Deploying Generative AI
+    title: Word-Level Explanations for Analyzing Bias in Text-to-Image Models
+    url: https://arxiv.org/abs/2306.05500
+    tldr: For text to image models, we find which input words contribute to bias in output images. For example, we find that the word "doctor" in the input leads to an over-representation of males in the output.
+    type: short
+
+  - authors:
+    - D. Ley
+    - L. Tang
+    - M. Nazari
+    - H. Lin
+    - S. Srinivas
+    lastauthor: H. Lakkaraju
+    year: 2023
+    journal: ICML Workshop on Interpretable Machine Learning for Healthcare
+    title: Consistent Explanations in the Face of Model Indeterminacy via Ensembling
+    url: https://arxiv.org/abs/2306.06193
+    tldr: With model ensembles, feature attributions are fairly consistent! We find strategies that lead to efficient construction of such ensembles.
+    type: short 
+
+  - authors:
     - A. Meyer*
     - D. Ley*
     - S. Srinivas
