@@ -1,5 +1,5 @@
 
-\documentclass[11pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt, a4paper, english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{orange}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 \nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
@@ -9,8 +9,9 @@
 \usepackage{amssymb}
 \RequirePackage[unicode]{hyperref}
 
-\usepackage{cmbright}
+\usepackage{lmodern}
 \usepackage[OT1]{fontenc}
+\renewcommand{\familydefault}{\sfdefault}
 
 \definecolor{floralwhite}{RGB}{255,255,250}
 
@@ -22,12 +23,12 @@
 %\usepackage{babel}
 %\usepackage{hyperref}
 \setstretch{1.05}
-\newcommand{\cvsection}[1]{\vspace{0.3cm}\subsection{\Large{#1}}}
+\newcommand{\cvsection}[1]{\vspace{0.2cm}\subsection{\Large{\textit{#1}}}}
 %\newcommand{\cvitem}[2]{def}
 %----------------------------------------------------------------------------------
 %            personal data
 %----------------------------------------------------------------------------------
-\firstname{\hspace{1em}\textcolor{darkgray}{\Huge{Suraj Srinivas}}}
+\firstname{\textcolor{darkgray}{\LARGE{\textbf{Suraj Srinivas}}}}
 \familyname{}
 % \\ \vspace*{0.1cm} \normalsize{\faGlobe ~\href{https://suraj-srinivas.github.io}{suraj-srinivas.github.io}  $\cdot$  \faEnvelope~ ssrinivas@seas.harvard.edu $\cdot$  suuraj.srinivas@gmail.com} }
                                  
@@ -43,10 +44,10 @@
 \textcolor{gray}{\hrule}
 
 \cvsection{contact information}
-\cvitem{}{6.220, 150 Western Ave \newline Harvard University, Boston, MA \vspace{1ex}\newline suuraj.srinivas@gmail.com \newline ssrinivas@seas.harvard.edu \newline \href{https://suraj-srinivas.github.io}{suraj-srinivas.github.io}}
+\cvitem{}{6.220, 150 Western Ave \newline Harvard University, Boston, MA \vspace{1ex}\newline \textit{Email}: suuraj.srinivas@gmail.com, ssrinivas@seas.harvard.edu \newline \textit{Webpage}: \href{https://suraj-srinivas.github.io}{suraj-srinivas.github.io}}
 
 \cvsection{research interests}
-\cvitem{}{Robustness, Interpretability \& Computational Efficiency of Deep models;  \newline Generative modelling; Representation learning}
+\cvitem{}{Robustness, Interpretability, Computational Efficiency of Deep models;  \newline Generative modelling; Representation learning}
 
 %\vspace{0.5cm}
 
@@ -81,13 +82,27 @@ processing algorithms on FPGA for a thermal imaging camera}{}
 
 \cventry{06/2013 \newline - 08/2013}{Research Intern}{Indian Institute of Science, Bangalore}{}{\newline
 Research on computational photography to perform camera jitter compensation}{}
-\clearpage
+
+\cvsection{awards and honors}
+\cvitem{2022}{Best paper award at ICML \textit{Interpretable ML for Healthcare} Workshop}
+\cvitem{2022}{Highlighted Reviewer at \textit{International Conference on Learning Representations (ICLR)}}
+\cvitem{2021}{EPFL PhD Thesis Distinction Award for top 8\% thesis in the dept. of   EE}
+\cvitem{2019}{ICML travel grant for ICML 2019}
+\cvitem{2017}{Best paper award at NeurIPS \textit{Learning with Limited Data} Workshop} 
+\cvitem{2015}{Xerox Research India travel grant for BMVC 2015}
+\cvitem{2014}{Ranked 399 (out of $\sim$ 200k candidates) nation-wide in the Graduate Aptitude Test in Engineering for entrance to graduate school in electronics and communications engineering}
+\cvitem{2012}{First place at the E-Yantra nation-wide robotics contest held at IIT-Bombay, and featured in The Times of India, New Indian Express and DH Education}
+%\cvitem{2011-2013}{Served as writer and later technology editor of the college magazine}
+%\cvitem{2011-2013}{Founded Robotics club at college, organized and conducted workshops on "Introduction to Arduino" and "Introduction to Robotics", participated in and organized robotics competitions}
+%\cvitem{2011}{Served as a volunteer English \& computer science teacher for local underprivileged schools}
+\cvitem{2010}{Ranked 191 (out of $\sim$ 100k candidates) state-wide in the Karnataka Common Entrance Test for entrance to undergraduate engineering programmes.} 
+
 \cvsection{publications}
 %\vspace*{-0.3cm}
 %\subsection{\small{\href{https://bit.ly/2keccl6}{Google Scholar Profile}}}
 
-\vspace{0.25cm}
-\cvitem{2023} {Anna Meyer*, Dan Ley*, \textbf{Suraj Srinivas$^\dagger$}, Hima Lakkaraju. ($^\dagger$advising role) \newline ``On Minimizing the Impact of Dataset Shifts on Actionable Explanations'' \newline{\textit{Uncertainty in Artificial Intelligence (UAI)}} - \textbf{Oral}
+\vspace{0.1cm}
+\cvitem{2023} {Anna Meyer*, Dan Ley*, \textbf{Suraj Srinivas}, Hima Lakkaraju. \newline ``On Minimizing the Impact of Dataset Shifts on Actionable Explanations'' \newline{\textit{Uncertainty in Artificial Intelligence (UAI)}} - \textbf{Oral}
 }
 \vspace*{0.25em}
 
@@ -96,7 +111,7 @@ Research on computational photography to perform camera jitter compensation}{}
 }
 \vspace*{0.25em}
 
-\cvitem{2022} {Tessa Han, \textbf{Suraj Srinivas$^\dagger$}, Hima Lakkaraju. ($^\dagger$advising role)
+\cvitem{2022} {Tessa Han, \textbf{Suraj Srinivas}, Hima Lakkaraju. 
 \newline ``Which Explanation Should I Choose? A Function Approximation Perspective to Characterizing Post hoc Explanations''
 \newline \textit{Neural Information Processing Systems (NeurIPS)} \newline \textit{ICML Interpretable ML for Healthcare Workshop} - \textbf{Best Paper Award}}
 \vspace*{0.25em}
@@ -194,11 +209,10 @@ Networks Smaller and Faster} \newline Deep Learning Conf, Bangalore}
  \newline ICLR, ICML, NeurIPS (2022); ICLR, AISTATS (2023)}
 \cvitem{Journals}{IEEE SP-Letters, Elsevier Neural Networks, IEEE T-PAMI, Nature Communications}
 %\vspace*{0.15cm}
-\clearpage
 \cvsection{teaching}
-\cvitem{2023}{Co-instructor for \textit{Interpretability and Explainability in ML} (CS-282BR) \newline Harvard University, USA}
-\cvitem{2018, '19, '21}{Teaching Assistant for \textit{Deep Learning}  (EE-559) \newline EPFL, Switzerland}
-\cvitem{2021}{Guest Lecturer on Interpretability for \textit{Deep Learning for Computer Vision} (DS-265) \newline Indian Institute of Science, Bangalore}
+\cvitem{2023}{Co-instructor for \textit{Interpretability and Explainability in ML} \newline \textit{Instructors}: Prof. Hima Lakkaraju, Jiaqi Ma, Suraj Srinivas\newline Harvard University, USA \newline \textit{Webpage}: \url{https://interpretable-ml-class.github.io/}}
+\cvitem{2018, '19, '21}{Teaching Assistant for \textit{Deep Learning}  (EE-559) \newline \textit{Instructor:} Prof. Fran\c{c}ois Fleuret \newline EPFL, Switzerland}
+\cvitem{2021}{Guest Lecturer on Interpretability for \textit{Deep Learning for Computer Vision} (DS-265) \newline \textit{Instructor:} Prof. R. Venkatesh Babu \newline Indian Institute of Science, Bangalore}
 
 \cvsection{research mentoring}
 \cvitem{2022-23}{Tessa Han (PhD candidate, Harvard) \newline \textit{Local Function Approximation to Characterize Explanations, NeurIPS 2022} \newline \textit{Uncertainty Quantification via Local Linear Approximations} }
@@ -212,31 +226,15 @@ Networks Smaller and Faster} \newline Deep Learning Conf, Bangalore}
 \cvsection{service}
 \cvitem{2023}{Co-organizing ``XAI in Action: Past, Present, and Future Applications'' \newline \textit{NeurIPS 2023 workshop} (upcoming)}
 
-\cvsection{awards and honors}
-\cvitem{2022}{Best paper award at ICML \textit{Interpretable ML for Healthcare} Workshop}
-\cvitem{2022}{Highlighted Reviewer at \textit{International Conference on Learning Representations (ICLR)}}
-\cvitem{2021}{EPFL PhD Thesis Distinction Award for top 8\% thesis in the dept. of   EE}
-\cvitem{2019}{ICML travel grant for ICML 2019}
-\cvitem{2017}{Best paper award at NeurIPS \textit{Learning with Limited Data} Workshop} 
-\cvitem{2015}{Xerox Research India travel grant for BMVC 2015}
-\cvitem{2014}{Ranked 399 (out of $\sim$ 200k candidates) nation-wide in the Graduate Aptitude Test in Engineering for entrance to graduate school in electronics and communications engineering}
-\cvitem{2012}{First place at the E-Yantra nation-wide robotics contest held at IIT-Bombay, and featured in The Times of India, New Indian Express and DH Education}
-%\cvitem{2011-2013}{Served as writer and later technology editor of the college magazine}
-%\cvitem{2011-2013}{Founded Robotics club at college, organized and conducted workshops on "Introduction to Arduino" and "Introduction to Robotics", participated in and organized robotics competitions}
-%\cvitem{2011}{Served as a volunteer English \& computer science teacher for local underprivileged schools}
-\cvitem{2010}{Ranked 191 (out of $\sim$ 100k candidates) state-wide in the Karnataka Common Entrance Test for entrance to undergraduate engineering programmes.} 
+\cvsection{references}
+\cvitem{}{Prof. Himabindu Lakkaraju \newline Harvard University, USA \newline \texttt{hlakkaraju@hbs.edu}}
+\vspace{2ex}
 
-%\clearpage
+\cvitem{}{Prof. Fran\c{c}ois Fleuret \newline University of Geneva, Switzerland \newline \texttt{francois.fleuret@unige.ch}}
+\vspace{2ex}
 
-%\cvsection{References}
-%\cvitem{}{Prof. Himabindu Lakkaraju \newline Harvard University, USA \newline \texttt{hlakkaraju@hbs.edu}}
-%\vspace{2ex}
-
-%\cvitem{}{Prof. Francois Fleuret \newline University of Geneva, Switzerland \newline \texttt{francois.fleuret@unige.ch}}
-%\vspace{2ex}
-
-%\cvitem{}{Prof. R. Venkatesh Babu \newline Indian Institute of Science, Bangalore \newline \texttt{venky@iisc.ac.in}}
-%\vspace{2ex}
+\cvitem{}{Prof. R. Venkatesh Babu \newline Indian Institute of Science, Bangalore \newline \texttt{venky@iisc.ac.in}}
+\vspace{2ex}
 
 
 \end{document}
