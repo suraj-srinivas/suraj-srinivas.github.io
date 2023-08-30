@@ -23,13 +23,19 @@
 %\usepackage{babel}
 %\usepackage{hyperref}
 \setstretch{1.05}
-\newcommand{\cvsection}[1]{\vspace{0.2cm}\subsection{\Large{\textit{#1}}}}
+\newcommand{\cvsection}[1]{\vspace{0.3cm}\subsection{\Large{{#1}}}}
 %\newcommand{\cvitem}[2]{def}
 %----------------------------------------------------------------------------------
 %            personal data
 %----------------------------------------------------------------------------------
-\firstname{\textcolor{darkgray}{\LARGE{\textbf{Suraj Srinivas}}}}
-\familyname{}
+\firstname{{\huge{\textbf{Suraj Srinivas}}}
+{\newline \footnotesize{\textit{ssrinivas@seas.harvard.edu} $\cdot$ \textit{suuraj.srinivas@gmail.com} $\cdot$ \href{https://suraj-srinivas.github.io}{\texttt{suraj-srinivas.github.io}}
+}}
+}
+\familyname{} 
+
+
+
 % \\ \vspace*{0.1cm} \normalsize{\faGlobe ~\href{https://suraj-srinivas.github.io}{suraj-srinivas.github.io}  $\cdot$  \faEnvelope~ ssrinivas@seas.harvard.edu $\cdot$  suuraj.srinivas@gmail.com} }
                                  
                                   
@@ -40,72 +46,65 @@
 
 \makecvtitle
 
-\vspace{-1.5cm}
+\vspace{-1.7cm}
 \textcolor{gray}{\hrule}
 
-\cvsection{contact information}
-\cvitem{}{6.220, 150 Western Ave \newline Harvard University, Boston, MA \vspace{1ex}\newline \textit{Email}: suuraj.srinivas@gmail.com, ssrinivas@seas.harvard.edu \newline \textit{Webpage}: \href{https://suraj-srinivas.github.io}{suraj-srinivas.github.io}}
+%\cvsection{contact information}
+%\cvitem{}{\textit{Email}: suuraj.srinivas@gmail.com, ssrinivas@seas.harvard.edu \newline \textit{Webpage}: \href{https://suraj-srinivas.github.io}{suraj-srinivas.github.io}}
 
 \cvsection{research interests}
-\cvitem{}{Robustness, Interpretability, Computational Efficiency of Deep models;  \newline Generative modelling; Representation learning}
+\cvitem{}{My research aims to \textbf{improve the scientific and mathematical understanding} of deep neural network models and their associated learning algorithms. Practically, I am interested in rigorous methods to build \textbf{interpretable, robust and computationally efficient} models.}
 
 %\vspace{0.5cm}
 
 \cvsection{work experience}
-\cventry{01/2022 \newline - Present}{Postdoctoral Research Fellow}{}{\newline Harvard University, USA}
-{\newline \textbf{Advisor}: Prof. Hima Lakkaraju
-\newline \textbf{Duties}: 
-Academic research $\cdot$ Technical guidance \& mentoring $\cdot$ Teaching}{}
+\cventry{2022 - }{Postdoctoral Research Fellow}{}
+{\newline Harvard University, USA}
+{\newline \textbf{Faculty Advisor}: Prof. Himabindu Lakkaraju 
+\newline \textbf{Research Topics}: Trustworthy machine learning, robustness, large-scale generative models}{}
 
 \cvsection{education}
-\cventry{2017 \newline - 2021}{Doctor of Philosophy}{}
+\cventry{2021}{Doctor of Philosophy}{}
 { \newline \'{E}cole Polytechnique F\'{e}d\'{e}rale de Lausanne (EPFL), Switzerland}
-{ \newline \textbf{Advisor}: Prof. Fran\c{c}ois Fleuret}
+{ \newline \textbf{Faculty Advisor}: Prof. Fran\c{c}ois Fleuret
+  \newline \textbf{Thesis}: Gradient-based Methods for Deep Model Interpretability}
 {}
 \vspace*{0.5em}
 
-\cventry{2014\newline - 2017}{Master of Science (Engineering)}{}{\newline Indian Institute of Science, Bangalore, India}{ \newline \textbf{Advisor}: Prof. R. Venkatesh Babu}{} 
-\vspace*{0.5em}
-
-\cventry{2010 - 2014}{Bachelor of Engineering}{}{\newline PES University, Bangalore, India}{}{} 
+\cventry{2017}{Master of Science (Engineering)}{}{\newline Indian Institute of Science, Bangalore, India}
+{ \newline \textbf{Faculty Advisor}: Prof. R. Venkatesh Babu
+\newline \textbf{Thesis}: Learning Compact Architectures for Deep Neural Networks}{} 
+%\vspace*{0.5em}
+%\cventry{2010 - 2014}{Bachelor of Engineering}{}{\newline PES University, Bangalore, India}{}{} 
 
 \cvsection{internships}
 
-\cventry{08/2020 \newline - 01/2021}{Research Intern}{Qualcomm AI Research, Netherlands}{\newline Research on algorithms
+\cventry{winter 2020}{Research Intern}{Qualcomm AI Research, Netherlands}{\newline Research on algorithms
 to sparsify neural networks}{}{}
 
-\cventry{06/2016 \newline - 08/2016}{Research Intern}{DataGrokr, India / Verisk
+\cventry{summer 2016}{Research Intern}{DataGrokr, India / Verisk
 Analytics, USA}{\newline Speeding up inference on deep neural networks using tensor factorization}{}{}
 
-\cventry{01/2014 \newline - 06/2014}{Engineering Intern}{Tonbo Imaging, Bangalore}{}{\newline Implemented image
+\cventry{fall 2014}{Engineering Intern}{Tonbo Imaging, Bangalore}{}{\newline Implemented image
 processing algorithms on FPGA for a thermal imaging camera}{}
 
-\cventry{06/2013 \newline - 08/2013}{Research Intern}{Indian Institute of Science, Bangalore}{}{\newline
+\cventry{summer 2013}{Research Intern}{Indian Institute of Science, Bangalore}{}{\newline
 Research on computational photography to perform camera jitter compensation}{}
 
 \cvsection{awards and honors}
-\cvitem{2022}{Best paper award at ICML \textit{Interpretable ML for Healthcare} Workshop}
-\cvitem{2022}{Highlighted Reviewer at \textit{International Conference on Learning Representations (ICLR)}}
-\cvitem{2021}{EPFL PhD Thesis Distinction Award for top 8\% thesis in the dept. of   EE}
+
+\cvitem{2022}{\textbf{Best paper award} at ICML \textit{Interpretable ML for Healthcare} Workshop}
+\cvitem{2022}{\textbf{Highlighted reviewer} at \textit{International Conference on Learning Representations (ICLR)}}
+\cvitem{2021}{EPFL EDEE \textbf{PhD thesis distinction award} for top 8\% thesis in EE}
 \cvitem{2019}{ICML travel grant for ICML 2019}
-\cvitem{2017}{Best paper award at NeurIPS \textit{Learning with Limited Data} Workshop} 
+\cvitem{2017}{\textbf{Best paper award} at NeurIPS \textit{Learning with Limited Data} Workshop} 
 \cvitem{2015}{Xerox Research India travel grant for BMVC 2015}
-\cvitem{2014}{Ranked 399 (out of $\sim$ 200k candidates) nation-wide in the Graduate Aptitude Test in Engineering for entrance to graduate school in electronics and communications engineering}
-\cvitem{2012}{First place at the E-Yantra nation-wide robotics contest held at IIT-Bombay, and featured in The Times of India, New Indian Express and DH Education}
-%\cvitem{2011-2013}{Served as writer and later technology editor of the college magazine}
-%\cvitem{2011-2013}{Founded Robotics club at college, organized and conducted workshops on "Introduction to Arduino" and "Introduction to Robotics", participated in and organized robotics competitions}
-%\cvitem{2011}{Served as a volunteer English \& computer science teacher for local underprivileged schools}
-\cvitem{2010}{Ranked 191 (out of $\sim$ 100k candidates) state-wide in the Karnataka Common Entrance Test for entrance to undergraduate engineering programmes.} 
+\cvitem{2014}{\textbf{All India Rank 399} (99.8\%ile) in the Graduate Aptitude Test in Engineering (GATE) for entrance to graduate school in electronics and communications engineering}
+\cvitem{2010}{\textbf{State Rank 191} (99.8\%ile) in the Karnataka Common Entrance Test (CET) for entrance to undergraduate engineering programmes.} 
+%\cvitem{2012}{First place at the E-Yantra nation-wide robotics contest held at IIT-Bombay, and featured in The Times of India, New Indian Express and DH Education}
+\clearpage
 
-\cvsection{publications}
-%\vspace*{-0.3cm}
-%\subsection{\small{\href{https://bit.ly/2keccl6}{Google Scholar Profile}}}
-
-\vspace{0.1cm}
-\cvitem{2023} {Anna Meyer*, Dan Ley*, \textbf{Suraj Srinivas}, Hima Lakkaraju. \newline ``On Minimizing the Impact of Dataset Shifts on Actionable Explanations'' \newline{\textit{Uncertainty in Artificial Intelligence (UAI)}} - \textbf{Oral}
-}
-\vspace*{0.25em}
-
+\cvsection{selected publications}
 
 \cvitem{2022} {\textbf{Suraj Srinivas}*, Kyle Matoba*, Hima Lakkaraju, Fran\c{c}ois Fleuret. (*co-first-author) \newline ``Efficient Training of Low-Curvature Neural Networks'' \newline{\textit{Neural Information Processing Systems (NeurIPS)}}
 }
@@ -116,6 +115,24 @@ Research on computational photography to perform camera jitter compensation}{}
 \newline \textit{Neural Information Processing Systems (NeurIPS)} \newline \textit{ICML Interpretable ML for Healthcare Workshop} - \textbf{Best Paper Award}}
 \vspace*{0.25em}
 
+\cvitem{2021}{\textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret. \newline ``Rethinking the Role of Gradient-based Attribution Methods in Model Interpretability" 
+\newline \textit{International Conference on Learning Represetations (ICLR)} - \textbf{Oral}
+}
+\vspace*{0.25em}
+
+\cvitem{2018} {\textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret.
+\newline ``Knowledge Transfer with Jacobian Matching" 
+\newline \textit{International Conference on Machine Learning (ICML)}
+\newline \textit{NeurIPS Learning with Limited Data (LLD) Workshop} - \textbf{Best Paper Award}
+}
+\vspace*{0.25em}
+
+\cvsection{additional publications}
+\vspace{0.1cm}
+\cvitem{2023} {Anna Meyer*, Dan Ley*, \textbf{Suraj Srinivas}, Hima Lakkaraju. \newline ``On Minimizing the Impact of Dataset Shifts on Actionable Explanations'' \newline{\textit{Uncertainty in Artificial Intelligence (UAI)}} - \textbf{Oral}
+}
+\vspace*{0.25em}
+
 \cvitem{2022} {Marwa El Halabi, \textbf{Suraj Srinivas}, Simon Lacoste-Julien.
 \newline ``Data-Efficient Structured Pruning via Submodular Optimization" \newline \textit{Neural Information Processing Systems (NeurIPS)}}
 
@@ -124,20 +141,9 @@ Research on computational photography to perform camera jitter compensation}{}
 \newline \textit{Computer Vision and Pattern Recognition Workshops (CVPRW)} - \textbf{Oral}}
 
 \vspace*{0.25em}
-\cvitem{2021}{\textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret. \newline ``Rethinking the Role of Gradient-based Attribution Methods in Model Interpretability" 
-\newline \textit{International Conference on Learning Represetations (ICLR)} - \textbf{Oral}
-}
-\vspace*{0.25em}
 
 \cvitem{2019} {\textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret. \newline ``Full-Gradient Representation
 for Neural Network Visualization" \newline \textit{Neural Information Processing Systems (NeurIPS)}
-}
-\vspace*{0.25em}
-
-\cvitem{2018} {\textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret.
-\newline ``Knowledge Transfer with Jacobian Matching" 
-\newline \textit{International Conference on Machine Learning (ICML)}
-\newline \textit{NeurIPS Learning with Limited Data (LLD) Workshop} - \textbf{Best Paper Award}
 }
 \vspace*{0.25em}
 
@@ -158,7 +164,23 @@ Sparse Neural Networks"
 \newline ``Data-free Parameter Pruning for Deep Neural Networks"
 \newline \textit{British Computer Vision Conference (BMVC)}}
 
-\clearpage
+\clearpage 
+\cvsection{manuscripts under review}
+
+\cvitem{2023} {\textbf{Suraj Srinivas}*, Sebastian Bordt*, Hima Lakkaraju. (*co-first-author) \newline ``Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness'' 
+\newline Preliminary version: \textit{ICML 2023 workshop on New Frontiers in Adversarial Machine Learning}}
+
+\cvitem{2023} {Usha Bhalla*, \textbf{Suraj Srinivas}*, Hima Lakkaraju. (*co-first-author) \newline ``Verifiable feature attributions: A bridge between post hoc explainability and inherent interpretability.'' 
+\newline Preliminary version: \textit{ICML 2023 workshop on Interpretable Machine Learning for Healthcare}}
+
+\cvitem{2023} {Tessa Han, \textbf{Suraj Srinivas}, Hima Lakkaraju. \newline ``Efficient estimation of the local robustness
+of machine learning models.'' 
+\newline Preliminary version: \textit{ICML 2023 workshop on Formal Verification of Machine Learning}}
+
+\cvitem{2023} {Dan Ley, Leonard Tang, Matthew Nazari, Hongjin Lin, \textbf{Suraj Srinivas}, and Hima Lakkaraju. \newline ``Consistent explanations in the face of model indeterminacy via ensembling'' 
+\newline Preliminary version: \textit{ICML 2023 workshop on Interpretable Machine Learning for Healthcare}}
+
+
 \cvsection{book chapters}
 
 \cvitem{2017}{\textbf{Suraj Srinivas}, Ravi Kiran Sarvadevabhatla, Konda Reddy Mopuri, Nikita Prabhu, Srinivas SS Kruthiventi, R. Venkatesh Babu. 
@@ -210,13 +232,13 @@ Networks Smaller and Faster} \newline Deep Learning Conf, Bangalore}
 \cvitem{Journals}{IEEE SP-Letters, Elsevier Neural Networks, IEEE T-PAMI, Nature Communications}
 %\vspace*{0.15cm}
 \cvsection{teaching}
-\cvitem{2023}{Co-instructor for \textit{Interpretability and Explainability in ML} \newline \textit{Instructors}: Prof. Hima Lakkaraju, Jiaqi Ma, Suraj Srinivas\newline Harvard University, USA \newline \textit{Webpage}: \url{https://interpretable-ml-class.github.io/}}
-\cvitem{2018, '19, '21}{Teaching Assistant for \textit{Deep Learning}  (EE-559) \newline \textit{Instructor:} Prof. Fran\c{c}ois Fleuret \newline EPFL, Switzerland}
-\cvitem{2021}{Guest Lecturer on Interpretability for \textit{Deep Learning for Computer Vision} (DS-265) \newline \textit{Instructor:} Prof. R. Venkatesh Babu \newline Indian Institute of Science, Bangalore}
+\cvitem{2023}{\textbf{Co-instructor} for \textit{Interpretability and Explainability in ML} \newline \textit{Instructors}: Prof. Hima Lakkaraju, Jiaqi Ma, Suraj Srinivas\newline Harvard University, USA \newline \textit{Webpage}: \url{https://interpretable-ml-class.github.io/}}
+\cvitem{2018, '19, '21}{\textbf{Teaching Assistant} for \textit{Deep Learning}  \newline \textit{Instructor:} Prof. Fran\c{c}ois Fleuret \newline EPFL, Switzerland}
+\cvitem{2021}{\textbf{Guest Lecturer} on Interpretability for \textit{Deep Learning for Computer Vision} \newline \textit{Instructor:} Prof. R. Venkatesh Babu \newline Indian Institute of Science, Bangalore}
 
 \cvsection{research mentoring}
-\cvitem{2022-23}{Tessa Han (PhD candidate, Harvard) \newline \textit{Local Function Approximation to Characterize Explanations, NeurIPS 2022} \newline \textit{Uncertainty Quantification via Local Linear Approximations} }
-\cvitem{2023}{Usha Bhalla (PhD student, Harvard) \newline \textit{Dataset Distillation for Interpretability}}
+\cvitem{2022-23}{Tessa Han (PhD candidate, Harvard) \newline \textit{Local Function Approximation to Characterize Explanations, NeurIPS 2022} \newline \textit{Efficient Estimation of Local Robustness} }
+\cvitem{2023}{Usha Bhalla (PhD student, Harvard) \newline \textit{Verifiable Feature Attributions}}
 \cvitem{2023}{Daniel Ley (PhD student, Harvard) \newline \textit{On Minimizing the Impact of Dataset Shifts on Actionable Explanations, UAI 2023}}
 \cvitem{2022}{Vincent Micheli \& Karthigan Sinnathamby (M.Sc. students, EPFL) \newline \textit{Multi-task Reinforcement Learning with a Planning Quasi-Metric}}
 \cvitem{2017}{Akshayvarun Subramanya (Research Assistant, IISc) \newline \textit{Estimating Confidence for Deep Neural Networks via Density Modeling, SPCOM 2017} }
@@ -226,15 +248,21 @@ Networks Smaller and Faster} \newline Deep Learning Conf, Bangalore}
 \cvsection{service}
 \cvitem{2023}{Co-organizing ``XAI in Action: Past, Present, and Future Applications'' \newline \textit{NeurIPS 2023 workshop} (upcoming)}
 
-\cvsection{references}
-\cvitem{}{Prof. Himabindu Lakkaraju \newline Harvard University, USA \newline \texttt{hlakkaraju@hbs.edu}}
-\vspace{2ex}
+%\cvsection{media coverage}
+%\cvitem{2022}{\href{https://indiaai.gov.in/article/india-already-excels-in-ai-research-with-world-class-experts-suraj-srinivas-harvard-university}{Interview with IndiaAI}}
+%\cvitem{2013}{\href{https://timesofindia.indiatimes.com/city/bengaluru/pesit-iisc-students-win-robotics-contest/articleshow/19158132.cms}{Students win robotics contest}}
 
-\cvitem{}{Prof. Fran\c{c}ois Fleuret \newline University of Geneva, Switzerland \newline \texttt{francois.fleuret@unige.ch}}
-\vspace{2ex}
+%\clearpage
 
-\cvitem{}{Prof. R. Venkatesh Babu \newline Indian Institute of Science, Bangalore \newline \texttt{venky@iisc.ac.in}}
-\vspace{2ex}
+%\cvsection{references}
+%\cvitem{}{Prof. Himabindu Lakkaraju \newline Harvard University, USA \newline \texttt{hlakkaraju@hbs.edu}}
+%\vspace{2ex}
+
+%\cvitem{}{Prof. Fran\c{c}ois Fleuret \newline University of Geneva, Switzerland \newline \texttt{francois.fleuret@unige.ch}}
+%\vspace{2ex}
+
+%\cvitem{}{Prof. R. Venkatesh Babu \newline Indian Institute of Science, Bangalore \newline \texttt{venky@iisc.ac.in}}
+%\vspace{2ex}
 
 
 \end{document}
