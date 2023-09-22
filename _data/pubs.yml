@@ -4,24 +4,24 @@ papers:
     - S. Bordt*
     lastauthor: H. Lakkaraju
     year: 2023
-    journal: Working paper
+    journal: NeurIPS
     title: Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness
     tldr: Previous work has identified the phenomenon of "perceptually aligned gradients" of robust models. In this work, we explain this phenomenon by observing that robust models in practice are not robust in all directions, in fact they are mostly only robust outside the data manifold. This causes their gradients to align with the manifold, causing them to be perceptually aligned. 
     url: https://arxiv.org/abs/2305.19101
-    type: preprint
+    type: long
     featured: true
+    notes: Spotlight presentation (Top 3%)
 
   - authors:
     - U. Bhalla*
     - S. Srinivas*
     lastauthor: H. Lakkaraju
     year: 2023
-    journal: Working paper
+    journal: NeurIPS
     title: Verifiable Feature Attributions, A Bridge between Post Hoc Explainability and Inherent Interpretability
     tldr: If an input feature is unimportant according to a model, then removing that feature shouldn't affect model outputs. We train "inherently interpretable" models that have this property!
     url: https://arxiv.org/abs/2307.15007
-    type: preprint
-    featured: true
+    type: long
 
   - authors: 
     - T. Han
@@ -71,7 +71,7 @@ papers:
     title: On Minimizing the Impact of Dataset Shifts on Actionable Explanations
     tldr: How to train classifiers such that they are unaffected by small shifts in the dataset? We show theoretically and experimentally that weight decay, model curvature and robustness are all important factors that can help minimize the impact of such dataset shifts.
     url: https://arxiv.org/abs/2306.06716
-    notes: Oral presentation
+    notes: Oral presentation (Top 5%)
     type: long
 
   - authors:
@@ -86,6 +86,7 @@ papers:
     notes: Best paper award at ICML IMLH 2022 workshop
     workshop: https://icml.cc/virtual/2022/workshop/13449
     type: long
+    featured: true
 
   - authors:
       - S. Srinivas*
@@ -141,7 +142,7 @@ papers:
     presentation: https://docs.google.com/presentation/d/1v35LGiLpFDSN2okOC9qxWjQ8MiHkYAMeMUCU8U3dFzE/edit?usp=sharing
     code: https://github.com/idiap/rethinking-saliency/
     workshop: https://sites.google.com/view/whi2020/
-    notes: Oral presentation  
+    notes: Oral presentation (Top 1%) 
     poster: pdfs/iclr2021_poster.pdf
     type: long
     featured: true

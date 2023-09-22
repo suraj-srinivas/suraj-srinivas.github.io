@@ -23,13 +23,11 @@ For more information see my [google scholar](https://scholar.google.com/citation
 
 {% include publications.html type='preprint' %}
 {% include publications.html type='hack-to-avoid-tldr-error' %} 
-<br>
 
 ## **long papers**
 
 {% include publications.html type='long' %}
 {% include publications.html type='hack-to-avoid-tldr-error' %}
-<br>
 
 ## **short conference / workshop papers**
 
