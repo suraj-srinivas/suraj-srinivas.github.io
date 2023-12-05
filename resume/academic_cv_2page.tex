@@ -1,0 +1,186 @@
+
+\documentclass[11pt, a4paper, english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    left=15mm,
+    top=15mm,
+    right=15mm,
+    bottom=15mm
+    }
+
+\usepackage{setspace}
+\usepackage{amssymb}
+\RequirePackage[unicode]{hyperref}
+
+%\usepackage{lmodern}
+\usepackage[OT1]{fontenc}
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{floralwhite}{RGB}{255,255,250}
+
+\hypersetup{colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = teal,
+            citecolor = blue,
+            anchorcolor = blue}
+%\usepackage{babel}
+%\usepackage{hyperref}
+\setstretch{1.05}
+\newcommand{\cvsection}[1]{\vspace{0.3cm}\subsection{\Large{{#1}}}}
+\newcommand{\cvsubsection}[1]{\vspace{0.3cm}\subsection{\large{{#1}}}}
+%\newcommand{\cvitem}[2]{def}
+%----------------------------------------------------------------------------------
+%            personal data
+%----------------------------------------------------------------------------------
+\firstname{{\huge{\textbf{Suraj Srinivas}}}
+{\newline \footnotesize{{ssrinivas@seas.harvard.edu} $\cdot$ {suuraj.srinivas@gmail.com} $\cdot$ \href{https://suraj-srinivas.github.io}{\texttt{suraj-srinivas.github.io}}
+}}
+}
+\familyname{} 
+
+
+
+% \\ \vspace*{0.1cm} \normalsize{\faGlobe ~\href{https://suraj-srinivas.github.io}{suraj-srinivas.github.io}  $\cdot$  \faEnvelope~ ssrinivas@seas.harvard.edu $\cdot$  suuraj.srinivas@gmail.com} }
+                                 
+                                  
+\begin{document}
+\pagecolor{floralwhite}
+%-----       resume       ---------------------------------------------------------
+%\vspace*{-1cm}
+
+\makecvtitle
+
+\vspace{-1.7cm}
+\textcolor{gray}{\hrule}
+
+%\cvsection{contact information}
+%\cvitem{}{\textit{Email}: suuraj.srinivas@gmail.com, ssrinivas@seas.harvard.edu \newline \textit{Webpage}: \href{https://suraj-srinivas.github.io}{suraj-srinivas.github.io}}
+
+\cvsection{research interests}
+\cvitem{}{Trustworthy Machine Learning (Interpretability, Explainability and Robustness); \newline Computationally Efficient Machine Learning; Large Language Models; Generative Models}
+
+%\vspace{0.5cm}
+
+\cvsection{work experience}
+\cventry{2022 - }{Postdoctoral Research Fellow}{}
+{\newline Harvard University, USA}
+{\newline \textbf{Faculty Advisor}: Prof. Himabindu Lakkaraju 
+\newline \textbf{Research Topics}: Interpretable Machine Learning, Robustness}{}
+
+\cvsection{education}
+\cventry{2021}{Doctor of Philosophy}{}
+{ \newline \'{E}cole Polytechnique F\'{e}d\'{e}rale de Lausanne (EPFL), Switzerland}
+{ \newline \textbf{Faculty Advisor}: Prof. Fran\c{c}ois Fleuret
+  \newline \textbf{Thesis}: Gradient-based Methods for Deep Model Interpretability}
+{}
+\vspace*{0.5em}
+
+\cventry{2017}{Master of Science (Engineering)}{}{\newline Indian Institute of Science, Bangalore, India}
+{ \newline \textbf{Faculty Advisor}: Prof. R. Venkatesh Babu
+\newline \textbf{Thesis}: Learning Compact Architectures for Deep Neural Networks}{} 
+%\vspace*{0.5em}
+%\cventry{2010 - 2014}{Bachelor of Engineering}{}{\newline PES University, Bangalore, India}{}{} 
+
+\cvsection{internships}
+
+\cventry{winter 2020}{Research Intern}{Qualcomm AI Research, Netherlands}{\newline Research on algorithms
+to sparsify neural networks}{}{}
+
+%\cventry{summer 2016}{Research Intern}{Verisk
+%Analytics, USA}{\newline Speeding up inference on deep neural networks using tensor factorization}{}{}
+
+%\cventry{fall 2014}{Engineering Intern}{Tonbo Imaging, Bangalore}{}{\newline Implemented image
+%processing algorithms on FPGA for a thermal imaging camera}{}
+
+%\cventry{summer 2013}{Research Intern}{Indian Institute of Science, Bangalore}{}{\newline Research on computational photography to perform camera jitter compensation}{}
+
+\cvsection{awards and honors}
+
+\cvitem{2022}{\textbf{Best paper award} at ICML \textit{Interpretable ML for Healthcare} Workshop}
+\cvitem{2022}{\textbf{Highlighted reviewer} at \textit{International Conference on Learning Representations (ICLR)}}
+\cvitem{2021}{EPFL EDEE \textbf{PhD thesis distinction award} for top 8\% thesis in EE}
+\cvitem{2019}{ICML travel grant for ICML 2019}
+\cvitem{2017}{\textbf{Best paper award} at NeurIPS \textit{Learning with Limited Data} Workshop} 
+\cvitem{2015}{Xerox Research India travel grant for BMVC 2015}
+\cvitem{2014}{\textbf{All India Rank 399} (99.8\%ile) in the Graduate Aptitude Test in Engineering (GATE) for entrance to graduate school in electronics and communications engineering}
+\cvitem{2010}{\textbf{State Rank 191} (99.8\%ile) in the Statewide Common Entrance Test (CET) for entrance to undergraduate engineering programmes.} 
+%\cvitem{2012}{First place at the E-Yantra nation-wide robotics contest held at IIT-Bombay, and featured in The Times of India, New Indian Express and DH Education}
+
+\cvsection{research summary}
+\cvitem{}{\textbf{Total citations: \href{https://scholar.google.com/citations?user=J2JWgKgAAAAJ}{$1750+$} ~ $\mid$~ h-index: $10$}}
+\cvitem{}{\# Long Papers (Long Conference + Journal papers): $12$ \newline \# Short Papers (Short Conference + Workshop papers): $7$}
+
+\cvsection{highlighted talks} 
+
+\cvitem{11/2023}{\textit{On the (Missing) Foundations of Interpretable Machine Learning} \newline Indian Institute of Technology, Hyderabad}
+
+\cvitem{03/2023}{\textit{Pitfalls and Opportunities with Feature Importance Methods} \newline \href{https://www.merl.com/news/talk-20230314-1473}{MERL seminar series}, Boston}
+
+\cvitem{07/2022}{\textit{Pitfalls and Opportunities with Feature Attribution Methods}
+    \newline Simons Institute, UC Berkeley}
+
+\cvitem{03/2022}{\textit{Cyclical Pruning for Neural Network Sparsity}
+    \newline Google Sparsity Reading Group}
+
+\cvitem{01/2020}{\textit{Full-Gradient Representation for Neural Network Visualization} \newline \href{http://mlclub.net}{ML for Astrophysicists Club} }
+
+\cvitem{11/2019}{\textit{Full-Gradient Representation for Neural Network
+Visualization} \newline Swiss Machine Learning Day, Lausanne} 
+
+
+\cvsection{reviewing}
+\cvitem{Conferences}{AAAI Conference on Artificial Intelligence (AAAI) - 2020 
+\newline IEEE Conference on Computer Vision \& Pattern Recognition (CVPR) - 2020
+\newline European Conference on Computer Vision (ECCV) - 2020
+\newline International Conference on Computer Vision (ICCV) - 2021
+\newline Workshop on Applications of Computer Vision (WACV) - 2021
+\newline Neural Information Processing Systems (NeurIPS) - 2020, 2021, 2022
+\newline International Conference on Machine Learning (ICML) - 2021, 2022
+\newline International Conference on Learning Representations (ICLR) - 2022, 2023
+\newline International Conference on Artificial Intelligence and Statistics (AISTATS) - 2023
+}
+
+\cvitem{Journals}{IEEE Signal Processing Letters 
+\newline Elsevier Neural Networks
+\newline IEEE Transactions in Pattern Analysis and Machine Intelligence 
+\newline Nature Communications}
+%\vspace*{0.15cm}
+\cvsection{teaching}
+\cvitem{2023}{\textbf{Co-instructor} for \textit{Interpretability and Explainability in ML} \newline \textit{Instructors}: Prof. Hima Lakkaraju, Jiaqi Ma, Suraj Srinivas\newline Harvard University, USA \newline \textit{Webpage}: \url{https://interpretable-ml-class.github.io/}}
+\cvitem{2018, '19, '21}{\textbf{Teaching Assistant} for \textit{Deep Learning}  \newline \textit{Instructor:} Prof. Fran\c{c}ois Fleuret \newline EPFL, Switzerland}
+
+\cvsection{research mentoring}
+\cvitem{2023}{Usha Bhalla \& Alex Oesterling (PhD students, Harvard) }
+\cvitem{2022-23}{Tessa Han (PhD candidate, Harvard)} 
+\cvitem{2023}{Usha Bhalla (PhD student, Harvard)} 
+\cvitem{2023}{Daniel Ley (PhD student, Harvard)} 
+\cvitem{2022}{Vincent Micheli \& Karthigan Sinnathamby (MSc students, EPFL)} 
+\cvitem{2017}{Akshayvarun Subramanya (Research Assistant, IISc)} 
+\cvitem{2016}{Lokesh Boominathan (Research Assistant, IISc)}
+
+\cvsection{service}
+\cvitem{2023}{\textbf{Co-organizer} of ``XAI in Action: Past, Present, and Future Applications'' \newline Workshop @ Neural Information Processing Systems (NeurIPS) 2023, New Orleans, USA}
+
+%\cvsection{media coverage}
+%\cvitem{2022}{\href{https://indiaai.gov.in/article/india-already-excels-in-ai-research-with-world-class-experts-suraj-srinivas-harvard-university}{Interview with IndiaAI}}
+%\cvitem{2013}{\href{https://timesofindia.indiatimes.com/city/bengaluru/pesit-iisc-students-win-robotics-contest/articleshow/19158132.cms}{Students win robotics contest}}
+
+%\clearpage
+
+%\cvsection{references}
+%\cvitem{}{Prof. Himabindu Lakkaraju \newline Harvard University, USA \newline \texttt{hlakkaraju@hbs.edu}}
+%\vspace{2ex}
+
+%\cvitem{}{Prof. Fran\c{c}ois Fleuret \newline University of Geneva, Switzerland \newline \texttt{francois.fleuret@unige.ch}}
+%\vspace{2ex}
+
+%\cvitem{}{Prof. R. Venkatesh Babu \newline Indian Institute of Science, Bangalore \newline \texttt{venky@iisc.ac.in}}
+%\vspace{2ex}
+
+
+\end{document}

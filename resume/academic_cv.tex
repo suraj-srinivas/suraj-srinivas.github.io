@@ -1,15 +1,23 @@
 
 \documentclass[11pt, a4paper, english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{orange}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 \nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 %\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    left=15mm,
+    top=15mm,
+    right=15mm,
+    bottom=15mm
+    }
+
 \usepackage{setspace}
 \usepackage{amssymb}
 \RequirePackage[unicode]{hyperref}
 
-\usepackage{lmodern}
+%\usepackage{lmodern}
 \usepackage[OT1]{fontenc}
 \renewcommand{\familydefault}{\sfdefault}
 
@@ -24,6 +32,7 @@
 %\usepackage{hyperref}
 \setstretch{1.05}
 \newcommand{\cvsection}[1]{\vspace{0.3cm}\subsection{\Large{{#1}}}}
+\newcommand{\cvsubsection}[1]{\vspace{0.3cm}\subsection{\large{{#1}}}}
 %\newcommand{\cvitem}[2]{def}
 %----------------------------------------------------------------------------------
 %            personal data
@@ -53,7 +62,7 @@
 %\cvitem{}{\textit{Email}: suuraj.srinivas@gmail.com, ssrinivas@seas.harvard.edu \newline \textit{Webpage}: \href{https://suraj-srinivas.github.io}{suraj-srinivas.github.io}}
 
 \cvsection{research interests}
-\cvitem{}{My research aims to develop a \textbf{principled methods} to build \textbf{interpretable, robust and computationally efficient} models.}
+\cvitem{}{Trustworthy Machine Learning (Interpretability, Explainability and Robustness); \newline Computationally Efficient Machine Learning; Large Language Models; Generative Models}
 
 %\vspace{0.5cm}
 
@@ -61,7 +70,7 @@
 \cventry{2022 - }{Postdoctoral Research Fellow}{}
 {\newline Harvard University, USA}
 {\newline \textbf{Faculty Advisor}: Prof. Himabindu Lakkaraju 
-\newline \textbf{Research Topics}: Trustworthy Machine Learning, Robustness}{}
+\newline \textbf{Research Topics}: Interpretable Machine Learning, Robustness}{}
 
 \cvsection{education}
 \cventry{2021}{Doctor of Philosophy}{}
@@ -104,91 +113,117 @@ Research on computational photography to perform camera jitter compensation}{}
 %\cvitem{2012}{First place at the E-Yantra nation-wide robotics contest held at IIT-Bombay, and featured in The Times of India, New Indian Express and DH Education}
 \clearpage
 
-\cvsection{selected publications}
+\cvsection{research articles}
 
-\cvitem{2023} {\textbf{Suraj Srinivas}*, Sebastian Bordt*, Hima Lakkaraju. (*co-first-author) \newline ``Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness'' 
+\cvitem{}{\textbf{Total citations: \href{https://scholar.google.com/citations?user=J2JWgKgAAAAJ}{$1750+$} ~ $\mid$~ h-index: $10$}}
+
+\cvsubsection{highlighted publications}
+
+\cvitem{2023} {\textbf{Suraj Srinivas}*, Sebastian Bordt*, Hima Lakkaraju. (*co-first-author) \newline Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness.
 \newline \textit{Neural Information Processing Systems (NeurIPS)} - \textbf{Spotlight (Top 3\%)}}
 \vspace*{0.25em}
 
-\cvitem{2022} {\textbf{Suraj Srinivas}*, Kyle Matoba*, Hima Lakkaraju, Fran\c{c}ois Fleuret. (*co-first-author) \newline ``Efficient Training of Low-Curvature Neural Networks'' \newline{\textit{Neural Information Processing Systems (NeurIPS)}}
+\cvitem{2022} {\textbf{Suraj Srinivas}*, Kyle Matoba*, Hima Lakkaraju, Fran\c{c}ois Fleuret. (*co-first-author) \newline Efficient Training of Low-Curvature Neural Networks. \newline{\textit{Neural Information Processing Systems (NeurIPS)}}
 }\vspace*{0.25em}
 
 \cvitem{2022} {Tessa Han, \textbf{Suraj Srinivas}, Hima Lakkaraju. 
-\newline ``Which Explanation Should I Choose? A Function Approximation Perspective to Characterizing Post hoc Explanations''
+\newline Which Explanation Should I Choose? A Function Approximation Perspective to Characterizing Post hoc Explanations.
 \newline \textit{Neural Information Processing Systems (NeurIPS)} \newline \textit{ICML Interpretable ML for Healthcare Workshop} - \textbf{Best Paper Award}}
 \vspace*{0.25em}
 
-\cvitem{2021}{\textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret. \newline ``Rethinking the Role of Gradient-based Attribution Methods in Model Interpretability" 
+\cvitem{2021}{\textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret. \newline Rethinking the Role of Gradient-based Attribution Methods in Model Interpretability.
 \newline \textit{International Conference on Learning Representations (ICLR)} - \textbf{Oral (Top 1\%)}
 }
 \vspace*{0.25em}
 
 \cvitem{2018} {\textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret.
-\newline ``Knowledge Transfer with Jacobian Matching" 
+\newline Knowledge Transfer with Jacobian Matching.
 \newline \textit{International Conference on Machine Learning (ICML)}
 \newline \textit{NeurIPS Learning with Limited Data (LLD) Workshop} - \textbf{Best Paper Award}
 }
 \vspace*{0.25em}
 
-\cvsection{additional publications}
-\vspace{0.1cm}
-\cvitem{2023} {Usha Bhalla*, \textbf{Suraj Srinivas}*, Hima Lakkaraju. (*co-first-author) \newline ``Verifiable feature attributions: A bridge between post hoc explainability and inherent interpretability.'' 
+\cvsubsection{additional peer-reviewed publications}
+\cvitem{2023} {Usha Bhalla*, \textbf{Suraj Srinivas}*, Hima Lakkaraju. (*co-first-author) \newline Discriminative feature attributions: Bridging post hoc explainability and inherent interpretability.
 \newline \textit{Neural Information Processing Systems (NeurIPS)}}
 \vspace*{0.25em}
 
-\cvitem{2023} {Anna Meyer*, Dan Ley*, \textbf{Suraj Srinivas}, Hima Lakkaraju. \newline ``On Minimizing the Impact of Dataset Shifts on Actionable Explanations'' \newline{\textit{Uncertainty in Artificial Intelligence (UAI)}} - \textbf{Oral (Top 5\%)}
+\cvitem{2023} {Anna Meyer*, Dan Ley*, \textbf{Suraj Srinivas}, Hima Lakkaraju. \newline On Minimizing the Impact of Dataset Shifts on Actionable Explanations. \newline{\textit{Uncertainty in Artificial Intelligence (UAI)}} - \textbf{Oral (Top 5\%)}
 }
 \vspace*{0.25em}
 
 \cvitem{2022} {Marwa El Halabi, \textbf{Suraj Srinivas}, Simon Lacoste-Julien.
-\newline ``Data-Efficient Structured Pruning via Submodular Optimization" \newline \textit{Neural Information Processing Systems (NeurIPS)}}
+\newline Data-Efficient Structured Pruning via Submodular Optimization. \newline \textit{Neural Information Processing Systems (NeurIPS)}}
 
 \vspace*{0.25em}
-\cvitem{2022} {\textbf{Suraj Srinivas}, Andrey Kuzmin, Markus Nagel, Mart van Baalen, \newline Andrii Skliar, Tijmen Blankevoort. \newline ``Cyclical Pruning for Sparse Neural Networks" 
+\cvitem{2022} {\textbf{Suraj Srinivas}, Andrey Kuzmin, Markus Nagel, Mart van Baalen, \newline Andrii Skliar, Tijmen Blankevoort. \newline Cyclical Pruning for Sparse Neural Networks. 
 \newline \textit{Computer Vision and Pattern Recognition Workshops (CVPRW)} - \textbf{Oral}}
 
 \vspace*{0.25em}
 
-\cvitem{2019} {\textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret. \newline ``Full-Gradient Representation
-for Neural Network Visualization" \newline \textit{Neural Information Processing Systems (NeurIPS)}
+\cvitem{2019} {\textbf{Suraj Srinivas}, Fran\c{c}ois Fleuret. \newline Full-Gradient Representation
+for Neural Network Visualization. \newline \textit{Neural Information Processing Systems (NeurIPS)}
 }
+
+\vspace*{0.25em}
+
+\cvitem{2018}{Akshayvarun Subramanya, \textbf{Suraj Srinivas}, R. Venkatesh Babu. 
+\newline Estimating Confidence for Deep Neural Networks through Density Modelling.
+\newline \textit{IEEE Conference on Signal Processing and Communications (SPCOM)} }
+
 \vspace*{0.25em}
 
 \cvitem{2017}{\textbf{Suraj Srinivas}, Akshayvarun Subramanya, R. Venkatesh Babu. 
-\newline ``Training
-Sparse Neural Networks"
+\newline Training Sparse Neural Networks.
 \newline \textit{Computer Vision and Pattern Recognition Workshops (CVPRW)} - \textbf{Oral} }
 
 \vspace*{0.25em}
 
+\cvitem{2017}{Lokesh Boominathan, \textbf{Suraj Srinivas}, R. Venkatesh Babu. 
+\newline Compensating for Large In-plane Rotations in Natural Images.
+\newline \textit{Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP)} }
+
+\vspace*{0.25em}
+
 \cvitem{2016}{\textbf{Suraj Srinivas}, R. Venkatesh Babu. 
-\newline ``Learning the Architecture of Deep Neural Networks"
+\newline Learning the Architecture of Deep Neural Networks.
 \newline \textit{British Computer Vision Conference (BMVC)}}
 
 \vspace*{0.25em}
 
 \cvitem{2015}{\textbf{Suraj Srinivas}, R. Venkatesh Babu. 
-\newline ``Data-free Parameter Pruning for Deep Neural Networks"
+\newline Data-free Parameter Pruning for Deep Neural Networks.
 \newline \textit{British Computer Vision Conference (BMVC)}}
 
-\cvsection{manuscripts under review}
+\cvsubsection{preprints \& workshop papers}
 
-\cvitem{2023} {Tessa Han, \textbf{Suraj Srinivas}, Hima Lakkaraju. \newline ``Efficient estimation of the local robustness
-of machine learning models.'' 
-\newline Preliminary version: \textit{ICML 2023 workshop on Formal Verification of Machine Learning}}
+\cvitem{2023} {Aounon Kumar, Chirag Agarwal, \textbf{Suraj Srinivas}, Soheil Feizi, Hima Lakkaraju. \newline Certifying LLM safety against adversarial prompting.}
 
-\cvitem{2023} {Dan Ley, Leonard Tang, Matthew Nazari, Hongjin Lin, \textbf{Suraj Srinivas}, and Hima Lakkaraju. \newline ``Consistent explanations in the face of model indeterminacy via ensembling'' 
-\newline Preliminary version: \textit{ICML 2023 workshop on Interpretable Machine Learning for Healthcare}}
+\vspace*{0.25em}
 
+\cvitem{2023} {Tessa Han, \textbf{Suraj Srinivas}, Hima Lakkaraju. \newline Efficient estimation of average-case robustness for multi-class classification. 
+\newline \textit{ICML 2023 workshop on Formal Verification of Machine Learning}}
 
-\cvsection{book chapters}
+\vspace*{0.25em}
+
+\cvitem{2023} {Dan Ley, Leonard Tang, Matthew Nazari, Hongjin Lin, \textbf{Suraj Srinivas}, and Hima Lakkaraju. \newline Consistent explanations in the face of model indeterminacy via ensembling.
+\newline \textit{ICML 2023 workshop on Interpretable Machine Learning for Healthcare}}
+
+\vspace*{0.25em}
+
+\cvitem{2023}{Alex Lin, Lucas Paes, Sreeharsha Tanneru, \textbf{Suraj Srinivas}, Hima Lakkaraju.
+\newline Word-Level Explanations for Analyzing Bias in Text-to-Image Models. \newline \textit{ICML 2023 Workshop on Challenges in Deploying Generative AI} }
+
+\cvsubsection{book chapters}
 
 \cvitem{2017}{\textbf{Suraj Srinivas}, Ravi Kiran Sarvadevabhatla, Konda Reddy Mopuri, Nikita Prabhu, Srinivas SS Kruthiventi, R. Venkatesh Babu. 
-\newline ``A taxonomy of deep convolutional neural nets for computer vision'', \newline Book chapter: \textit{Deep Learning for Medical Image Analysis, Elsevier}
+\newline A taxonomy of deep convolutional neural nets for computer vision. \newline Book chapter: \textit{Deep Learning for Medical Image Analysis, Elsevier}
 \newline Journal version: \textit{Frontiers in Robotics and AI}}
 \vspace*{0.25em}
 
 \cvsection{talks} 
+
+\cvitem{11/2023}{\textit{On the Missing Conceptual Foundations of Interpretable Machine Learning} \newline Indian Institute of Technology, Hyderabad}
 
 \cvitem{03/2023}{\textit{Pitfalls and Opportunities with Feature Importance Methods} \newline \href{https://www.merl.com/news/talk-20230314-1473}{MERL seminar series}, Boston}
 
@@ -203,9 +238,6 @@ of machine learning models.''
 
 \cvitem{08/2021}{\textit{Pitfalls of Saliency Map Interpretation in Deep Neural Networks} 
     \newline HES-SO, Sierre, Switzerland}
-
-\cvitem{05/2021}{\textit{Pitfalls of Saliency Map Interpretation in Deep Neural Networks} 
-    \newline Harvard University, USA}
 
 \cvitem{04/2021}{\textit{Rethinking the Role of Gradient-based Attribution Methods for Model Interpretability} \newline ICLR (virtual)}
 
@@ -241,7 +273,7 @@ Networks Smaller and Faster} \newline Deep Learning Conf, Bangalore}
 \cvitem{2022-23}{Tessa Han (PhD candidate, Harvard) \newline \textit{Local Function Approximation to Characterize Explanations, NeurIPS 2022} \newline \textit{Efficient Estimation of Local Robustness, ICML Workshops, 2023} }
 \cvitem{2023}{Usha Bhalla (PhD student, Harvard) \newline \textit{Verifiable Feature Attributions, NeurIPS 2023}}
 \cvitem{2023}{Daniel Ley (PhD student, Harvard) \newline \textit{On Minimizing the Impact of Dataset Shifts on Actionable Explanations, UAI 2023}}
-\cvitem{2022}{Vincent Micheli \& Karthigan Sinnathamby (MSc students, EPFL) \newline \textit{Multi-task Reinforcement Learning with a Planning Quasi-Metric}}
+%\cvitem{2022}{Vincent Micheli \& Karthigan Sinnathamby (MSc students, EPFL) \newline \textit{Multi-task Reinforcement Learning with a Planning Quasi-Metric}}
 \cvitem{2017}{Akshayvarun Subramanya (Research Assistant, IISc) \newline \textit{Estimating Confidence for Deep Neural Networks via Density Modeling, SPCOM 2017} }
 \cvitem{2016}{Lokesh Boominathan (Research Assistant, IISc) \newline \textit{Compensating for Large In-plane Rotations in Natural Images, ICVGIP 2016}}
 %\newline \textit{Indian Conference on Vision, Graphics and Image Processing (ICVGIP), 2016}}
