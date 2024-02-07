@@ -1,4 +1,5 @@
 papers:
+
   - authors:
     - S. Srinivas*
     - S. Bordt*
@@ -24,14 +25,28 @@ papers:
     type: long
 
   - authors: 
-    - T. Han
+    - A. Kumar
+    - C. Agarwal
     - S. Srinivas
+    - A. Li
+    - S. Feizi
     lastauthor: H. Lakkaraju
     year: 2023
     journal: Working paper
-    title: Efficient Estimation of the Local Robustness of Machine Learning Models
+    title: Certifying LLM Safety against Adversarial Prompting
+    url: https://arxiv.org/abs/2309.02705
+    tldr: We present a simple method to detect LLM adversarial attacks, by systematically deleting tokens until the underlying string is labelled harmful.
+    type: preprint
+
+  - authors: 
+    - T. Han*
+    - S. Srinivas*
+    lastauthor: H. Lakkaraju
+    year: 2023
+    journal: Working paper
+    title: Efficient Estimation of the Average-Case Robustness for Multi-Class Classification
     url: https://arxiv.org/abs/2307.13885
-    tldr: We consider a relaxation of adversarial robustness, i.e., average-case robustness, and provide efficient estimators to compute this quantity. 
+    tldr: We consider a generalization of adversarial robustness, i.e., average-case robustness, and provide efficient estimators to compute this quantity. 
     type: preprint
 
   - authors: 
