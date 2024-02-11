@@ -16,7 +16,7 @@ During my PhD, I interned at Qualcomm AI Research in Amsterdam, where I worked w
 
 
 <p style="border-width:1px; border-style:none; background-color:mintcream; padding: 1em; border-radius: 0px">
-<b>I'm on the job market</b> for tenure-track positions and research-oriented industry roles. Contact me re: interesting opportunities!
+<b>I'm on the job market</b>. Contact me re: interesting opportunities!
 </p>
 
 <br>
