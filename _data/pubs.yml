@@ -9,6 +9,7 @@ papers:
     title: Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness
     tldr: Previous work has identified the phenomenon of "perceptually aligned gradients" of robust models. In this work, we explain this phenomenon by observing that robust models in practice are not robust in all directions, in fact they are mostly only robust outside the data manifold. This causes their gradients to align with the manifold, causing them to be perceptually aligned. 
     url: https://arxiv.org/abs/2305.19101
+    code: https://github.com/tml-tuebingen/pags
     type: long
     featured: true
     notes: Spotlight presentation (Top 3%)
@@ -19,10 +20,25 @@ papers:
     lastauthor: H. Lakkaraju
     year: 2023
     journal: NeurIPS
-    title: Verifiable Feature Attributions, A Bridge between Post Hoc Explainability and Inherent Interpretability
+    title: Discriminative Feature Attributions, A Bridge between Post Hoc Explainability and Inherent Interpretability
     tldr: If an input feature is unimportant according to a model, then removing that feature shouldn't affect model outputs. We train "inherently interpretable" models that have this property!
     url: https://arxiv.org/abs/2307.15007
+    code: https://github.com/AI4LIFE-GROUP/DiET
     type: long
+
+  - authors: 
+    - U. Bhalla*
+    - A. Oesterling*
+    - S. Srinivas
+    - F. Calmon
+    lastauthor: H. Lakkaraju
+    year: 2024
+    journal: Working paper
+    title: Interpreting CLIP with Sparse Linear Concept Embeddings (SpLiCE)
+    url: https://arxiv.org/abs/2402.10376
+    code: https://github.com/AI4LIFE-GROUP/SpLiCE
+    tldr: We convert dense uninterpretable CLIP embeddings to overcomplete sparse interpretable ones, with a minimal loss in fidelity. 
+    type: preprint
 
   - authors: 
     - A. Kumar
@@ -35,6 +51,7 @@ papers:
     journal: Working paper
     title: Certifying LLM Safety against Adversarial Prompting
     url: https://arxiv.org/abs/2309.02705
+    code: https://github.com/aounon/certified-llm-safety
     tldr: We present a simple method to detect LLM adversarial attacks, by systematically deleting tokens until the underlying string is labelled harmful.
     type: preprint
 
@@ -100,6 +117,7 @@ papers:
     url: https://arxiv.org/abs/2206.01254
     notes: Best paper award at ICML IMLH 2022 workshop
     workshop: https://icml.cc/virtual/2022/workshop/13449
+    code: https://github.com/AI4LIFE-GROUP/lfa
     type: long
     featured: true
 

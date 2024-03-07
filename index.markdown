@@ -11,7 +11,7 @@ I am currently a postdoctoral research fellow in computer science at Harvard Uni
 
 [//]: # (Before this, I completed my Masters (by Research) at the [Indian Institute of Science, Bangalore](http://www.iisc.ac.in/) advised by [Prof. R. Venkatesh Babu](http://cds.iisc.ac.in/faculty/venky/). During my PhD, I interned at Qualcomm AI Research in Amsterdam, where I worked with [Tijmen Blankevoort](https://www.linkedin.com/in/tijmen-blankevoort-a5633a24/).)
 
-I am interested in mathematically and scientifically understanding deep models and their associated learning algorithms, usually through the lens of **interpretability**, **robustness** and **computational efficiency** of models. 
+I am interested in mathematically and scientifically understanding deep models and their associated learning algorithms, usually through the lens of **interpretability**, **robustness** and **computational efficiency** of models. I typically study these in the context of **computer vision** and more recently, **natural language processing**. 
 
 - In **interpretability**, my work has [identified flaws](https://openreview.net/forum?id=dYeAHXnpWJ4) with feature attribution methods (aka "heatmap" explanations), proposed unifying [mathematical frameworks](https://arxiv.org/abs/2206.01254) to better understand them, and [explained](https://arxiv.org/abs/2305.19101) why they appear human-aligned for robust models. I have also worked on [interpreting representations](https://arxiv.org/abs/2402.10376) of large-scale multi-modal models.
 
