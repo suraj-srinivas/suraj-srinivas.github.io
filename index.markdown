@@ -21,7 +21,7 @@ I am interested in mathematically and scientifically understanding deep models a
 
 For more details, please see my latest <a href="/publications.html">publications</a>.
 
-<p style="border-width:1px; border-style:solid; background-color:mintcream; padding: 1em; border-radius: 10px">
+<p style="border-width:1px; border-style:none; border-radius: 5%">
 <b>I'm on the job market</b>. Contact me regarding interesting opportunities!
 </p>
 
