@@ -32,8 +32,8 @@ papers:
     - S. Srinivas
     - F. Calmon
     lastauthor: H. Lakkaraju
-    year: 2024
-    journal: Working paper
+    year: 
+    journal: 
     title: Interpreting CLIP with Sparse Linear Concept Embeddings (SpLiCE)
     url: https://arxiv.org/abs/2402.10376
     code: https://github.com/AI4LIFE-GROUP/SpLiCE
@@ -47,8 +47,8 @@ papers:
     - A. Li
     - S. Feizi
     lastauthor: H. Lakkaraju
-    year: 2023
-    journal: Working paper
+    year: 
+    journal: 
     title: Certifying LLM Safety against Adversarial Prompting
     url: https://arxiv.org/abs/2309.02705
     code: https://github.com/aounon/certified-llm-safety
@@ -59,8 +59,8 @@ papers:
     - T. Han*
     - S. Srinivas*
     lastauthor: H. Lakkaraju
-    year: 2023
-    journal: Working paper
+    year: 
+    journal: 
     title: Efficient Estimation of the Average-Case Robustness for Multi-Class Classification
     url: https://arxiv.org/abs/2307.13885
     tldr: We consider a generalization of adversarial robustness, i.e., average-case robustness, and provide efficient estimators to compute this quantity. 
@@ -73,11 +73,12 @@ papers:
     - S. Srinivas
     lastauthor: H. Lakkaraju
     year: 2023
-    journal: ICML Workshop on Challenges in Deploying Generative AI
+    journal: ICML Workshops
     title: Word-Level Explanations for Analyzing Bias in Text-to-Image Models
     url: https://arxiv.org/abs/2306.05500
     tldr: For text to image models, we find which input words contribute to bias in output images. For example, we find that the word "doctor" in the input leads to an over-representation of males in the output.
     type: short
+    notes: Published at the Workshop on Challenges in Deploying Generative AI
 
   - authors:
     - D. Ley
@@ -87,11 +88,12 @@ papers:
     - S. Srinivas
     lastauthor: H. Lakkaraju
     year: 2023
-    journal: ICML Workshop on Interpretable Machine Learning for Healthcare
+    journal: ICML Workshops
     title: Consistent Explanations in the Face of Model Indeterminacy via Ensembling
     url: https://arxiv.org/abs/2306.06193
     tldr: With model ensembles, feature attributions are fairly consistent! We find strategies that lead to efficient construction of such ensembles.
     type: short 
+    notes: Published at the Workshop on Interpretable Machine Learning for Healthcare (IMLH)
 
   - authors:
     - A. Meyer*
@@ -156,12 +158,12 @@ papers:
     - A. Skliar
     lastauthor: T. Blankevoort
     year: 2022
-    journal: CVPR Workshop on Efficient Computer Vision for Deep Learning (ECV)
+    journal: CVPR Workshops
     title: Cyclical Pruning for Sparse Neural Networks
     tldr: Algorithms for training sparse neural networks should be more like projected gradient descent / iterative hard thresholding, which alternates between sparsification (i.e., projection step) and densification (i.e., gradient step), as opposed to common pruning approaches which do not perform densification.
     url: https://openaccess.thecvf.com/content/CVPR2022W/ECV/html/Srinivas_Cyclical_Pruning_for_Sparse_Neural_Networks_CVPRW_2022_paper.html
     presentation: https://docs.google.com/presentation/d/1lU1aZGrznxakE09H5MtmqXndR66hmZhB9ULwM9uVO4c/edit?usp=sharing
-    notes: Oral presentation 
+    notes: Oral presentation at the Workshop on Efficient Computer Vision for Deep Learning (ECV) 
     type: short
   
   - authors:
@@ -224,12 +226,12 @@ papers:
       - A. Subramanya
     lastauthor: R.V. Babu
     year: 2017
-    journal: CVPR Embedded Vision Workshop
+    journal: CVPR Workshops
     title: Training Sparse Neural Networks
     url: https://arxiv.org/abs/1611.06694
     presentation: https://docs.google.com/presentation/d/167i3QJ63EFYfiDpMIYtuQt2yS_x2Vm7J0_nTt2KnvtY/edit?usp=sharing
     tldr: Encourage weight sparsity in neural networks by introducing multiplicative binary gating variables along with each weight, and regularizing gates to be sparse.
-    notes: Oral presentation
+    notes: Oral presentation at Embedded Vision Workshop 
     type: short
 
   - authors:

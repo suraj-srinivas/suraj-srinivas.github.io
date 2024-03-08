@@ -21,14 +21,14 @@ For more information see my [google scholar](https://scholar.google.com/citation
 
 ## **preprints**
 
-{% include publications.html type='preprint' %}
-{% include publications.html type='hack-to-avoid-tldr-error' %} 
+{% include publications_2col.html type='preprint' %}
+{% include publications_2col.html type='hack-to-avoid-tldr-error' %} 
 
 ## **long papers**
 
-{% include publications.html type='long' %}
-{% include publications.html type='hack-to-avoid-tldr-error' %}
+{% include publications_2col.html type='long' %}
+{% include publications_2col.html type='hack-to-avoid-tldr-error' %}
 
 ## **short conference / workshop papers**
 
-{% include publications.html type='short' %}
+{% include publications_2col.html type='short' %}
