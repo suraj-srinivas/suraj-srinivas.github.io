@@ -1,0 +1,111 @@
+<!--<ul style="list-style-type:none;">-->
+{% for paper in site.data.pubs.papers %}
+{% if paper.type == include.type %}
+<!--<li>-->
+<div class="columns">
+  <div class="column-1">
+     {{ paper.journal }} <br>{{ paper.year }} 
+    </div>
+
+  <div class="column-2">
+    {% if paper.featured == true %}
+ <p style="border-width:0px; border-style:none; background-color: mintcream; padding: 2%; border-radius: 2%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+ {% else %}
+  <p>
+ {% endif %}
+    {{ paper.title }} <br>
+    {% for author in paper.authors %}
+      {% if author contains "S. Srinivas" %} 
+      <b> {{ author }}</b>,
+      {% else %} {{ author }}, {% endif %}
+      {% endfor %} {{ paper.lastauthor }}<br>   
+
+<a href="{{ paper.url | escape}}">pdf</a>
+
+{% if paper.presentation %}
+&centerdot; <a href="{{paper.presentation | escape}}">slides </a>
+{% endif %}
+
+{% if paper.poster %}
+&centerdot; <a href="{{paper.poster | escape}}">poster </a>
+{% endif %}
+
+{% if paper.code %}
+&centerdot; <a href="{{paper.code | escape}}">code </a>
+{% endif %}
+
+{% if paper.workshop %}
+&centerdot; <a href="{{paper.workshop | escape}}">workshop </a>
+{% endif %}
+
+&centerdot; <a class="collapsible">summary</a>
+<span class="content">
+{{ paper.tldr }}
+</span>
+
+{% if paper.notes %} <br>
+<mark style="font-size:90%; background-color: transparent">{{ paper.notes }}</mark>
+{% endif %}
+<br>
+</p>
+</div>
+</div>
+<!--</li>-->
+{% endif %}
+{% endfor %}
+<!--</ul>-->
+
+<style>
+p{
+  padding-bottom: 20px;
+}
+
+.content {
+  padding: 10px 0px;
+  display: none;
+  overflow: hidden;
+}
+
+.columns{
+  Width: 100%;
+  }
+  .column-1, .column-2 {
+    width:100%;
+  }
+  @media (min-width: 400px){
+    .column-1 {
+      width: 15%;
+      float: left;
+      justify-content: center;
+      text-align: right;
+    }
+    .column-2 {
+      width: 80%;
+      float: right;
+      justify-content: left;
+    } 
+    .columns {
+      content:"";
+      display: table;
+      clear: both;
+    }
+  }
+
+</style>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
