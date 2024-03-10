@@ -4,14 +4,16 @@
 <!--<li>-->
 <div class="columns">
   <div class="column-1">
+    <p style="padding-top: 12%">
      {{ paper.journal }} <br>{{ paper.year }} 
+     </p>
     </div>
 
   <div class="column-2">
     {% if paper.featured == true %}
- <p style="border-width:0px; border-style:none; background-color: mintcream; padding: 2%; border-radius: 2%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
- {% else %}
-  <p>
+ <p style="border-width:0px; border-style:none; background-color: ivory; padding: 2%; border-radius: 2%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+ {% else %} 
+ <p style="border-width:0px; border-style:none; padding: 2%;">
  {% endif %}
     {{ paper.title }} <br>
     {% for author in paper.authors %}

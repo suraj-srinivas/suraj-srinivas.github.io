@@ -12,7 +12,7 @@ papers:
     code: https://github.com/tml-tuebingen/pags
     type: long
     featured: true
-    notes: Spotlight presentation (Top 3%)
+    notes: <font color="crimson">Spotlight presentation (Top 3%)</font>
 
   - authors:
     - U. Bhalla*
@@ -105,7 +105,7 @@ papers:
     title: On Minimizing the Impact of Dataset Shifts on Actionable Explanations
     tldr: How to train classifiers such that they are unaffected by small shifts in the dataset? We show theoretically and experimentally that weight decay, model curvature and robustness are all important factors that can help minimize the impact of such dataset shifts.
     url: https://arxiv.org/abs/2306.06716
-    notes: Oral presentation (Top 5%)
+    notes: <font color="crimson">Oral presentation (Top 5%)</font>
     type: long
 
   - authors:
@@ -117,7 +117,7 @@ papers:
     title: Which Explanation Should I Choose? A Function Approximation Perspective to Characterizing Post hoc Explanations
     tldr: Several popular post-hoc explanations such as LIME, SHAP, and gradient based explanations can be viewed as performing local function approximation (LFA). Thinking of LFA as a framework for explanations enables us to make useful statements in general about explanations such as a no-free lunch theorem, and identify which explanations to use.
     url: https://arxiv.org/abs/2206.01254
-    notes: Best paper award at ICML IMLH 2022 workshop
+    notes: <font color="crimson">Best paper award</font> at ICML IMLH 2022 workshop
     workshop: https://icml.cc/virtual/2022/workshop/13449
     code: https://github.com/AI4LIFE-GROUP/lfa
     type: long
@@ -163,7 +163,7 @@ papers:
     tldr: Algorithms for training sparse neural networks should be more like projected gradient descent / iterative hard thresholding, which alternates between sparsification (i.e., projection step) and densification (i.e., gradient step), as opposed to common pruning approaches which do not perform densification.
     url: https://openaccess.thecvf.com/content/CVPR2022W/ECV/html/Srinivas_Cyclical_Pruning_for_Sparse_Neural_Networks_CVPRW_2022_paper.html
     presentation: https://docs.google.com/presentation/d/1lU1aZGrznxakE09H5MtmqXndR66hmZhB9ULwM9uVO4c/edit?usp=sharing
-    notes: Oral presentation at the Workshop on Efficient Computer Vision for Deep Learning (ECV) 
+    notes: <font color="crimson">Oral presentation</font> at the Workshop on Efficient Computer Vision for Deep Learning (ECV) 
     type: short
   
   - authors:
@@ -177,7 +177,7 @@ papers:
     presentation: https://docs.google.com/presentation/d/1v35LGiLpFDSN2okOC9qxWjQ8MiHkYAMeMUCU8U3dFzE/edit?usp=sharing
     code: https://github.com/idiap/rethinking-saliency/
     workshop: https://sites.google.com/view/whi2020/
-    notes: Oral presentation (Top 1%) 
+    notes: <font color="crimson">Oral presentation (Top 1%)</font> 
     poster: pdfs/iclr2021_poster.pdf
     type: long
     featured: true
@@ -204,7 +204,7 @@ papers:
     presentation: pdfs/icml18_presentation.pdf
     poster: pdfs/icml18_poster.pdf
     workshop: https://lld-workshop.github.io/2017/
-    notes: Best paper award at NeurIPS LLD 2017 workshop
+    notes: <font color="crimson">Best paper award</font> at NeurIPS LLD 2017 workshop
     tldr: Perform sample-efficient distillation by requiring that the student model mimic the input-gradients of the teacher model. This is equivalent (in expectation) to performing classical distillation with data augmentation via additive input noise.
     type: long
     featured: true
@@ -231,7 +231,7 @@ papers:
     url: https://arxiv.org/abs/1611.06694
     presentation: https://docs.google.com/presentation/d/167i3QJ63EFYfiDpMIYtuQt2yS_x2Vm7J0_nTt2KnvtY/edit?usp=sharing
     tldr: Encourage weight sparsity in neural networks by introducing multiplicative binary gating variables along with each weight, and regularizing gates to be sparse.
-    notes: Oral presentation at Embedded Vision Workshop 
+    notes: <font color="crimson">Oral presentation</font> at Embedded Vision Workshop 
     type: short
 
   - authors:
@@ -279,7 +279,7 @@ papers:
     title: A Taxonomy of Deep Convolutional Neural Nets for Computer Vision
     url: http://journal.frontiersin.org/article/10.3389/frobt.2015.00036/full
     notes:  
-      - Top 25% of all research outputs scored on <a href="https://frontiers.altmetric.com/details/4978361"> Altmetric </a> <br>
+      - <font color="crimson">Top 25% of all research outputs</font> scored on <a href="https://frontiers.altmetric.com/details/4978361"> Altmetric </a> <br>
       - Book chapter for <a href="https://www.elsevier.com/books/deep-learning-for-medical-image-analysis/zhou/978-0-12-810408-8"> <i>Deep Learning for Medical Image Analysis</i> </a> 
     tldr: A recipe-style survey of pre-2015 deep neural networks as applied to computer vision.
     type: long
