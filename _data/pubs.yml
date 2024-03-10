@@ -7,7 +7,7 @@ papers:
     year: 2023
     journal: NeurIPS
     title: Which Models have Perceptually-Aligned Gradients? An Explanation via Off-Manifold Robustness
-    tldr: Previous work has identified the phenomenon of "perceptually aligned gradients" of robust models. In this work, we explain this phenomenon by observing that robust models in practice are not robust in all directions, in fact they are mostly only robust outside the data manifold. This causes their gradients to align with the manifold, causing them to be perceptually aligned. 
+    tldr: Previous work finds gradients of robust models to be "perceptually aligned". We explain this phenomenon by observing that robust models in practice are not robust in all directions, in fact they are mostly only robust outside the data manifold. This causes their gradients to align with the manifold, causing them to be perceptually aligned. 
     url: https://arxiv.org/abs/2305.19101
     code: https://github.com/tml-tuebingen/pags
     type: long
@@ -20,8 +20,8 @@ papers:
     lastauthor: H. Lakkaraju
     year: 2023
     journal: NeurIPS
-    title: Discriminative Feature Attributions, A Bridge between Post Hoc Explainability and Inherent Interpretability
-    tldr: If an input feature is unimportant according to a model, then removing that feature shouldn't affect model outputs. We train "inherently interpretable" models that have this property!
+    title: Discriminative Feature Attributions&colon; A Bridge between Post Hoc Explainability and Inherent Interpretability
+    tldr: Given a pre-trained model, adapt this model to be robust to the perturbations introduced by feature attribution methods. Doing so results in models that recover ground truth attributions!
     url: https://arxiv.org/abs/2307.15007
     code: https://github.com/AI4LIFE-GROUP/DiET
     type: long
@@ -63,7 +63,7 @@ papers:
     journal: 
     title: Efficient Estimation of the Average-Case Robustness for Multi-Class Classification
     url: https://arxiv.org/abs/2307.13885
-    tldr: We consider a generalization of adversarial robustness, i.e., average-case robustness, and provide efficient estimators to compute this quantity. 
+    tldr: We consider a relaxation of adversarial robustness, i.e., average-case robustness, and provide efficient estimators to compute this quantity. 
     type: preprint
 
   - authors: 
@@ -91,7 +91,7 @@ papers:
     journal: ICML Workshops
     title: Consistent Explanations in the Face of Model Indeterminacy via Ensembling
     url: https://arxiv.org/abs/2306.06193
-    tldr: With model ensembles, feature attributions are fairly consistent! We find strategies that lead to efficient construction of such ensembles.
+    tldr: With model ensembles, feature attributions are fairly consistent. We find strategies that lead to efficient construction of such ensembles.
     type: short 
     notes: Published at the Workshop on Interpretable Machine Learning for Healthcare (IMLH)
 
@@ -115,7 +115,7 @@ papers:
     year: 2022
     journal: NeurIPS
     title: Which Explanation Should I Choose? A Function Approximation Perspective to Characterizing Post hoc Explanations
-    tldr: Several popular post-hoc explanations such as LIME, SHAP, and gradient based explanations can be viewed as performing local function approximation (LFA). Thinking of LFA as a framework for explanations enables us to make useful statements in general about explanations such as a no-free lunch theorem, and identify which explanations to use.
+    tldr: Several popular post-hoc explanations such as LIME, SHAP, and gradient based explanations can be viewed as performing local function approximation (LFA). Thinking of LFA as a framework for explanations enables us to make useful statements about explanations such as a no-free lunch theorem, and identify which explanations to use.
     url: https://arxiv.org/abs/2206.01254
     notes: <font color="crimson">Best paper award</font> at ICML IMLH 2022 workshop
     workshop: https://icml.cc/virtual/2022/workshop/13449
@@ -131,7 +131,7 @@ papers:
     year: 2022
     journal: NeurIPS
     title: Efficiently Training Low-Curvature Neural Networks
-    tldr: Train low-curvature neural networks, that are "as linear as possible" by (1) replacing ReLU with a variant of softplus, (2) spectral normalization of linear layers, (3) (optionally) using gradient-norm regularization. This approach rivals adversarial training without training with adversarial examples.
+    tldr: We train low-curvature neural networks, that are "as linear as possible" by (1) replacing ReLU with a variant of softplus, (2) spectral normalization of linear layers, (3) (optionally) using gradient-norm regularization; and minimizing the curvatures and spectral norms of each layer independently. This approach rivals adversarial training without training with adversarial examples.
     url: https://arxiv.org/abs/2206.07144
     code: https://github.com/kylematoba/lcnn
     poster: pdfs/lcnn_poster.pdf
@@ -193,6 +193,7 @@ papers:
     tldr: Compute saliency information from all intermediate layers in neural networks, rather than just from the input, as is done commonly. This provably captures two desirable properties (sensitivity and completeness) which typical saliency maps cannot capture.
     poster: pdfs/neurips19_poster.pdf 
     type: long
+    notes: 190+ Github stars &centerdot; 200+ citations
 
   - authors:
       - S. Srinivas
@@ -231,7 +232,7 @@ papers:
     url: https://arxiv.org/abs/1611.06694
     presentation: https://docs.google.com/presentation/d/167i3QJ63EFYfiDpMIYtuQt2yS_x2Vm7J0_nTt2KnvtY/edit?usp=sharing
     tldr: Encourage weight sparsity in neural networks by introducing multiplicative binary gating variables along with each weight, and regularizing gates to be sparse.
-    notes: <font color="crimson">Oral presentation</font> at Embedded Vision Workshop 
+    notes: 200+ citations &centerdot; <font color="crimson">Oral presentation</font> at Embedded Vision Workshop  
     type: short
 
   - authors:
@@ -279,8 +280,7 @@ papers:
     title: A Taxonomy of Deep Convolutional Neural Nets for Computer Vision
     url: http://journal.frontiersin.org/article/10.3389/frobt.2015.00036/full
     notes:  
-      - <font color="crimson">Top 25% of all research outputs</font> scored on <a href="https://frontiers.altmetric.com/details/4978361"> Altmetric </a> <br>
-      - Book chapter for <a href="https://www.elsevier.com/books/deep-learning-for-medical-image-analysis/zhou/978-0-12-810408-8"> <i>Deep Learning for Medical Image Analysis</i> </a> 
+      300+ citations &centerdot; <font color="crimson">Top 25%</font> of all research outputs scored on <a href="https://frontiers.altmetric.com/details/4978361"> Altmetric </a> 
     tldr: A recipe-style survey of pre-2015 deep neural networks as applied to computer vision.
     type: long
 
@@ -294,6 +294,7 @@ papers:
     tldr: Prune neurons in neural networks by (1) identifying duplicate neuron pairs, (2) removing one and performing a `surgery` step to compensate for removal.
     poster: https://drive.google.com/file/d/0BwC3N1sQOq3dNmZ2cmFEZlZ5N1E/view?usp=sharing&resourcekey=0-tBl3eVM83YSB9lUlJUUu_A
     type: long
+    notes: 600+ citations
 
   - authors:
       - S. Srinivas
