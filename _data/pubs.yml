@@ -1,4 +1,15 @@
 papers:
+ 
+  - authors: 
+    - T. Han*
+    - S. Srinivas*
+    lastauthor: H. Lakkaraju
+    year: 2024 
+    journal: UAI
+    title: Characterizing Data Point Vulnerability as Average-Case Robustness
+    url: https://arxiv.org/abs/2307.13885
+    tldr: We consider a relaxation of adversarial robustness, i.e., average-case robustness, and provide efficient estimators to compute this quantity. 
+    type: long
 
   - authors:
     - S. Srinivas*
@@ -53,17 +64,6 @@ papers:
     url: https://arxiv.org/abs/2309.02705
     code: https://github.com/aounon/certified-llm-safety
     tldr: We present a simple method to detect LLM adversarial attacks, by systematically deleting tokens until the underlying string is labelled harmful.
-    type: preprint
-
-  - authors: 
-    - T. Han*
-    - S. Srinivas*
-    lastauthor: H. Lakkaraju
-    year: 
-    journal: 
-    title: Efficient Estimation of the Average-Case Robustness for Multi-Class Classification
-    url: https://arxiv.org/abs/2307.13885
-    tldr: We consider a relaxation of adversarial robustness, i.e., average-case robustness, and provide efficient estimators to compute this quantity. 
     type: preprint
 
   - authors: 
