@@ -6,10 +6,6 @@ layout: profile
 title: about
 ---
 
-<p style="border-width:1px; padding:2%; border-style:solid; border-radius: 8px">
-<b>I'm on the job market</b>. Contact me regarding interesting opportunities!
-</p>
-
 I am a postdoctoral research fellow in computer science at Harvard University where I work with [Hima Lakkaraju](https://himalakkaraju.github.io/). I completed my PhD from [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL](http://epfl.ch/), Switzerland, advised by [François Fleuret](https://www.idiap.ch/~fleuret/). 
 
 I previously completed my Masters (by Research) at the [Indian Institute of Science, Bangalore](http://www.iisc.ac.in/) advised by [R. Venkatesh Babu](http://cds.iisc.ac.in/faculty/venky/). During my PhD, I interned with the model efficiency team at Qualcomm AI Research in Amsterdam.
@@ -24,7 +20,7 @@ I am interested in mathematically and scientifically understanding deep learning
 
 For more details, please see my latest <a href="/publications.html">publications</a>. 
 
-I was also an organizer for the [XAI in Action](https://xai-in-action.github.io/) workshop at NeurIPS 2023, and was involved in teaching an [interpretable ML](https://interpretable-ml-class.github.io/) course at Harvard during spring 2023.
+I am also an organizer on the [Theory of Interpretable AI](https://tverven.github.io/tiai-seminar/) online seminar series, and previously for the [XAI in Action](https://xai-in-action.github.io/) workshop at NeurIPS 2023. I was involved also in teaching an [interpretable ML](https://interpretable-ml-class.github.io/) course at Harvard during spring 2023.
 
 
 
