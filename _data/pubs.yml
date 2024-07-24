@@ -1,5 +1,36 @@
 papers:
  
+  - authors:
+    - C. Badrinath
+    - U. Bhalla
+    - A. Oesterling
+    - S. Srinivas
+    lastauthor: H. Lakkaraju
+    year: 2024 
+    journal: ICML Workshops
+    title: All Roads Lead to Rome? Exploring Representational Similarities Between Latent Spaces of Generative Image Models
+    url: https://arxiv.org/abs/2407.13449
+    code:
+    tldr: We find that many generative image models recover approximately similar representations.
+    type: short
+    notes: Published at the Workshop on Geometry-grounded Representation Learning and Generative Modeling (GRaM)
+ 
+ 
+  - authors: 
+    - A. Kumar
+    - C. Agarwal
+    - S. Srinivas
+    - A. Li
+    - S. Feizi
+    lastauthor: H. Lakkaraju
+    year: 2024
+    journal: CoLM
+    title: Certifying LLM Safety against Adversarial Prompting
+    url: https://arxiv.org/abs/2309.02705
+    code: https://github.com/aounon/certified-llm-safety
+    tldr: We present a simple method to detect LLM adversarial attacks, by systematically deleting tokens until the underlying string is labelled harmful.
+    type: long
+
   - authors: 
     - T. Han*
     - S. Srinivas*
@@ -49,21 +80,6 @@ papers:
     url: https://arxiv.org/abs/2402.10376
     code: https://github.com/AI4LIFE-GROUP/SpLiCE
     tldr: We convert dense uninterpretable CLIP embeddings to overcomplete sparse interpretable ones, with a minimal loss in fidelity. 
-    type: preprint
-
-  - authors: 
-    - A. Kumar
-    - C. Agarwal
-    - S. Srinivas
-    - A. Li
-    - S. Feizi
-    lastauthor: H. Lakkaraju
-    year: 
-    journal: 
-    title: Certifying LLM Safety against Adversarial Prompting
-    url: https://arxiv.org/abs/2309.02705
-    code: https://github.com/aounon/certified-llm-safety
-    tldr: We present a simple method to detect LLM adversarial attacks, by systematically deleting tokens until the underlying string is labelled harmful.
     type: preprint
 
   - authors: 
@@ -117,7 +133,7 @@ papers:
     title: Which Explanation Should I Choose? A Function Approximation Perspective to Characterizing Post hoc Explanations
     tldr: Several popular post-hoc explanations such as LIME, SHAP, and gradient based explanations can be viewed as performing local function approximation (LFA). Thinking of LFA as a framework for explanations enables us to make useful statements about explanations such as a no-free lunch theorem, and identify which explanations to use.
     url: https://arxiv.org/abs/2206.01254
-    notes: <font color="crimson">Best paper award</font> at ICML IMLH 2022 workshop
+    notes: <font color="crimson">Best paper award</font> at ICML "Interpretable ML for Healthcare" workshop, 2022
     workshop: https://icml.cc/virtual/2022/workshop/13449
     code: https://github.com/AI4LIFE-GROUP/lfa
     type: long
@@ -205,7 +221,7 @@ papers:
     presentation: pdfs/icml18_presentation.pdf
     poster: pdfs/icml18_poster.pdf
     workshop: https://lld-workshop.github.io/2017/
-    notes: <font color="crimson">Best paper award</font> at NeurIPS LLD 2017 workshop
+    notes: <font color="crimson">Best paper award</font> at NeurIPS "Learning with Limited Data" workshop, 2017
     tldr: Perform sample-efficient distillation by requiring that the student model mimic the input-gradients of the teacher model. This is equivalent (in expectation) to performing classical distillation with data augmentation via additive input noise.
     type: long
     featured: true
