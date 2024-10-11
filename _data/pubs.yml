@@ -1,5 +1,19 @@
 papers:
- 
+  
+  - authors:
+    - S. Bordt
+    - S. Srinivas
+    - V. Boreiko
+    lastauthor: U. Luxburg
+    year: 2024
+    journal: 
+    title: How much can we forget about Data Contamination?
+    tldr: Are LLM benchmarks rendered invalid for any amount of test set contamination in the pre-training data? It turns out not always, because models also naturally forget examples seen during training.
+    url: https://arxiv.org/abs/2410.03249
+    code: 
+    type: preprint
+
+
   - authors:
     - C. Badrinath
     - U. Bhalla
@@ -15,6 +29,21 @@ papers:
     type: short
     notes: Published at the Workshop on Geometry-grounded Representation Learning and Generative Modeling (GRaM)
  
+  - authors: 
+    - U. Bhalla*
+    - A. Oesterling*
+    - S. Srinivas
+    - F. Calmon
+    lastauthor: H. Lakkaraju
+    year: 2024
+    journal: NeurIPS
+    title: Interpreting CLIP with Sparse Linear Concept Embeddings (SpLiCE)
+    url: https://arxiv.org/abs/2402.10376
+    code: https://github.com/AI4LIFE-GROUP/SpLiCE
+    tldr: We convert dense uninterpretable CLIP embeddings to overcomplete sparse interpretable ones, with a minimal loss in fidelity. 
+    type: long
+    featured: true
+
  
   - authors: 
     - A. Kumar
@@ -67,20 +96,6 @@ papers:
     url: https://arxiv.org/abs/2307.15007
     code: https://github.com/AI4LIFE-GROUP/DiET
     type: long
-
-  - authors: 
-    - U. Bhalla*
-    - A. Oesterling*
-    - S. Srinivas
-    - F. Calmon
-    lastauthor: H. Lakkaraju
-    year: 
-    journal: 
-    title: Interpreting CLIP with Sparse Linear Concept Embeddings (SpLiCE)
-    url: https://arxiv.org/abs/2402.10376
-    code: https://github.com/AI4LIFE-GROUP/SpLiCE
-    tldr: We convert dense uninterpretable CLIP embeddings to overcomplete sparse interpretable ones, with a minimal loss in fidelity. 
-    type: preprint
 
   - authors: 
     - A. Lin
@@ -196,7 +211,6 @@ papers:
     notes: <font color="crimson">Oral presentation (Top 1%)</font> 
     poster: pdfs/iclr2021_poster.pdf
     type: long
-    featured: true
 
   - authors:
       - S. Srinivas
