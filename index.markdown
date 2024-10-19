@@ -6,9 +6,7 @@ layout: profile
 title: about
 ---
 
-I am a machine learning researcher working on model interpretability and data-centric machine learning. I am interested in (1) models whose functionality can be modified by directly editing their computational graph; and (2) models that can "cite their sources", by reliably attributing outputs to their training data. 
-
-In the past, I have also worked on feature attribution, model robustness and computational efficiency of machine learning models. For more information, please see my <a href="/publications.html">publications</a>.
+I am a machine learning researcher interested in model interpretability, data-centric machine learning, and more broadly, the "science" of deep learning. In the past, I have worked on feature attribution, model robustness and computational efficiency of machine learning models. For more information, please see my <a href="/publications.html">publications</a>.
 
 I was previously a postdoctoral research fellow with [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard University. Before this, I completed my PhD with [François Fleuret](https://www.idiap.ch/~fleuret/), at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL](http://epfl.ch/), Switzerland.
 
