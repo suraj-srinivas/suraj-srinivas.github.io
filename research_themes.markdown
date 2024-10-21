@@ -1,7 +1,7 @@
 ---
 layout: default
 title: research themes
-permalink: /oresearch_themes
+permalink: /research_themes
 order: 1
 ---
 
