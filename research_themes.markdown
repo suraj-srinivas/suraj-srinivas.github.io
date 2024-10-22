@@ -7,7 +7,9 @@ order: 1
 
 ## **Research themes** 
 
-I am broadly interested in understanding deep learning from both an empirical and scientific perspective, with a focus on deriving actionable insights. Specifically, I am interested in the following themes:
+[//]: # (Deep learning today is a standard tool across science and engineering, and has begun to permeate society at large. Yet, the fundamental principles underlying the success of these models remain largely unknown. The same large scale that drives their remarkable performance also makes them difficult to understand, iterate on, and improve. Uncovering the fundamental principles of deep learning is therefore one of the most important scientific challenges of our time.)
+
+My research focusses on understanding deep learning from an empirical and scientific perspective, aiming to derive actionable insights that can improve its practical application. Major themes include:
 
 <br>
 
