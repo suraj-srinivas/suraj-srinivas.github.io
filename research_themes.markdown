@@ -16,13 +16,13 @@ My research focusses on understanding deep learning from an empirical and scient
 ### :mag: &nbsp; **model interpretability via representation analysis**
 Deep learning works by transforming inputs to latent representations. Can we understand and describe the information stored in these latent representations?
 - In [Bhalla\*, Oesterling\*, **Srinivas**, Calmon & Lakkaraju (2024)](https://arxiv.org/abs/2402.10376), we find that representations of vision-language models can be written in terms of a sparse linear combination of "concept" vectors that denote individual high-level semantic concepts; which we can use for dataset analysis and model editing
-- In [Bhalla, **Srinivas**, Ghandeharioun, Lakkaraju (2024)]() (PDF on request), we propose to evaluate representation-based interpretability methods via their ability to control model behaviour. To facilitate this, (1) we unify 4 existing representation analysis methods as "encoder-decoder" methods, similar to sparse autoencoders; (2) we provide control-based metrics and datasets to evaluate these methods
+- In [Bhalla, **Srinivas**, Ghandeharioun, Lakkaraju (2024)](https://arxiv.org/abs/2411.04430), we propose to evaluate representation-based interpretability methods via their ability to control model behaviour. To facilitate this, (1) we unify 4 existing representation analysis methods as "encoder-decoder" methods, similar to sparse autoencoders; (2) we provide control-based metrics and datasets to evaluate these methods
 
 <br>
 
 ### :heavy_dollar_sign: &nbsp; **data-centric machine learning**
 Behaviour of machine learning models, including large language models (LLMs) depend critically on the datasets used to train them. Can we identify critical datapoints / data subsets that influence key model properties? 
-- In [Ley, **Srinivas**, Zhang, Rusak & Lakkaraju (2024)](https://arxiv.org/abs/2410.09940) (caution: early pre-print!) we propose "generalized group data attribution", a framework to extend arbitrary data attribution algrorithms to efficiently attribute to groups of training data points, yielding upto ~50x attribution speedups
+- In [Ley, **Srinivas**, Zhang, Rusak & Lakkaraju (2024)](https://arxiv.org/abs/2410.09940) we propose "generalized group data attribution", a framework to extend arbitrary data attribution algrorithms to efficiently attribute to groups of training data points, yielding upto ~50x attribution speedups
 - In [Bordt, **Srinivas**, Boreiko & von Luxburg (2024)](https://arxiv.org/abs/2410.03249), we study the problem of contamination of evaluation data into the pre-training data, and we find that such contamination does not automatically imply overfitting on the benchmarks. The primary confounding factor is the natural *forgetting* dynamics, due to which data seen early on during training may be forgotten by the end of training
 
 <br>

@@ -6,7 +6,9 @@ layout: profile
 title: about
 ---
 
-I am a machine learning researcher interested in model interpretability, data-centric machine learning, and more broadly, the "science" of deep learning. For more information, please see my <a href="/research_themes.html">research themes</a> and <a href="/publications.html">publications</a>.
+I am a research scientist at Robert Bosch LLC, Sunnyvale, USA, where I develop machine learning and computer vision methods for problems in autonomous driving, and industrial manufacturing.
+
+Academically, I am interested in model interpretability, data-centric machine learning, and more broadly, the "science" of deep learning, i.e., understanding mechanisms driving model behaviour. For more information, please see my <a href="/research_themes.html">research themes</a> and <a href="/publications.html">publications</a>.
 
 I was previously a postdoctoral research fellow with [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard University. I completed my PhD with [François Fleuret](https://www.idiap.ch/~fleuret/), at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL](http://epfl.ch/), Switzerland.
 
@@ -17,6 +19,8 @@ I am an organizer on:
 - [Interpretable AI: Past, Present and Future](https://interpretable-ai-workshop.github.io/) workshop at NeurIPS 2024, where we focussed on interpretability for large-scale AI models
 
 I also helped teach an [explainable AI](https://interpretable-ml-class.github.io/) course at Harvard during spring 2023.
+
+**Note**: If you are a student looking for mentorship / collaboration in the area of interpretable or explainable AI, feel free to reach out!
 
 
 

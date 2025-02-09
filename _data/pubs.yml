@@ -15,6 +15,34 @@ papers:
 
 
   - authors:
+    - U. Bhalla
+    - S. Srinivas
+    - A. Ghandeharioun
+    lastauthor: H. Lakkaraju
+    year: 2024
+    journal: 
+    title: Towards Unifying Interpretability and Control&colon; Evaluation via Intervention
+    tldr: Popular mech interp methods such as sparse autoencoders underperform simpler alternatives such as prompting and logitlens on the task of controlling model outputs, raising questions on the faithfulness of such methods.
+    url: https://arxiv.org/abs/2411.04430
+    code: 
+    type: preprint
+
+  
+  - authors:
+    - D. Ley
+    - S. Srinivas
+    - S. Zhang
+    - G. Rusak
+    lastauthor: H. Lakkaraju
+    year: 2024
+    journal: 
+    title: Generalized Group Data Attribution
+    tldr: Data attribution methods, such as influence functions, can be made drastically more efficient (10-50x) by attributing to groups rather than individual data points. This can be used for fast dataset pruning and noisy label identification. 
+    url: https://arxiv.org/abs/2410.09940
+    code: 
+    type: preprint
+
+  - authors:
     - C. Badrinath
     - U. Bhalla
     - A. Oesterling
