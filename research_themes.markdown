@@ -28,7 +28,7 @@ Behaviour of machine learning models, including large language models (LLMs) dep
 <br>
 
 ### :bar_chart: &nbsp;  **model interpretability via feature attribution**  
-Feature attributions are a popular means to interpret model behaviour in terms of the most important input features a model "pays attention to". However, these methods have been found to be inaccurate, and sometimes conceptually ill-defined. How can we ensure that feature attributions accurately reflects model behavior in a meaningful, well-defined way?
+Machine learning classifiers often work by "looking at" a small number of important features present in the inputs. For example, a cat classifier only needs to identify "cat-like" features in the image, while ignoring all other features. How can we formalize this question of identifying important or salient features, and develop efficient algorithms to extract them?
 - In [**Srinivas** & Fleuret (2019)](https://papers.nips.cc/paper/2019/hash/80537a945c7aaa788ccfcdf1b99b5d8f-Abstract.html), we observe that the outputs of ReLU NNs can be written exactly as the sum of layerwise gradients. We use this fact to define gradient-based saliency visualizations for such models
 - In [**Srinivas** & Fleuret (2021)](https://openreview.net/forum?id=dYeAHXnpWJ4), we show that popular computer vision-based saliency approaches can be unfaithful to models, in that they produce attributions completely independent of model behaviour
 - In [Han, **Srinivas** & Lakkaraju (2022)](https://arxiv.org/abs/2206.01254), we unify 8 popular feature attribution methods via local linear approximations of non-linear models
