@@ -5,13 +5,13 @@ papers:
     - S. Srinivas
     - V. Boreiko
     lastauthor: U. Luxburg
-    year: 2024
-    journal: 
+    year: 2025
+    journal: ICML 
     title: How much can we forget about Data Contamination?
     tldr: Are LLM benchmarks rendered invalid for any amount of test set contamination in the pre-training data? It turns out not always, because models also naturally forget examples seen during training.
     url: https://arxiv.org/abs/2410.03249
     code: 
-    type: preprint
+    type: long
 
 
   - authors:
@@ -110,8 +110,8 @@ papers:
     url: https://arxiv.org/abs/2305.19101
     code: https://github.com/tml-tuebingen/pags
     type: long
-    featured: true
     notes: <font color="crimson">Spotlight presentation (Top 3%)</font>
+    featured: True
 
   - authors:
     - U. Bhalla*
@@ -124,6 +124,7 @@ papers:
     url: https://arxiv.org/abs/2307.15007
     code: https://github.com/AI4LIFE-GROUP/DiET
     type: long
+    featured: True
 
   - authors: 
     - A. Lin
@@ -180,7 +181,6 @@ papers:
     workshop: https://icml.cc/virtual/2022/workshop/13449
     code: https://github.com/AI4LIFE-GROUP/lfa
     type: long
-    featured: true
 
   - authors:
       - S. Srinivas*
