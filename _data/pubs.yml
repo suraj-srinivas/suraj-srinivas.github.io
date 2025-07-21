@@ -8,7 +8,7 @@ papers:
     year: 2025
     journal: ICML 
     title: How much can we forget about Data Contamination?
-    tldr: Are LLM benchmarks rendered invalid for any amount of test set contamination in the pre-training data? It turns out not always, because models also naturally forget examples seen during training.
+    tldr: Are LLM benchmarks rendered invalid by accidental data contamination? It turns out not always, because models also naturally forget examples seen during training.
     url: https://arxiv.org/abs/2410.03249
     code: 
     type: long

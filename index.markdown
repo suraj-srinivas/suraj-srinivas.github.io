@@ -6,19 +6,30 @@ layout: profile
 title: about
 ---
 
-I am a research scientist at Robert Bosch LLC, Sunnyvale, USA, where I develop machine learning and computer vision methods for problems in autonomous driving, and industrial manufacturing.
+I am a research scientist at Robert Bosch LLC, Sunnyvale, USA, where I work on computer vision problems for autonomous driving. My research involves developing interpretability tools that enable model understanding, debugging, and model editing.  
 
-My research interests include model interpretability, data-centric machine learning, and more broadly, the "science" of deep learning, i.e., understanding mechanisms driving model behaviour. For more information, please see my <a href="/research_themes.html">research themes</a> and <a href="/publications.html">publications</a>.
+<details markdown="1">
+<summary>Some representative methods include (click to expand):</summary>
+- [splice](https://arxiv.org/abs/2402.10376): A dictionary learning-like method to interpret CLIP models
+- [discriminative feature attributions](https://arxiv.org/abs/2307.15007): A method to build discriminative models such that their saliency maps are faithful by design
+- [fullgrad saliency](https://papers.nips.cc/paper/2019/hash/80537a945c7aaa788ccfcdf1b99b5d8f-Abstract.html): Layer-wise saliency maps for ReLU neural nets with cool mathematical properties (aka completeness)
+</details>
 
-I was previously a postdoctoral research fellow with [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard University. I completed my PhD with [François Fleuret](https://www.idiap.ch/~fleuret/), at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL](http://epfl.ch/), Switzerland.
+<br>
+I am also interested in the "science" of deep learning, i.e., systematic investigations of deep learning phenomena. For example, studying [forgetting dynamics in LLM training](https://arxiv.org/abs/2410.03249), or explaining observed links between [robustness and gradient interpretability](https://arxiv.org/abs/2305.19101). For more information, please see my <a href="/research_themes.html">research themes</a> and <a href="/publications.html">publications</a>.
 
- 
-I am/was an organizer on:
-- the [theory of interpretable AI](https://tverven.github.io/tiai-seminar/) online seminar series, where we bring in interesting guests to talk about advances in the theory of interpretability
-- [XAI in Action: Past, Present and Future](https://xai-in-action.github.io/) workshop at NeurIPS 2023, where we focussed on the practical applications of explainable AI 
-- [Interpretable AI: Past, Present and Future](https://interpretable-ai-workshop.github.io/) workshop at NeurIPS 2024, where we focussed on interpretability for large-scale AI models
+I was previously a postdoctoral research fellow with [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard University. I completed my PhD with [François Fleuret](https://fleuret.org/francois/), at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL](http://epfl.ch/), Switzerland.
 
-**Note**: If you are looking for a research mentorship / collaboration on interpretability or the "science" of deep learning, feel free to reach out!
+<details markdown="1"> 
+<summary>I am/was an organizer on (click to expand):</summary>
+- the [theory of interpretable AI](https://tverven.github.io/tiai-seminar/) online seminar series
+- [xai in action: past, present and future](https://xai-in-action.github.io/) workshop at NeurIPS 2023
+- [interpretable ai: past, present and future](https://interpretable-ai-workshop.github.io/) workshop at NeurIPS 2024
+- [interpretable ml](https://interpretable-ml-class.github.io/) course at Harvard, spring 2023
+</details>
+
+<br>
+**Note**: If you are looking for mentorship / research collaborations on interpretability, feel free to reach out! 
 
 
 
