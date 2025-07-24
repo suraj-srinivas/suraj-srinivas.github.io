@@ -6,10 +6,10 @@ layout: profile
 title: about
 ---
 
-I am a research scientist at Robert Bosch LLC, Sunnyvale, USA, where I work on computer vision problems for autonomous driving. My research involves developing interpretability tools that enable model understanding, debugging, and model editing.  
+I am a research scientist at Bosch Research (Sunnyvale, USA), where I work on computer vision problems for autonomous driving. My research involves developing interpretability tools that enable model understanding, debugging, and model editing.  
 
 <details markdown="1">
-<summary>Some representative methods include (click to expand):</summary>
+<summary>Some representative methods (click to expand):</summary>
 - [splice](https://arxiv.org/abs/2402.10376): A dictionary learning-like method to interpret CLIP models
 - [discriminative feature attributions](https://arxiv.org/abs/2307.15007): A method to build discriminative models such that their saliency maps are faithful by design
 - [fullgrad saliency](https://papers.nips.cc/paper/2019/hash/80537a945c7aaa788ccfcdf1b99b5d8f-Abstract.html): Layer-wise saliency maps for ReLU neural nets with cool mathematical properties (aka completeness)
