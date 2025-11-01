@@ -6,7 +6,7 @@ layout: profile
 title: about
 ---
 
-I am a research scientist at Bosch Research (Sunnyvale, USA), where I work on computer vision problems for autonomous driving. My research interests interpretability and the "science" of deep learning, i.e., systematic investigations of deep learning phenomena. 
+I am a research scientist at Bosch Research (Sunnyvale, USA), where I work on computer vision problems for autonomous driving. My research interests are model interpretability and the "science" of deep learning, i.e., systematic investigations of deep learning phenomena. 
 
 I started my research career with a masters at the [Indian Institute of Science](http://iisc.ac.in), Bangalore with [Prof. Venkatesh Babu](https://cds.iisc.ac.in/faculty/venky/). I completed my PhD with [François Fleuret](https://fleuret.org/francois/), at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL](http://epfl.ch/), Switzerland. Enamoured by model interpretability, I pursued a postdoctoral research fellowship with [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard University.
 
