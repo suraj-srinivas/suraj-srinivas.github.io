@@ -6,34 +6,17 @@ layout: profile
 title: about
 ---
 
-I am a research scientist at Bosch Research (Sunnyvale, USA), where I work on computer vision problems for autonomous driving. My research involves developing interpretability tools that enable model understanding, debugging, and model editing.  
+I am a research scientist at Bosch Research (Sunnyvale, USA), where I work on computer vision problems for autonomous driving. My research interests interpretability and the "science" of deep learning, i.e., systematic investigations of deep learning phenomena. 
 
-<details markdown="1">
-<summary>Some representative methods (click to expand):</summary>
-- [splice](https://arxiv.org/abs/2402.10376): A dictionary learning-like method to interpret CLIP models
-- [discriminative feature attributions](https://arxiv.org/abs/2307.15007): A method to build discriminative models such that their saliency maps are faithful by design
-- [fullgrad saliency](https://papers.nips.cc/paper/2019/hash/80537a945c7aaa788ccfcdf1b99b5d8f-Abstract.html): Layer-wise saliency maps for ReLU neural nets with cool mathematical properties (aka completeness)
-</details>
+I started my research career with a masters at the [Indian Institute of Science](http://iisc.ac.in), Bangalore with [Prof. Venkatesh Babu](https://cds.iisc.ac.in/faculty/venky/). I completed my PhD with [François Fleuret](https://fleuret.org/francois/), at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL](http://epfl.ch/), Switzerland. Enamoured by model interpretability, I pursued a postdoctoral research fellowship with [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard University.
 
-<br>
-I am also interested in the "science" of deep learning, i.e., systematic investigations of deep learning phenomena. For example, studying [forgetting dynamics in LLM training](https://arxiv.org/abs/2410.03249), or explaining observed links between [robustness and gradient interpretability](https://arxiv.org/abs/2305.19101). For more information, please see my <a href="/research_themes.html">research themes</a> and <a href="/publications.html">publications</a>.
+Some representative papers include:
+- [`splice`](https://arxiv.org/abs/2402.10376): we show that clip representations are approximately sparse linear combination of concept vectors, and use this fact to develop an interpretability tool called splice
+- [`explaining perceptually aligned gradients`](https://arxiv.org/abs/2305.19101): an experimental theory showing why noise robust models tend to have improved (aka perceptually aligned) gradient saliency maps
+- [`fullgrad saliency`](https://papers.nips.cc/paper/2019/hash/80537a945c7aaa788ccfcdf1b99b5d8f-Abstract.html): we show that relu neural nets can be exactly decomposed into layer-wise gradient terms, and use this fact to develop full-grad saliency maps
+- [`forgetting data contamination in LLMs`](https://arxiv.org/abs/2410.03249): an experimental study showing that data contamination in LLMs may be irrelevant in some practical training scenarios
 
-I was previously a postdoctoral research fellow with [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard University. I completed my PhD with [François Fleuret](https://fleuret.org/francois/), at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL](http://epfl.ch/), Switzerland.
-
-<details markdown="1"> 
-<summary>I am/was an organizer on (click to expand):</summary>
-- the [theory of interpretable AI](https://tverven.github.io/tiai-seminar/) online seminar series
-- [xai in action: past, present and future](https://xai-in-action.github.io/) workshop at NeurIPS 2023
-- [interpretable ai: past, present and future](https://interpretable-ai-workshop.github.io/) workshop at NeurIPS 2024
-- [interpretable ml](https://interpretable-ml-class.github.io/) course at Harvard, spring 2023
-</details>
-
-<br>
-**Note**: If you are looking for mentorship / research collaborations on interpretability, feel free to reach out! 
-
-
-
-
+For more information, please see my <a href="/research_themes.html">research themes</a> and <a href="/publications.html">publications</a>.
 
 
 
