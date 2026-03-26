@@ -8,14 +8,14 @@ layout: default
   <div class="column-1">
     <img src="profile_zoomed.jpg" class="profile-picture" width=75% align="left"></img>
 
-    <div style="width:60%; margin-left:7.5%; margin-bottom:5%; margin-top:90%; padding-top: 5%; padding-bottom: 5%; 
-    text-align: center; border-radius: 10%; border-style: none; border-width: 1px; background-color: ivory; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 3px;">
-    <a href="mailto:suuraj.srinivas@gmail.com">email</a><br>
-    <a href="https://twitter.com/Suuraj">twitter</a><br>
-    <a href="https://www.linkedin.com/in/suraj-srinivas-1a856264/">linkedin</a><br> 
-    <a href="https://github.com/suraj-srinivas">github</a><br>
-    <a href="https://scholar.google.com/citations?user=J2JWgKgAAAAJ">scholar</a><br> &#183; <br>
-    <a href="resume/resume.pdf"><b>cv</b></a>
+    <div class="contact-links">
+      <a href="mailto:suuraj.srinivas@gmail.com"><i class="fa fa-envelope"></i> email</a>
+      <a href="https://twitter.com/Suuraj"><i class="fa fa-twitter"></i> twitter</a>
+      <a href="https://www.linkedin.com/in/suraj-srinivas-1a856264/"><i class="fa fa-linkedin"></i> linkedin</a>
+      <a href="https://github.com/suraj-srinivas"><i class="fa fa-github"></i> github</a>
+      <a href="https://scholar.google.com/citations?user=J2JWgKgAAAAJ"><i class="fa fa-graduation-cap"></i> scholar</a>
+      <hr class="contact-divider">
+      <a href="resume/resume.pdf" class="cv-link"><i class="fa fa-file-text"></i> cv</a>
     </div>
 
   </div>
@@ -28,55 +28,81 @@ layout: default
 
 <style>
 
-img{
+img {
   border-radius: 50%;
-  box-shadow: 0px 0px 2px;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.18);
 }
 
+.contact-links {
+  width: 60%;
+  margin-left: 7.5%;
+  margin-bottom: 5%;
+  margin-top: 90%;
+  padding: 8px 0;
+  border-radius: 12px;
+  background-color: ivory;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px;
+  font-size: 0.9em;
+  overflow: hidden;
+}
 
-
-.fa {
-  padding-right: 15%;
-  font-size: 16px;
-  width: 3%;
-  align-items: center;
-  text-align: center;
+.contact-links a {
+  display: block;
+  padding: 7px 16px;
+  color: #444;
   text-decoration: none;
-  margin: 2% 2%;
+  transition: background-color 0.15s, color 0.15s;
 }
 
-.fa:hover {
-    opacity: 0.3;
-    text-decoration: none;
+.contact-links a:hover {
+  background-color: #f0ede0;
+  color: #2563a8;
+  text-decoration: none;
 }
 
-.textblock{
-  width: 25%;
-  background-color: lightgrey;
-  padding-left: 5%
+.contact-links .fa {
+  width: 16px;
+  text-align: center;
+  margin-right: 7px;
+  color: #888;
 }
 
-.columns{
-  Width: 100%;
+.contact-links a:hover .fa {
+  color: #2563a8;
+}
+
+.contact-divider {
+  border: none;
+  border-top: 1px solid #e0ddd0;
+  margin: 6px 16px;
+}
+
+.cv-link {
+  font-weight: 600;
+  color: #333 !important;
+}
+
+.columns {
+  width: 100%;
+}
+.column-1, .column-2 {
+  width: 100%;
+}
+@media (min-width: 400px) {
+  .column-1 {
+    width: 25%;
+    float: left;
+    justify-content: center;
   }
-  .column-1, .column-2 {
-    width:100%;
+  .column-2 {
+    width: 75%;
+    float: left;
+    justify-content: left;
   }
-  @media (min-width: 400px){
-    .column-1 {
-      width: 25%;
-      float: left;
-      justify-content: center;
-    }
-    .column-2 {
-      width: 75%;
-      float: left;
-      justify-content: left;
-    } 
-    .columns {
-      content:"";
-      display: table;
-      clear: both;
-    }
+  .columns {
+    content: "";
+    display: table;
+    clear: both;
   }
+}
 </style>

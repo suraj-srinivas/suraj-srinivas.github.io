@@ -6,19 +6,19 @@ layout: profile
 title: about
 ---
 
-I am a research scientist at Bosch Research (Sunnyvale, USA), where I work on computer vision problems for autonomous driving. My research interests are model interpretability and the "science" of deep learning, i.e., systematic investigations of deep learning phenomena. 
+I am a research scientist at Bosch Research (Sunnyvale, USA), where I work on computer vision for autonomous driving. I'm broadly interested in model interpretability and the "science" of deep learning — figuring out what these deep models are actually doing, and why they work as well as they do.
 
-I started my research career with a masters at the [Indian Institute of Science](http://iisc.ac.in), Bangalore with [Prof. Venkatesh Babu](https://cds.iisc.ac.in/faculty/venky/). I completed my PhD with [François Fleuret](https://fleuret.org/francois/), at [Idiap Research Institute](http://www.idiap.ch/en) & [EPFL](http://epfl.ch/), Switzerland. Enamoured by model interpretability, I pursued a postdoctoral research fellowship with [Hima Lakkaraju](https://himalakkaraju.github.io/) at Harvard University.
+I did my masters at [IISc Bangalore](http://iisc.ac.in) with [Prof. Venkatesh Babu](https://cds.iisc.ac.in/faculty/venky/), my PhD at [EPFL](http://epfl.ch/) / [Idiap](http://www.idiap.ch/en) with [François Fleuret](https://fleuret.org/francois/), and a postdoc at Harvard with [Hima Lakkaraju](https://himalakkaraju.github.io/) — gravitating toward the same question: what are neural networks actually doing?
 
-Some representative papers include:
-- [`splice`](https://arxiv.org/abs/2402.10376): shows that CLIP representations are approximate sparse linear combinations of concept vectors, using this to develop an interp tool that extracts concepts encoded by representations 
-- [`explaining perceptually aligned gradients`](https://arxiv.org/abs/2305.19101): an experimental theory explaining why noise-robust models tend to produce improved (perceptually aligned) gradient saliency maps
-- [`fullgrad saliency`](https://papers.nips.cc/paper/2019/hash/80537a945c7aaa788ccfcdf1b99b5d8f-Abstract.html): shows that ReLU neural net outputs can be exactly decomposed into layer-wise gradient terms, using this to develop a saliency tool that aggregates layer-wise gradients
-- [`forgetting data contamination in LLMs`](https://arxiv.org/abs/2410.03249): an experimental study showing that data contamination in LLMs may be irrelevant in certain practical training scenarios
+Some representative papers:
+- [`splice`](https://arxiv.org/abs/2402.10376): CLIP representations can be decomposed into human-readable concept vectors — useful for auditing and editing vision-language models
+- [`perceptually aligned gradients`](https://arxiv.org/abs/2305.19101): explains why robust models produce cleaner saliency maps, connecting two seemingly unrelated phenomena
+- [`fullgrad saliency`](https://papers.nips.cc/paper/2019/hash/80537a945c7aaa788ccfcdf1b99b5d8f-Abstract.html): ReLU network outputs can be exactly decomposed into layer-wise gradient terms, yielding a principled saliency method
+- [`forgetting data contamination`](https://arxiv.org/abs/2410.03249): benchmark contamination in LLM pre-training is often simply forgotten during training, and may not inflate scores as commonly assumed
 
-For more information, please see my <a href="/research_themes.html">research themes</a> and <a href="/publications.html">publications</a>.
+For more, see my <a href="/research_themes.html">research themes</a> and <a href="/publications.html">publications</a>.
 
-**Note**: If you'd like to chat about the science or interpretability of neural nets, feel free to reach out!  
+I'm always happy to chat about interpretability or the science of deep learning — feel free to reach out!  
 
 
 

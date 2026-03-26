@@ -4,16 +4,16 @@
 <!--<li>-->
 <div class="columns">
   <div class="column-1">
-    <p style="padding-top: 12%">
-     {{ paper.journal }} <br>{{ paper.year }} 
+    <p class="pub-meta">
+     {{ paper.journal }} <br>{{ paper.year }}
      </p>
     </div>
 
   <div class="column-2">
     {% if paper.featured == true %}
- <p style="border-width:0px; border-style:none; background-color: ivory; padding: 2%; border-radius: 2%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
- {% else %} 
- <p style="border-width:0px; border-style:none; padding: 2%;">
+ <p class="pub-card pub-featured">
+ {% else %}
+ <p class="pub-card">
  {% endif %}
     {{ paper.title }} <br>
     {% for author in paper.authors %}
@@ -58,40 +58,74 @@
 <!--</ul>-->
 
 <style>
-p{
-  padding-bottom: 20px;
+.pub-card {
+  padding: 10px 14px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+}
+
+.pub-featured {
+  background-color: ivory;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px;
+  border-left: 3px solid #c8a84b;
+}
+
+.pub-meta {
+  padding-top: 12%;
+  font-size: 0.85em;
+  color: #666;
+  line-height: 1.5;
+}
+
+.collapsible {
+  cursor: pointer;
+  font-size: 0.82em;
+  color: #555;
+  background-color: #f0f0eb;
+  padding: 2px 8px;
+  border-radius: 4px;
+  user-select: none;
+}
+
+.collapsible:hover {
+  background-color: #e4e4de;
 }
 
 .content {
-  padding: 10px 0px;
+  padding: 8px 0px;
   display: none;
   overflow: hidden;
+  font-size: 0.93em;
+  color: #444;
+  border-left: 2px solid #ddd;
+  padding-left: 10px;
+  margin-top: 4px;
 }
 
-.columns{
-  Width: 100%;
+.columns {
+  width: 100%;
+}
+.column-1, .column-2 {
+  width: 100%;
+}
+@media (min-width: 400px) {
+  .column-1 {
+    width: 15%;
+    float: left;
+    justify-content: center;
+    text-align: right;
   }
-  .column-1, .column-2 {
-    width:100%;
+  .column-2 {
+    width: 80%;
+    float: right;
+    justify-content: left;
   }
-  @media (min-width: 400px){
-    .column-1 {
-      width: 15%;
-      float: left;
-      justify-content: center;
-      text-align: right;
-    }
-    .column-2 {
-      width: 80%;
-      float: right;
-      justify-content: left;
-    } 
-    .columns {
-      content:"";
-      display: table;
-      clear: both;
-    }
+  .columns {
+    content: "";
+    display: table;
+    clear: both;
   }
+}
 
 </style>
 

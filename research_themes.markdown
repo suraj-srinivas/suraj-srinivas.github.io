@@ -9,7 +9,7 @@ order: 1
 
 [//]: # (Deep learning today is a standard tool across science and engineering, and has begun to permeate society at large. Yet, the fundamental principles underlying the success of these models remain largely unknown. The same large scale that drives their remarkable performance also makes them difficult to understand, iterate on, and improve. Uncovering the fundamental principles of deep learning is therefore one of the most important scientific challenges of our time.)
 
-My research focusses on understanding deep learning from an empirical and scientific perspective, aiming to derive actionable insights that can improve its practical application. Major themes include:
+My research focuses on understanding deep learning from an empirical and scientific perspective, aiming to derive actionable insights that can improve its practical application. Major themes include:
 
 <br>
 
@@ -22,7 +22,7 @@ Deep learning works by transforming inputs to latent representations. Can we und
 
 ### :heavy_dollar_sign: &nbsp; **data-centric machine learning**
 Behaviour of machine learning models, including large language models (LLMs) depend critically on the datasets used to train them. Can we identify critical datapoints / data subsets that influence key model properties? 
-- In [Ley, **Srinivas**, Zhang, Rusak & Lakkaraju (2024)](https://arxiv.org/abs/2410.09940) we propose "generalized group data attribution", a framework to extend arbitrary data attribution algrorithms to efficiently attribute to groups of training data points, yielding upto ~50x attribution speedups
+- In [Ley, **Srinivas**, Zhang, Rusak & Lakkaraju (2024)](https://arxiv.org/abs/2410.09940) we propose "generalized group data attribution", a framework to extend arbitrary data attribution algorithms to efficiently attribute to groups of training data points, yielding upto ~50x attribution speedups
 - In [Bordt, **Srinivas**, Boreiko & von Luxburg (2024)](https://arxiv.org/abs/2410.03249), we study the problem of contamination of evaluation data into the pre-training data, and we find that such contamination does not automatically imply overfitting on the benchmarks. The primary confounding factor is the natural *forgetting* dynamics, due to which data seen early on during training may be forgotten by the end of training
 
 <br>
@@ -39,7 +39,7 @@ Machine learning classifiers often work by "looking at" a small number of import
 ### :muscle: &nbsp; **alternate notions of model robustness** 
 Training adversarially robust models is hard. Are there alternate definitions of robustness that are both practically meaningful, yet easier to train for? 
 - In [**Srinivas\***, Matoba*, Lakkaraju & Fleuret (2022)](https://arxiv.org/abs/2206.07144), we propose an efficient algorithm to train deep models that are smooth, in the sense that they have a small Hessian everywhere. The resulting smooth models are competitive with adversarially robust models, have stable gradients, and maintain predictive accuracy
-- In [Han*, **Srinivas\*** & Lakkaraju (2024)](https://arxiv.org/abs/2307.13885), we propose average-case robustness as an alternative to the worst-case adversarial robustness, and develop methods to efficient estimate this quantity
+- In [Han*, **Srinivas\*** & Lakkaraju (2024)](https://arxiv.org/abs/2307.13885), we propose average-case robustness as an alternative to the worst-case adversarial robustness, and develop methods to efficiently estimate this quantity
 - In [**Srinivas\***, Bordt* & Lakkaraju (2023)](https://arxiv.org/abs/2305.19101), we introduce the concept of off-manifold robustness, where models are robust only to perturbations of irrelevant "distractor" features -- an aspect characteristic of Bayes Optimal predictors
 
 <br>
