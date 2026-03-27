@@ -8,7 +8,7 @@ title: about
 
 I am a research scientist at Bosch Research (Sunnyvale, USA), where I work on computer vision for autonomous driving. I'm broadly interested in model interpretability and the "science" of deep learning — figuring out what these deep models are actually doing, and why they work as well as they do.
 
-I did my masters at [IISc Bangalore](http://iisc.ac.in) with [Prof. Venkatesh Babu](https://cds.iisc.ac.in/faculty/venky/), my PhD at [EPFL](http://epfl.ch/) / [Idiap](http://www.idiap.ch/en) with [François Fleuret](https://fleuret.org/francois/), and a postdoc at Harvard with [Hima Lakkaraju](https://himalakkaraju.github.io/) — gravitating toward the same question: what are neural networks actually doing?
+I did my PhD at [EPFL](http://epfl.ch/) / [Idiap](http://www.idiap.ch/en) with [François Fleuret](https://fleuret.org/francois/), and a postdoc at Harvard with [Hima Lakkaraju](https://himalakkaraju.github.io/).
 
 Some representative papers:
 - [`splice`](https://arxiv.org/abs/2402.10376): CLIP representations can be decomposed into human-readable concept vectors — useful for auditing and editing vision-language models
