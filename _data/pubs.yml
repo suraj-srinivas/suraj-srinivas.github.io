@@ -1,5 +1,19 @@
 papers:
-  
+
+  - authors:
+    - A.J. Li
+    - S. Srinivas
+    - U. Bhalla
+    lastauthor: H. Lakkaraju
+    year: 2026
+    journal: ACL
+    title: Evaluating Adversarial Robustness of Concept Representations in Sparse Autoencoders
+    tldr: Sparse autoencoder (SAEs) concepts lack robustness, minimal input perturbations can substantially distort SAE concept representations without affecting the underlying model's behavior, raising concerns about their reliability.
+    url: https://arxiv.org/abs/2505.16004
+    code:
+    type: long
+
+
   - authors:
     - S. Bordt
     - S. Srinivas

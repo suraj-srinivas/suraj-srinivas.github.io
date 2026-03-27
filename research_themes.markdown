@@ -36,6 +36,7 @@ My research focuses on understanding deep learning from an empirical and scienti
 Deep learning works by transforming inputs into latent representations. Can we understand the information encoded in these representations?
 - [Bhalla\*, Oesterling\*, **Srinivas**, Calmon & Lakkaraju (2024)](https://arxiv.org/abs/2402.10376): Representations of vision-language models can be decomposed into sparse linear combinations of semantic concept vectors, enabling dataset analysis and model editing
 - [Bhalla, **Srinivas**, Ghandeharioun, Lakkaraju (2024)](https://arxiv.org/abs/2411.04430): We unify 4 representation analysis methods as "encoder-decoder" methods and evaluate them via control-based metrics
+- [Li, **Srinivas**, Bhalla & Lakkaraju (2026)](https://arxiv.org/abs/2505.16004): Concept representations in sparse autoencoders are fragile — minimal input perturbations can substantially distort SAE-based interpretations without affecting the underlying model
 </div>
 
 <div class="theme-card" markdown="1">
