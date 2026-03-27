@@ -44,18 +44,13 @@ order: 1
 -->
 </div>
 
-For more information see my [google scholar](https://scholar.google.com/citations?user=J2JWgKgAAAAJ) page. <u>Representative papers</u> are <mark style="background-color:mintcream">highlighted</mark> below.
+For more information, please see my [google scholar](https://scholar.google.com/citations?user=J2JWgKgAAAAJ) page. <u>Representative papers</u> are <mark style="background-color:mintcream">highlighted</mark> below.
 
-<p class="section-heading">preprints</p>
-
-{% include publications_2col.html type='preprint' %}
-{% include publications_2col.html type='hack-to-avoid-tldr-error' %} 
-
-<p class="section-heading">long papers</p>
+<p class="section-heading">conference papers</p>
 
 {% include publications_2col.html type='long' %}
 {% include publications_2col.html type='hack-to-avoid-tldr-error' %}
 
-<p class="section-heading">short conference / workshop papers</p>
+<p class="section-heading">workshop papers / tech reports</p>
 
 {% include publications_2col.html type='short' %}

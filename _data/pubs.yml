@@ -38,8 +38,9 @@ papers:
     title: Towards Unifying Interpretability and Control&colon; Evaluation via Intervention
     tldr: Popular mech interp methods such as sparse autoencoders underperform simpler alternatives such as prompting and logitlens on the task of controlling model outputs, raising questions on the faithfulness of such methods.
     url: https://arxiv.org/abs/2411.04430
-    code: 
-    type: preprint
+    code:
+    journal: Tech Report
+    type: short
 
   
   - authors:
@@ -51,10 +52,11 @@ papers:
     year: 2024
     journal: 
     title: Generalized Group Data Attribution
-    tldr: Data attribution methods, such as influence functions, can be made drastically more efficient (10-50x) by attributing to groups rather than individual data points. This can be used for fast dataset pruning and noisy label identification. 
+    tldr: Data attribution methods, such as influence functions, can be made drastically more efficient (10-50x) by attributing to groups rather than individual data points. This can be used for fast dataset pruning and noisy label identification.
     url: https://arxiv.org/abs/2410.09940
-    code: 
-    type: preprint
+    code:
+    journal: Tech Report
+    type: short
 
   - authors:
     - C. Badrinath
@@ -368,13 +370,3 @@ papers:
     type: long
     notes: 600+ citations
 
-  - authors:
-      - S. Srinivas
-      - A. Adiga
-    lastauthor: C.S. Seelamantula
-    year: 2014
-    journal: ICIP
-    title: Controlled blurring for improving image reconstruction quality in flutter-shutter acquisition
-    url: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7026178&tag=1
-    tldr: Deliberately shaking a camera's sensor in a 2D plane during acquisition results in a well-defined blur kernel that can be used to deblur even in the presence of external camera shake.
-    type: short
