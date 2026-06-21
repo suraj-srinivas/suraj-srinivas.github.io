@@ -5,15 +5,20 @@ permalink: /publications
 order: 1
 ---
 
+For more information, please see my [google scholar](https://scholar.google.com/citations?user=J2JWgKgAAAAJ) page. 
+
+<p class="section-heading">conference papers</p>
+
+{% include publications_2col.html type='long' %}
+{% include publications_2col.html type='hack-to-avoid-tldr-error' %}
+
+<p class="section-heading">workshop papers / tech reports</p>
+
+{% include publications_2col.html type='short' %}
+
+<p class="section-heading">phd thesis</p>
+
 <style>
-.thesis-block {
-  background: #ffffff;
-  border-left: 4px solid #4a5568;
-  border-radius: 0 8px 8px 0;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
-  padding: 0.8rem 1.4rem;
-  margin-bottom: 1.2rem;
-}
 .section-heading {
   font-size: 1em;
   font-weight: 600;
@@ -27,30 +32,19 @@ order: 1
 }
 </style>
 
-<div class="thesis-block">
-<p>
-<strong>phd thesis</strong><br>
-<a href="https://infoscience.epfl.ch/record/289640">Gradient-based Methods for Deep Model Interpretability</a><br>
-<em>École Polytechnique Fédérale de Lausanne (EPFL)</em><br>
-2021 · <mark style="font-size:90%; padding:0px; margin:0px; background-color:transparent;">EPFL thesis distinction award (top 8%, EE dept.)</mark>
-</p>
-<!--
-<p>
-<strong>master thesis</strong><br>
-<a href="pdfs/ms_thesis.pdf">Learning Compact Architectures for Deep Neural Networks</a><br>
-<em>Indian Institute of Science (IISc)</em><br>
-2017
-</p>
--->
+<div class="columns">
+  <div class="column-1">
+    <p class="pub-meta">
+     EPFL <br>2021
+     </p>
+  </div>
+
+  <div class="column-2">
+    <p class="pub-card">
+    Gradient-based Methods for Deep Model Interpretability <br>
+    <a href="https://infoscience.epfl.ch/record/289640">pdf</a>
+    <br>
+    <mark style="font-size:90%; background-color: transparent">EPFL <a href="https://www.epfl.ch/education/phd/edee-electrical-engineering/edee-awards-laureates/">thesis distinction award</a> (top 8%, EE dept.)</mark>
+    </p>
+  </div>
 </div>
-
-For more information, please see my [google scholar](https://scholar.google.com/citations?user=J2JWgKgAAAAJ) page. <u>Representative papers</u> are <mark style="background-color:mintcream">highlighted</mark> below.
-
-<p class="section-heading">conference papers</p>
-
-{% include publications_2col.html type='long' %}
-{% include publications_2col.html type='hack-to-avoid-tldr-error' %}
-
-<p class="section-heading">workshop papers / tech reports</p>
-
-{% include publications_2col.html type='short' %}

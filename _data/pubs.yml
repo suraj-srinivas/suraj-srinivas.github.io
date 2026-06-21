@@ -18,6 +18,7 @@ papers:
     url: pdfs/xai_position_paper.pdf
     code:
     type: long
+    tag: interpretability
 
 
   - authors:
@@ -32,6 +33,7 @@ papers:
     url: https://arxiv.org/abs/2505.16004
     code:
     type: long
+    tag: interpretability
 
 
   - authors:
@@ -44,8 +46,9 @@ papers:
     title: How much can we forget about Data Contamination?
     tldr: Are LLM benchmarks rendered invalid by accidental data contamination? It turns out not always, because models also naturally forget examples seen during training.
     url: https://arxiv.org/abs/2410.03249
-    code: 
+    code:
     type: long
+    tag: data-centric AI
 
 
   - authors:
@@ -61,8 +64,9 @@ papers:
     code:
     journal: Tech Report
     type: short
+    tag: interpretability
 
-  
+
   - authors:
     - D. Ley
     - S. Srinivas
@@ -77,6 +81,7 @@ papers:
     code:
     journal: Tech Report
     type: short
+    tag: data-centric AI
 
   - authors:
     - C. Badrinath
@@ -91,6 +96,7 @@ papers:
     code:
     tldr: We find that many generative image models recover approximately similar representations.
     type: short
+    tag: interpretability
     notes: Published at the Workshop on Geometry-grounded Representation Learning and Generative Modeling (GRaM)
  
   - authors: 
@@ -104,9 +110,9 @@ papers:
     title: Interpreting CLIP with Sparse Linear Concept Embeddings (SpLiCE)
     url: https://arxiv.org/abs/2402.10376
     code: https://github.com/AI4LIFE-GROUP/SpLiCE
-    tldr: We convert dense uninterpretable CLIP embeddings to overcomplete sparse interpretable ones, with a minimal loss in fidelity. 
+    tldr: We convert dense uninterpretable CLIP embeddings to overcomplete sparse interpretable ones, with a minimal loss in fidelity.
     type: long
-    featured: true
+    tag: interpretability
 
  
   - authors: 
@@ -123,6 +129,7 @@ papers:
     code: https://github.com/aounon/certified-llm-safety
     tldr: We present a simple method to detect LLM adversarial attacks, by systematically deleting tokens until the underlying string is labelled harmful.
     type: long
+    tag: robustness
 
   - authors: 
     - T. Han*
@@ -132,8 +139,9 @@ papers:
     journal: UAI
     title: Characterizing Data Point Vulnerability as Average-Case Robustness
     url: https://arxiv.org/abs/2307.13885
-    tldr: We consider a relaxation of adversarial robustness, i.e., average-case robustness, and provide efficient estimators to compute this quantity. 
+    tldr: We consider a relaxation of adversarial robustness, i.e., average-case robustness, and provide efficient estimators to compute this quantity.
     type: long
+    tag: robustness
 
   - authors:
     - S. Srinivas*
@@ -146,8 +154,8 @@ papers:
     url: https://arxiv.org/abs/2305.19101
     code: https://github.com/tml-tuebingen/pags
     type: long
+    tag: robustness
     notes: <font color="crimson">Spotlight presentation (Top 3%)</font>
-    featured: True
 
   - authors:
     - U. Bhalla*
@@ -160,7 +168,7 @@ papers:
     url: https://arxiv.org/abs/2307.15007
     code: https://github.com/AI4LIFE-GROUP/DiET
     type: long
-    featured: True
+    tag: interpretability
 
   - authors: 
     - A. Lin
@@ -174,6 +182,7 @@ papers:
     url: https://arxiv.org/abs/2306.05500
     tldr: For text to image models, we find which input words contribute to bias in output images. For example, we find that the word "doctor" in the input leads to an over-representation of males in the output.
     type: short
+    tag: interpretability
     notes: Published at the Workshop on Challenges in Deploying Generative AI
 
   - authors:
@@ -188,7 +197,8 @@ papers:
     title: Consistent Explanations in the Face of Model Indeterminacy via Ensembling
     url: https://arxiv.org/abs/2306.06193
     tldr: With model ensembles, feature attributions are fairly consistent. We find strategies that lead to efficient construction of such ensembles.
-    type: short 
+    type: short
+    tag: interpretability
     notes: Published at the Workshop on Interpretable Machine Learning for Healthcare (IMLH)
 
   - authors:
@@ -203,6 +213,7 @@ papers:
     url: https://arxiv.org/abs/2306.06716
     notes: <font color="crimson">Oral presentation (Top 5%)</font>
     type: long
+    tag: data-centric AI
 
   - authors:
     - T. Han
@@ -217,6 +228,7 @@ papers:
     workshop: https://icml.cc/virtual/2022/workshop/13449
     code: https://github.com/AI4LIFE-GROUP/lfa
     type: long
+    tag: interpretability
 
   - authors:
       - S. Srinivas*
@@ -232,7 +244,7 @@ papers:
     poster: pdfs/lcnn_poster.pdf
     presentation: https://nips.cc/virtual/2022/poster/54125
     type: long
-    featured: true
+    tag: robustness
 
   - authors:
     - M. El-Halabi
@@ -244,6 +256,7 @@ papers:
     tldr: Pruning neurons in neural networks can be cast as a submodular optimization problem, enabling proposal of principled algorithms with rigorous theoretical guarantees that perform well when pruning with small number of data points.  
     url: https://arxiv.org/abs/2203.04940
     type: long
+    tag: efficiency
 
   - authors:
     - S. Srinivas
@@ -258,8 +271,9 @@ papers:
     tldr: Algorithms for training sparse neural networks should be more like projected gradient descent / iterative hard thresholding, which alternates between sparsification (i.e., projection step) and densification (i.e., gradient step), as opposed to common pruning approaches which do not perform densification.
     url: https://openaccess.thecvf.com/content/CVPR2022W/ECV/html/Srinivas_Cyclical_Pruning_for_Sparse_Neural_Networks_CVPRW_2022_paper.html
     presentation: https://docs.google.com/presentation/d/1lU1aZGrznxakE09H5MtmqXndR66hmZhB9ULwM9uVO4c/edit?usp=sharing
-    notes: <font color="crimson">Oral presentation</font> at the Workshop on Efficient Computer Vision for Deep Learning (ECV) 
+    notes: <font color="crimson">Oral presentation</font> at the Workshop on Efficient Computer Vision for Deep Learning (ECV)
     type: short
+    tag: efficiency
   
   - authors:
       - S. Srinivas
@@ -272,9 +286,10 @@ papers:
     presentation: https://docs.google.com/presentation/d/1v35LGiLpFDSN2okOC9qxWjQ8MiHkYAMeMUCU8U3dFzE/edit?usp=sharing
     code: https://github.com/idiap/rethinking-saliency/
     workshop: https://sites.google.com/view/whi2020/
-    notes: <font color="crimson">Oral presentation (Top 1%)</font> 
+    notes: <font color="crimson">Oral presentation (Top 1%)</font>
     poster: pdfs/iclr2021_poster.pdf
     type: long
+    tag: interpretability
 
   - authors:
       - S. Srinivas
@@ -285,9 +300,9 @@ papers:
     url: https://papers.nips.cc/paper/2019/hash/80537a945c7aaa788ccfcdf1b99b5d8f-Abstract.html
     code: https://github.com/idiap/fullgrad-saliency
     tldr: Compute saliency information from all intermediate layers in neural networks, rather than just from the input, as is done commonly. This provably captures two desirable properties (sensitivity and completeness) which typical saliency maps cannot capture.
-    poster: pdfs/neurips19_poster.pdf 
+    poster: pdfs/neurips19_poster.pdf
     type: long
-    notes: 190+ Github stars &centerdot; 200+ citations
+    tag: interpretability
 
   - authors:
       - S. Srinivas
@@ -302,7 +317,7 @@ papers:
     notes: <font color="crimson">Best paper award</font> at NeurIPS "Learning with Limited Data" workshop, 2017
     tldr: Perform sample-efficient distillation by requiring that the student model mimic the input-gradients of the teacher model. This is equivalent (in expectation) to performing classical distillation with data augmentation via additive input noise.
     type: long
-    featured: true
+    tag: efficiency
 
   - authors:
       - A. Subramanya
@@ -315,6 +330,7 @@ papers:
     presentation: https://docs.google.com/presentation/d/1YBKlngRwfDgWpy5mEIj1zAP2dx8IAWlG7ejsPCBn_E0/edit?usp=sharinghttp://proceedings.mlr.press/v80/srinivas18a.html
     tldr: Model the density of intermediate features in a neural network using a high-dimensional Gaussian distribution. If features for a test point fall outside the "typical set" for such a Gaussian, then declare that test point to be out-of-distribution.
     type: short
+    tag: robustness
 
   - authors:
       - S. Srinivas
@@ -326,8 +342,9 @@ papers:
     url: https://arxiv.org/abs/1611.06694
     presentation: https://docs.google.com/presentation/d/167i3QJ63EFYfiDpMIYtuQt2yS_x2Vm7J0_nTt2KnvtY/edit?usp=sharing
     tldr: Encourage weight sparsity in neural networks by introducing multiplicative binary gating variables along with each weight, and regularizing gates to be sparse.
-    notes: 200+ citations &centerdot; <font color="crimson">Oral presentation</font> at Embedded Vision Workshop  
+    notes: <font color="crimson">Oral presentation</font> at Embedded Vision Workshop
     type: short
+    tag: efficiency
 
   - authors:
       - S. Srinivas
@@ -338,6 +355,7 @@ papers:
     url: https://arxiv.org/abs/1611.06791
     tldr: A generalized version of dropout where dropout probabilities are automatically tuned during training. This is done by introducing multiplicative <i> bernoulli </i> gating variables to each neuron within a neural network, and modelling the bernoulli probability by penalizing from a beta distribution.
     type: short
+    tag: efficiency
 
   - authors:
       - S. Srinivas
@@ -349,6 +367,7 @@ papers:
     tldr: Automatically prune unimportant neurons during neural network training, by introducing multiplicative binary gating variables with each neuron, and encouraging the gate variables to be as sparse as possible via regularization.
     poster: https://drive.google.com/file/d/0BwC3N1sQOq3dRG1fRzlIcjc2c1k/view?usp=sharing&resourcekey=0-bb9N3jtW-co7yk3tvMYdZw
     type: long
+    tag: efficiency
 
   - authors:
       - L. Boominathan
@@ -361,6 +380,7 @@ papers:
     tldr: Correct for large in-plane rotation in images by (1) detecting the presence of rotation using a CNN, and (2) correcting it iteratively using Bayesian optimization.
     poster: https://drive.google.com/file/d/1fVwYO6f9X7IjajO6Y101LiPuOa4LLfbi/view?usp=sharing
     type: short
+    tag: misc
 
   - authors:
       - S. Srinivas
@@ -374,9 +394,10 @@ papers:
     title: A Taxonomy of Deep Convolutional Neural Nets for Computer Vision
     url: http://journal.frontiersin.org/article/10.3389/frobt.2015.00036/full
     notes:  
-      300+ citations &centerdot; <font color="crimson">Top 25%</font> of all research outputs scored on <a href="https://frontiers.altmetric.com/details/4978361"> Altmetric </a> 
+      <font color="crimson">Top 25%</font> of all research outputs scored on <a href="https://frontiers.altmetric.com/details/4978361"> Altmetric </a> 
     tldr: A recipe-style survey of pre-2015 deep neural networks as applied to computer vision.
     type: long
+    tag: misc
 
   - authors:
       - S. Srinivas
@@ -388,5 +409,5 @@ papers:
     tldr: Prune neurons in neural networks by (1) identifying duplicate neuron pairs, (2) removing one and performing a `surgery` step to compensate for removal.
     poster: https://drive.google.com/file/d/0BwC3N1sQOq3dNmZ2cmFEZlZ5N1E/view?usp=sharing&resourcekey=0-tBl3eVM83YSB9lUlJUUu_A
     type: long
-    notes: 600+ citations
+    tag: efficiency
 

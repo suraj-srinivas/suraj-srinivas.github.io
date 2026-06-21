@@ -41,6 +41,7 @@
 {% endif %}
 
 &centerdot; <a class="collapsible">summary</a>
+{% if paper.tag %}<br><span class="pub-tag">{{ paper.tag }}</span>{% endif %}
 <span class="content">
 {{ paper.tldr }}
 </span>
@@ -77,6 +78,16 @@
   font-size: 0.85em;
   color: #666;
   line-height: 1.5;
+}
+
+.pub-tag {
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #888;
+  margin-top: 4px;
 }
 
 .collapsible {

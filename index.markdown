@@ -8,9 +8,9 @@ title: about
 
 I am a research scientist at Bosch Research (Sunnyvale, USA), where I work on computer vision problems for autonomous driving. I'm broadly interested in model interpretability and the "science" of deep learning — figuring out what deep models are actually doing, and why they work as well as they do. 
 
-I completed my PhD at [EPFL](http://epfl.ch/) / [Idiap](http://www.idiap.ch/en) with [François Fleuret](https://fleuret.org/francois/), and a postdoc at Harvard with [Hima Lakkaraju](https://himalakkaraju.github.io/). For more information, please see my [research themes](/research_themes.html) and [publications](/publications.html). 
+I completed my PhD at [EPFL](http://epfl.ch/) / [Idiap](http://www.idiap.ch/en) with [François Fleuret](https://fleuret.org/francois/), and a postdoc at Harvard with [Hima Lakkaraju](https://himalakkaraju.github.io/). For more information about my research, please see my [publications](/publications.html). I also write occasionally on my [blog](https://surajsrinivas.substack.com/).
 
-I'm always happy to chat about interpretability or the science of deep learning — feel free to reach out!
+I'm always happy to chat about interpretability or the science of deep learning — feel free to reach out! 
 
 <div class="news-section">
   <div class="news-header">News</div>
