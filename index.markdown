@@ -15,7 +15,7 @@ I'm always happy to chat about interpretability or the science of deep learning 
 <div class="news-section">
   <div class="news-header">News</div>
   <table class="news-table">
-    <tr><td class="news-date">May 2026</td><td>"Explainability Research Must Prioritize Foundations over Ad-hoc Methods" is accepted at ICML 2026 position paper track. PDF coming soon! </td></tr>
+    <tr><td class="news-date">May 2026</td><td>"<a href="pdfs/xai_position_paper.pdf">Explainability Research Must Prioritize Foundations over Ad-hoc Methods</a>" is accepted at ICML 2026 position paper track.</td></tr>
     <tr><td class="news-date">Mar 2026</td><td>Serving as Area Chair at NeurIPS 2026 </td></tr>
     <tr><td class="news-date">Mar 2026</td><td>"<a href="https://par.nsf.gov/servlets/purl/10673628">WayPoint: Interactive Natural Language Querying for Spatio-Temporal Video Events</a>" accepted at SIGMOD 2026 demo track </td></tr>
     <tr><td class="news-date">Jan 2026</td><td>"<a href="https://arxiv.org/abs/2505.16004">Evaluating Adversarial Robustness of Concept Representations in Sparse Autoencoders</a>" accepted at EACL 2026 </td></tr>

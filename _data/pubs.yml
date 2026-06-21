@@ -1,6 +1,26 @@
 papers:
 
   - authors:
+    - M. Moshkovitz*
+    - S. Srinivas*
+    - L. Semenova*
+    - N. Frost
+    - C. Rashtchian
+    - V. Boreiko
+    - S. Zhang
+    - H. Lakkaraju
+    - C. Rudin
+    lastauthor: J.W. Vaughan
+    year: 2026
+    journal: ICML
+    title: "Position: Explainability Research Must Prioritize Foundations over Ad-hoc Methods"
+    tldr: Despite the proliferation of XAI techniques, explanations rarely influence real-world workflows. To address this, this paper argues the ML community must pivot from developing ad-hoc XAI methods toward addressing foundational challenges&colon; unclear problem formulations, underspecified evaluation objectives, and the absence of pipelines for explanation-driven feedback.
+    url: pdfs/xai_position_paper.pdf
+    code:
+    type: long
+
+
+  - authors:
     - A.J. Li
     - S. Srinivas
     - U. Bhalla
